@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class MergeSortedArrays {
     // Approach 1
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -42,5 +44,46 @@ class MergeSortedArrays {
                 nums1[k--] = nums2[n--];
             }
         }
+    }
+
+    public void mergeTwoPointersApproachDiffCondition(int[] nums1, int m, int[] nums2, int n) {
+        int lastIndex = m + n - 1;
+        m--;
+        n--;
+        while (lastIndex >= 0) {
+            if (m>=0 && (n<0 || nums1[m] >= nums2[n])) {
+                nums1[lastIndex--] = nums1[m--];
+            } else {
+                nums1[lastIndex--] = nums2[n--];
+            }
+        }
+        // 1 2 4
+        // 1 2 5
+        // 5 4 2 2 1 1
+    }
+
+    //Place the elements back in both arrays instead of one
+    public static void mergeAndPlaceBack(int[] nums1, int m, int[] nums2, int n) {
+        if (nums1[m-1] <= nums2[0])
+            return;
+
+        m--;
+        n = 0;
+        int k;
+        while (m>=0 && nums1[m] > nums2[n]) {
+            k = nums2[n];
+            nums2[n++] = nums1[m];
+            nums1[m--] = k;
+        }
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        System.out.println(Arrays.toString(nums1));
+        System.out.println(Arrays.toString(nums2));
+    }
+
+    public static void main(String[] args) {
+        int[] a = {9, 10, 11, 12};
+        int[] b = {2, 3, 7, 8};
+        mergeAndPlaceBack(a, 4, b, 4);
     }
 }
