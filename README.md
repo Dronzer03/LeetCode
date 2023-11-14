@@ -8,3 +8,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 4. Remove Duplicates with Max Occurance Twice - Two Pointer Approach - _**Medium**_
 5. Majority Element - HashTable -  _**Easy**_
 6. Rotate Array - Reversal - _**Easy**_
+7. Intersection of Two Arrays - _**Easy**_
+8. Reverse Words - _**Medium**_
