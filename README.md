@@ -13,3 +13,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 9. ZigZag Conversion (Not a good problem but 2D Array exercise) - _**Medium**_
 10. Roman to Int - _**Easy**_
 11. Int to Roman - _**Medium**_
+12. Product except self - _**Medium**_
