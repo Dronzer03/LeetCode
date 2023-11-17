@@ -14,3 +14,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 10. Roman to Int - _**Easy**_
 11. Int to Roman - _**Medium**_
 12. Product except self - _**Medium**_
+13. Length of last word - _**Very Easy**_
+14. Longest substring without repeating characters - _**Medium**_
