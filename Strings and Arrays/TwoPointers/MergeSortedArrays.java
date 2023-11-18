@@ -1,3 +1,5 @@
+package TwoPointers;
+
 import java.util.Arrays;
 
 class MergeSortedArrays {

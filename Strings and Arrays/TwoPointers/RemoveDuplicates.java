@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class RemoveDuplicates {
     //From Sorted Array
     public int removeDuplicates(int[] nums) {
