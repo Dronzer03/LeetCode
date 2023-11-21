@@ -20,3 +20,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 16. Two Sum Sorted Array - Two Pointer - _**Medium**_
 17. Container with Most Water - Two Pointer - _**Medium**_
 18. 3Sum - Three Pointers - _**Medium**_
+19. Combinations - Recursion - _**Medium**_
+20. Combination Sum - Recursion - _**Medium**_
