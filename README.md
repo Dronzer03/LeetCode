@@ -13,7 +13,10 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 9. ZigZag Conversion (Not a good problem but 2D Array exercise) - _**Medium**_
 10. Roman to Int - _**Easy**_
 11. Int to Roman - _**Medium**_
-12. Product except self - _**Medium**_
+12. Product except self - Prefix and Postfix - _**Medium**_
 13. Length of last word - _**Very Easy**_
-14. Longest substring without repeating characters - _**Medium**_
-15. Palindrome - _**Easy**_
+14. Longest substring without repeating characters - HashMap and Sliding Window - _**Medium**_
+15. Palindrome - Two Pointer - _**Easy**_
+16. Two Sum Sorted Array - Two Pointer - _**Medium**_
+17. Container with Most Water - Two Pointer - _**Medium**_
+18. 3Sum - Three Pointers - _**Medium**_
