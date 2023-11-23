@@ -22,3 +22,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 18. 3Sum - Three Pointers - _**Medium**_
 19. Combinations - Recursion - _**Medium**_
 20. Combination Sum - Recursion - _**Medium**_
+21. Combination Sum II - Recursion - _**Medium**_
+22. Can Construct - HashTable - _**Easy**_
+23. isIsomorphic - Confusing but Easy - _**Easy**_
