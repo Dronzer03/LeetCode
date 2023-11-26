@@ -27,5 +27,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 23. Can Construct - HashTable - _**Easy**_
 24. Isomorphic Strings - Confusing but Easy - HashTable - _**Easy**_
 25. Word Pattern - HashTable - _**Easy**_
-26. Subsets (SubSquences.java) - _**Medium**_
-27. Subsets II - _**Medium**_
+26. Subsets (SubSquences.java) - Recursion - _**Medium**_
+27. Subsets II - Recursion - _**Medium**_
+28. Anagrams - HashTable - _**Easy**_
