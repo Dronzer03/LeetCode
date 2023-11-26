@@ -17,12 +17,15 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 13. Length of last word - _**Very Easy**_
 14. Longest substring without repeating characters - HashMap and Sliding Window - _**Medium**_
 15. Palindrome - Two Pointer - _**Easy**_
-16. Two Sum Sorted Array - Two Pointer - _**Medium**_
-17. Container with Most Water - Two Pointer - _**Medium**_
-18. 3Sum - Three Pointers - _**Medium**_
-19. Combinations - Recursion - _**Medium**_
-20. Combination Sum - Recursion - _**Medium**_
-21. Combination Sum II - Recursion - Bit Difficult - _**Medium**_
-22. Can Construct - HashTable - _**Easy**_
-23. Isomorphic Strings - Confusing but Easy - HashTable - _**Easy**_
-24. Word Pattern - HashTable - _**Easy**_
+16. Two Sum - Two Pointer - _**Easy**_
+17. Two Sum Sorted Array - Two Pointer - _**Medium**_
+18. Container with Most Water - Two Pointer - _**Medium**_
+19. 3Sum - Three Pointers - _**Medium**_
+20. Combinations - Recursion - _**Medium**_
+21. Combination Sum - Recursion - _**Medium**_
+22. Combination Sum II - Recursion - Bit Difficult - _**Medium**_
+23. Can Construct - HashTable - _**Easy**_
+24. Isomorphic Strings - Confusing but Easy - HashTable - _**Easy**_
+25. Word Pattern - HashTable - _**Easy**_
+26. Subsets (SubSquences.java) - _**Medium**_
+27. Subsets II - _**Medium**_
