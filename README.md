@@ -31,3 +31,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 27. Subsets II - Recursion - _**Medium**_
 28. Anagrams - HashTable - _**Easy**_
 29. Randomized Set - HashSet - _**Medium**_
+30. First Occurance of 1 - Binary Search - _**Medium**_
