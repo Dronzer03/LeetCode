@@ -32,3 +32,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 28. Anagrams - HashTable - _**Easy**_
 29. Randomized Set - HashSet - _**Medium**_
 30. First Occurance of 1 - Binary Search - _**Medium**_
+31. H-Index - Sorting - _**Medium**_
+32. Permutations - Recursion - _**Medium**_
+33. NQueens - Recursion - _**Medium**_
