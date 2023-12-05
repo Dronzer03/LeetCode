@@ -34,4 +34,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 30. First Occurance of 1 - Binary Search - _**Medium**_
 31. H-Index - Sorting - _**Medium**_
 32. Permutations - Recursion - _**Medium**_
-33. NQueens - Recursion - _**Medium**_
+33. NQueens - Recursion - _**Hard**_
+34. Group Anagrams - HashMap - _**Medium**_
+35. Happy Number - Recursion - _**Easy**_
