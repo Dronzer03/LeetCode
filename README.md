@@ -37,3 +37,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 33. NQueens - Recursion - _**Hard**_
 34. Group Anagrams - HashMap - _**Medium**_
 35. Happy Number - Recursion - _**Easy**_
+36. Minimum Size Subarray Sum - Sliding Window - _**Medium**_
+37. Substring with Concatenated Words - Sliding Window - _**Hard**_
