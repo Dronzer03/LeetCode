@@ -75,13 +75,28 @@ public class SubSequences {
 
     }
 
+    public List<Integer> subsetSum(int[] nums, int index, int sum, List<Integer> result) {
+        if (index == nums.length) {
+            result.add(sum);
+            return result;
+        }
+
+        sum += nums[index];
+        subsetSum(nums, index+1, sum, result);
+        sum -= nums[index];
+        subsetSum(nums, index+1, sum, result);
+
+        return result;
+    }
+
     public static void main(String[] args) {
         SubSequences sub = new SubSequences();
-        int[] nums = {3, 1, 2};
+        int[] nums = {2, 3};
         sub.allSubSequences(nums, 0, new ArrayList<>());
         sub.allSubSequencesWithSumK(nums, 0, 0, 3, new ArrayList<>());
         System.out.println(sub.firstSubSequenceWithSumK(nums, 0, 0, 3, new ArrayList<>()));
         System.out.println(sub.countSubSequenceWithSumK(nums, 0, 0, 2, 0));
+        System.out.println(sub.subsetSum(nums, 0, 0, new ArrayList<>()));
     }
 
 }

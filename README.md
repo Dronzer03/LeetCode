@@ -39,3 +39,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 35. Happy Number - Recursion - _**Easy**_
 36. Minimum Size Subarray Sum - Sliding Window - _**Medium**_
 37. Substring with Concatenated Words - Sliding Window - _**Hard**_
+38. Top K Frequent Elements - HashMap -  _**Medium**_
