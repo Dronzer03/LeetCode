@@ -41,3 +41,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 37. Substring with Concatenated Words - Sliding Window - _**Hard**_
 38. Top K Frequent Elements - HashMap -  _**Medium**_
 39. Spiral Matrix - Matrix - _**Medium**_
+40. Valid Sudoku - Matrix - _**Medium**_
