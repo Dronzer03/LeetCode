@@ -40,3 +40,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 36. Minimum Size Subarray Sum - Sliding Window - _**Medium**_
 37. Substring with Concatenated Words - Sliding Window - _**Hard**_
 38. Top K Frequent Elements - HashMap -  _**Medium**_
+39. Spiral Matrix - Matrix - _**Medium**_
