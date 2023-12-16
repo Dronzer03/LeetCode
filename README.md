@@ -45,3 +45,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 41. Sudoku Solver - Recursion - _**Hard**_
 42. Palindrome Partitioning - Recursion (Seems Hard) - _**Medium**_
 43. Contains Duplicate 2 - HashMap - _**Easy**_
+44. Valid Parentheses - Stack - _**Easy**_
+45. Stack using Queue - Stack - _**Easy**_
