@@ -47,3 +47,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 43. Contains Duplicate 2 - HashMap - _**Easy**_
 44. Valid Parentheses - Stack - _**Easy**_
 45. Stack using Queue - Stack - _**Easy**_
+46. Simplify Path - Stack - _**Medium**_
+47. Reverse String without Affecting Special Char - _**Medium**_
+48. String Compression - Two Pointer - _**Medium**_
