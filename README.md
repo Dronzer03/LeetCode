@@ -31,7 +31,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 27. Subsets II - Recursion - _**Medium**_
 28. Anagrams - HashTable - _**Easy**_
 29. Randomized Set - HashSet - _**Medium**_
-30. First Occurance of 1 - Binary Search - _**Medium**_
+30. First Occurrence of 1 - Binary Search - _**Medium**_
 31. H-Index - Sorting - _**Medium**_
 32. Permutations - Recursion - _**Medium**_
 33. NQueens - Recursion - _**Hard**_
@@ -53,3 +53,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 49. Min Stack - _**Medium**_
 50. Permutation Sequence - Recursion - _**Hard**_
 51. Rat in a maze - Recursion - _**Hard**_
+52. Next Greater Element 1 - _**Medium**_
