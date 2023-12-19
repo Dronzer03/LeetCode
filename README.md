@@ -50,3 +50,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 46. Simplify Path - Stack - _**Medium**_
 47. Reverse String without Affecting Special Char - _**Medium**_
 48. String Compression - Two Pointer - _**Medium**_
+49. Min Stack - _**Medium**_
+50. Permutation Sequence - Recursion - _**Hard**_
