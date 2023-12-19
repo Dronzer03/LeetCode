@@ -52,3 +52,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 48. String Compression - Two Pointer - _**Medium**_
 49. Min Stack - _**Medium**_
 50. Permutation Sequence - Recursion - _**Hard**_
+51. Rat in a maze - Recursion - _**Hard**_
