@@ -54,4 +54,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 50. Permutation Sequence - Recursion - _**Hard**_
 51. Rat in a maze - Recursion - _**Hard**_
 52. Next Greater Element 1 - _**Medium**_
-53. Climbing Stairs - _**Easy**_
+53. Climbing Stairs - DP - _**Easy**_
+54. Frog Jump - DP - _**Easy**_
