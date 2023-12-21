@@ -56,3 +56,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 52. Next Greater Element 1 - _**Medium**_
 53. Climbing Stairs - DP - _**Easy**_
 54. Frog Jump - DP - _**Easy**_
+55. Frog Jump Max K - DP - _**Easy**_
