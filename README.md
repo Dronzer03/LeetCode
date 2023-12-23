@@ -61,4 +61,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 57. Best Time to Buy Sell Stock I - Sliding Window - _**Easy**_
 58. Best Time to Buy Sell Stock II - _**Medium**_
 59. Jump Game - _**Medium**_
-60. Max Sum Distinct SubArray - _**Medium**_
+60. Jump Game II - _**Medium**_
+61. Max Sum Distinct SubArray - _**Medium**_

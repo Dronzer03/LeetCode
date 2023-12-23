@@ -1,7 +1,9 @@
-package Recursion;
+package DynamicProgramming;
 
 import java.util.Arrays;
 
+// LC - 55
+// https://leetcode.com/problems/jump-game/
 public class JumpGame {
     public boolean canJump(int[] nums) {
         return jump(0, nums);
