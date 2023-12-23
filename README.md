@@ -57,3 +57,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 53. Climbing Stairs - DP - _**Easy**_
 54. Frog Jump - DP - _**Easy**_
 55. Frog Jump Max K - DP - _**Easy**_
+56. Max Sum of Non-Adjacent Elements - DP - _**Easy**_
+57. Best Time to Buy Sell Stock I - Sliding Window - _**Easy**_
+58. Best Time to Buy Sell Stock II - _**Medium**_
