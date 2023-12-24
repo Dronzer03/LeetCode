@@ -63,3 +63,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 59. Jump Game - _**Medium**_
 60. Jump Game II - _**Medium**_
 61. Max Sum Distinct SubArray - _**Medium**_
+62. Path Crossing - _**Easy**_
+63. Min Operation for Altering String - _**Easy**_
