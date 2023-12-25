@@ -65,3 +65,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 61. Max Sum Distinct SubArray - _**Medium**_
 62. Path Crossing - _**Easy**_
 63. Min Operation for Altering String - _**Easy**_
+64. House Robber - DP - _**Medium**_
+65. Decoding Ways - DP - _**Medium**_
