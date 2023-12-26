@@ -67,3 +67,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 63. Min Operation for Altering String - _**Easy**_
 64. House Robber - DP - _**Medium**_
 65. Decoding Ways - DP - _**Medium**_
+66. Num of Dice Rolls to Target - DP - _**Medium**_
