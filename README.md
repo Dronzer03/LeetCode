@@ -70,3 +70,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 66. Num of Dice Rolls to Target - DP - _**Medium**_
 67. Reverse Polish Notation - Stack - _**Medium**_
 68. Word Break - DP - _**Medium**_
+69. Min Time to make rope colourful - _**Medium**_
