@@ -73,3 +73,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 69. Min Time to make rope colourful - _**Medium**_
 70. Binary Search - _**Easy**_
 71. String Compression 2 - _**Hard**_
+72. Telephone Letter Combinations - _**Medium**_
