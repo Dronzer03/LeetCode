@@ -74,3 +74,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 70. Binary Search - _**Easy**_
 71. String Compression 2 - _**Hard**_
 72. Telephone Letter Combinations - _**Medium**_
+73. Palindrome Number - _**Easy**_
