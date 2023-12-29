@@ -75,3 +75,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 71. String Compression 2 - _**Hard**_
 72. Telephone Letter Combinations - _**Medium**_
 73. Palindrome Number - _**Easy**_
+74. Min Difficulty of Job Scheduling - _**Hard**_
