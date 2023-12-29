@@ -76,3 +76,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 72. Telephone Letter Combinations - _**Medium**_
 73. Palindrome Number - _**Easy**_
 74. Min Difficulty of Job Scheduling - _**Hard**_
+75. Word Search - _**Medium**_
