@@ -77,3 +77,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 73. Palindrome Number - _**Easy**_
 74. Min Difficulty of Job Scheduling - _**Hard**_
 75. Word Search - _**Medium**_
+76. Redistribute Characters - _**Easy**_
