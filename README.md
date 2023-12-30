@@ -78,3 +78,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 74. Min Difficulty of Job Scheduling - _**Hard**_
 75. Word Search - _**Medium**_
 76. Redistribute Characters - _**Easy**_
+77. Coin Change - _**Medium**_
