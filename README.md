@@ -79,3 +79,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 75. Word Search - _**Medium**_
 76. Redistribute Characters - _**Easy**_
 77. Coin Change - _**Medium**_
+78. Largest Substring Between Equal Characters - _**Easy**_
