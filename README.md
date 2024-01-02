@@ -82,3 +82,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 78. Largest Substring Between Equal Characters - _**Easy**_
 79. Assign Cookies - _**Easy**_
 80. Convert an Array to 2D Array - _**Medium**_
+81. Search Insert Position - _**Easy**_
