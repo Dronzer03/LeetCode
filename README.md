@@ -85,3 +85,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 81. Search Insert Position - _**Easy**_
 82. Ninja Training - _**Medium**_
 83. Permutations II - _**Medium**_
+84. Number of Laser Beams in Bank - _**Medium**_
