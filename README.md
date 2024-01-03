@@ -88,3 +88,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 84. Number of Laser Beams in Bank - _**Medium**_
 85. Unique Paths - DP - _**Medium**_
 86. Unique paths II - DP - _**Medium**_
+87. Min Sum Path - DP - _**Medium**_

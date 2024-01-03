@@ -5,13 +5,12 @@ package DynamicProgramming;
 // https://leetcode.com/problems/unique-paths/solutions/4498550/simple-to-understand-memoization-followed-by-tabulation/
 public class UniquePaths {
     public static int uniquePaths(int m, int n) {
-        boolean[][] visited = new boolean[m][n];
         Integer[][] dp = new Integer[m][n];
-        return uniquePaths(0, 0, m, n, visited, dp);
+        return uniquePaths(0, 0, m, n, dp);
     }
 
     // Memoization
-    private static int uniquePaths(int i, int j, int m, int n, boolean[][] visited, Integer[][] dp) {
+    private static int uniquePaths(int i, int j, int m, int n, Integer[][] dp) {
         if (i==m-1 && j==n-1)
             return 1;
 
@@ -21,16 +20,12 @@ public class UniquePaths {
         int right = 0;
         int down = 0;
 
-        if (i + 1 < m && !visited[i+1][j]) {
-            visited[i+1][j] = true;
-            right = uniquePaths(i + 1, j, m, n, visited, dp);
-            visited[i+1][j] = false;
+        if (i + 1 < m) {
+            right = uniquePaths(i + 1, j, m, n, dp);
         }
 
-        if (j + 1 < n && !visited[i][j+1]) {
-            visited[i][j+1] = true;
-            down = uniquePaths(i, j+1, m, n, visited, dp);
-            visited[i][j+1] = false;
+        if (j + 1 < n) {
+            down = uniquePaths(i, j+1, m, n, dp);
         }
 
         return dp[i][j] = right + down;
