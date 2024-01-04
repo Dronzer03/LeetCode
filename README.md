@@ -90,3 +90,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 86. Unique paths II - DP - _**Medium**_
 87. Min Sum Path - DP - _**Medium**_
 88. Min No of Operations to make Array Empty - _**Medium**_
+89. Maximum Pairs in an Array - _**Easy**_
