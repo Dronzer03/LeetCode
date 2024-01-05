@@ -94,3 +94,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 90. Max Sum of Pairs with equal sum of digits - _**Medium**_
 91. Triangle - DP - _**Medium**_
 92. Maximum Sum Path Matrix variable starting point - _**Medium**_
+93. Longest Increasing Subsequence - _**Medium**_
