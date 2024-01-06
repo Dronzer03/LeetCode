@@ -95,3 +95,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 91. Triangle - DP - _**Medium**_
 92. Maximum Sum Path Matrix variable starting point - _**Medium**_
 93. Longest Increasing Subsequence - _**Medium**_
+94. Bitwise OR Trailing Zeros - _**Easy**_
+95. Max Profit in Job Scheduling - _**Hard**_
