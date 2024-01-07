@@ -1,9 +1,9 @@
 package DynamicProgramming;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
+// LC - 446
+// https://leetcode.com/problems/arithmetic-slices-ii-subsequence
 public class ArithmeticSlices2 {
 
     public static int numberOfArithmeticSlices(int[] nums) {
