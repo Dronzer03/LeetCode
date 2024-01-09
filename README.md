@@ -100,3 +100,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 96. Arithmetic Slices - _**Hard**_
 97. Range Sum BST - _**Easy**_
 98. Cherry Pickup 2 - _**Hard**_
+99. Leaf Similar Trees - _**Easy**_
