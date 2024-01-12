@@ -103,3 +103,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 99. Leaf Similar Trees - _**Easy**_
 100. Subset Sum = K - _**Medium**_ (CodingNinjas)
 101. Partition Equal Subset Sum - _**Medium**_
+102. Maximum Diff Between Node and Ancestors
