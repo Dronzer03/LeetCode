@@ -105,3 +105,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 101. Partition Equal Subset Sum - _**Medium**_
 102. Maximum Diff Between Node and Ancestors - _**Medium**_
 103. Determine if Halves are Alike - _**Easy**_
+104. 0-1 Knapsack - _**Medium**_ (CodingNinjas)
