@@ -107,3 +107,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 103. Determine if Halves are Alike - _**Easy**_
 104. 0-1 Knapsack - _**Medium**_ (CodingNinjas)
 105. Target Sum - _**Medium**_ 
+106. Min Steps to Make String Anagrams - _**Medium**_
