@@ -1,7 +1,6 @@
 package StringsAndArrays.HashTable;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -22,7 +21,7 @@ public class ArrayTo2D {
                 if (entry.getValue() == 1)
                     count.remove(entry.getKey());
                 else
-                    entry.setValue(entry.getValue()-1);
+                    entry.setValue(entry.getValue() - 1);
             }
             result.add(currList);
         }
@@ -30,7 +29,7 @@ public class ArrayTo2D {
     }
 
     public List<List<Integer>> findMatrixBetter(int[] nums) {
-        int[] freq = new int[nums.length+1];
+        int[] freq = new int[nums.length + 1];
         List<List<Integer>> result = new ArrayList<>();
 
         for (int n : nums) {

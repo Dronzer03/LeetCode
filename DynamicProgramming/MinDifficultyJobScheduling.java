@@ -1,4 +1,4 @@
-package StringsAndArrays.TwoPointers;
+package DynamicProgramming;
 
 // LC - 1335
 // https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule
