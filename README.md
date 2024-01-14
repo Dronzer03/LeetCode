@@ -112,3 +112,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 108. Unbounded Knapsack - _**Medium**_
 109. Rod Cutting Problem - _**Medium**_
 110. Close Strings - _**Medium**_
+111. Longest Common Subsequence - _**Medium**_
+112. Longest Common Substring - _**Medium**_ (CodingNinjas)
