@@ -121,3 +121,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 117. Minimum Moves to Convert String - _**Easy**_
 118. Permutations in String - _**Medium**_
 119. Maximum length of repeated SubArray - _**Medium**_
+120. Shortest Common SuperSequence - _**Hard**_
