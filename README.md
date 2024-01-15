@@ -114,3 +114,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 110. Close Strings - _**Medium**_
 111. Longest Common Subsequence - _**Medium**_
 112. Longest Common Substring - _**Medium**_ (CodingNinjas)
+113. Longest Palindromic Subsequence - _**Medium**_
+114. Players with 0 or 1 Losses - _**Medium**_
