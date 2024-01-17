@@ -127,3 +127,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 123. Wildcard Matching - _**Hard**_
 124. Moving Totals - _**Easy**_ (Interview Question)
 125. Unique Occurrences - _**Easy**_
+126. Best Time to Buy And Sell Stock - _**Hard**_
