@@ -125,3 +125,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 121. Distinct SubSequences - _**Hard**_
 122. Edit Distance - _**Medium**_
 123. Wildcard Matching - _**Hard**_
+124. Moving Totals - _**Easy**_ (Interview Question)
+125. Unique Occurrences - _**Easy**_

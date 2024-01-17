@@ -11,20 +11,11 @@ public class RandomizedSet {
     }
 
     public boolean insert(int val) {
-        if (this.randomSet.contains(val)) {
-            return false;
-        } else {
-            this.randomSet.add(val);
-            return true;
-        }
+        return randomSet.remove(val);
     }
 
     public boolean remove(int val) {
-        if (this.randomSet.contains(val)) {
-            this.randomSet.remove(Integer.valueOf(val));
-            return true;
-        }
-        return false;
+        return randomSet.remove(val);
     }
 
     public int getRandom() {
