@@ -134,3 +134,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 130. Minimum falling Path Sum - _**Medium**_
 131. Longest String Chain - _**Medium**_
 132. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
+133. Min cost to cut stick - _**Hard**_
