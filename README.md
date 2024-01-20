@@ -132,3 +132,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 128. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
 129. Largest Divisible Subset - _**Medium**_
 130. Minimum falling Path Sum - _**Medium**_
+131. Longest String Chain - _**Medium**_
