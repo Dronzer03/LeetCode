@@ -133,4 +133,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 129. Largest Divisible Subset - _**Medium**_
 130. Minimum falling Path Sum - _**Medium**_
 131. Longest String Chain - _**Medium**_
-132. Longest Bitonic Subsequence - _**Medium**_
+132. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
