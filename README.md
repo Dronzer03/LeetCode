@@ -144,3 +144,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 140. Max Len Concat String with Unique Characters - _**Medium**_
 141. Pseudo Palindromic Path in Tree - _**Medium**_
 142. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
+143. Remove Nth Node from End of LL - _**Medium**_
