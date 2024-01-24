@@ -143,3 +143,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 139. Add Two Numbers - _**Medium**_
 140. Max Len Concat String with Unique Characters - _**Medium**_
 141. Pseudo Palindromic Path in Tree - _**Medium**_
+142. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
