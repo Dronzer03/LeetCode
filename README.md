@@ -154,3 +154,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 150. Detect Cycle 2 - _**Medium**_
 151. Delete Middle of LL - _**Medium**_
 152. Length of LL Cycle - _**Easy**_
+153. Remove All Occurrences of Key SLL - _**Easy**_
+154. Remove All Occurrences of Key DLL - 
