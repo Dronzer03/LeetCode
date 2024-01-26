@@ -148,3 +148,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 144. Palindrome Linked List - _**Easy**_
 145. Out of Boundary Paths - _**Medium**_
 146. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
+147. Intersection of two LL - _**Easy**_
