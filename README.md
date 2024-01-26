@@ -149,3 +149,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 145. Out of Boundary Paths - _**Medium**_
 146. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
 147. Intersection of two LL - _**Easy**_
+148. Middle of LL - _**Easy**_
+149. Detect Cycle - _**Easy**_
+150. Detect Cycle 2 - _**Medium**_
+151. Delete Middle of LL - _**Medium**_
