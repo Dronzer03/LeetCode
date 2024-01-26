@@ -145,4 +145,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 141. Pseudo Palindromic Path in Tree - _**Medium**_
 142. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
 143. Remove Nth Node from End of LL - _**Medium**_
-144. Palindrome Linked List - 
+144. Palindrome Linked List - _**Easy**_
+145. Out of Boundary Paths - 
