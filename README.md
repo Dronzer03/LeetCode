@@ -146,4 +146,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 142. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
 143. Remove Nth Node from End of LL - _**Medium**_
 144. Palindrome Linked List - _**Easy**_
-145. Out of Boundary Paths - 
+145. Out of Boundary Paths - _**Medium**_
+146. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
