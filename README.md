@@ -158,3 +158,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 154. Remove All Occurrences of Key DLL - _**Easy**_
 155. Delete Duplicates from Sorted LL - _**Easy**_
 156. Reverse Nodes in Group of K - _**Hard**_
+157. Rotate LL - _**Medium**_
