@@ -163,3 +163,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 159. Merge K Sorted LL - _**Hard**_
 160. Sort List - _**Medium**_
 161. Copy list with Random Node - _**Medium**_
+162. Design Browser History - _**Medium**_
