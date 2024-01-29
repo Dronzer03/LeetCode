@@ -13,4 +13,9 @@ public class DeleteNodeWithoutHead {
         if (prev != null)
             prev.next = null;
     }
+
+    public void deleteNodeBetter(ListNode node) {
+        node.val = node.next.val;
+        node.next = node.next.next;
+    }
 }
