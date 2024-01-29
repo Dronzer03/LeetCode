@@ -170,3 +170,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 166. Delete N nodes after M Nodes - _**Medium**_
 167. Delete Node without Head pointer - _**Medium**_
 168. Queue using LL (Design Circular Queue) - _**Medium**_
+169. Queue using Stack - _**Easy**_
