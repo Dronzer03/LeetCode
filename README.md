@@ -166,3 +166,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 162. Design Browser History - _**Medium**_
 163. Swap Nodes in Pairs - _**Medium**_
 164. Partition List - _**Medium**_
+165. Reverse Linked List 2 - _**Medium**_
