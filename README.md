@@ -173,3 +173,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 169. Queue using Stack - _**Easy**_
 170. Stack using LL - _**Medium**_
 171. Split LL in Parts - _**Medium**_
+172. Daily Temperatures - _**Medium**_
