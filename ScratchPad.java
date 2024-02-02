@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ScratchPad {
@@ -46,6 +47,29 @@ public class ScratchPad {
         return fibo(n - 1) + fibo(n - 2);
     }
 
+    public static int[] testMethod(int[] arrival) {
+        int currTime = 0;
+        int[] departure = new int[arrival.length];
+        for (int i=0; i<arrival.length; i++) {
+            int queueSize = 0;
+            int arrivalTime = arrival[i];
+            if (currTime < arrivalTime)
+                currTime = arrivalTime;
+            for (int j = 0; j < i; j++) {
+                if (departure[j] > arrivalTime) {
+                    queueSize++;
+                }
+            }
+            if (queueSize <= 10) {
+                departure[i] = currTime + 300;
+                currTime = departure[i];
+            }
+            else
+                departure[i] = arrival[i];
+        }
+        return departure;
+    }
+
     public static void subSequence(int i, List<Integer> numList, int[] nums) {
         if (i >= nums.length) {
             System.out.println(numList.toString());
@@ -65,6 +89,8 @@ public class ScratchPad {
         System.out.println(palindrome("bbaabb", 0));
         System.out.println(fibo(9));
         subSequence(0, new ArrayList<>(), nums);
+        int times[] = {4, 400, 450, 500};
+        System.out.println(Arrays.toString(testMethod(times)));
         // 3 1 2 2 1 5
         // 0 0 0 0 0 1
     }
