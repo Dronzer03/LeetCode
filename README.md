@@ -175,4 +175,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 171. Split LL in Parts - _**Medium**_
 172. Daily Temperatures - _**Medium**_
 173. Swap Kth Node from Beginning with end - _**Medium**_
-174. Rotate DLL - _**Medium**_
+174. Rotate DLL - _**Medium**_ (CodingNinjas)
+175. Divide Array into Arrays with Max Diff K - _**Medium**_
+176. Sequential Digits - _**Medium**_
