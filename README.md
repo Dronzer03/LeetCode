@@ -179,3 +179,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 175. Divide Array into Arrays with Max Diff K - _**Medium**_
 176. Sequential Digits - _**Medium**_
 177. Construct LL from Matrix - _**Medium**_
+178. Partition Array for Max Sum - _**Medium**_
