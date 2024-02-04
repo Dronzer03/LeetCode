@@ -1,8 +1,5 @@
 package DynamicProgramming;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class MinimumWindowSubstring {
     public static String minWindow(String s, String t) {
         if (t.length() > s.length())
@@ -12,32 +9,28 @@ public class MinimumWindowSubstring {
         int right = 0;
         String minSubstring = new String(s + "Test");
 
-        Map<Character, Integer> tMap = new HashMap<>();
+        int[] tMap = new int[123];
         for (Character c : t.toCharArray())
-            tMap.put(c, tMap.getOrDefault(c, 0) + 1);
-        Map<Character, Integer> sMap = new HashMap<>();
+            tMap[c]++;
+
+        int[] sMap = new int[123];
 
         // ADOBECODEBANC
         while (left < s.length() && right < s.length()) {
             char charAtRight = s.charAt(right);
-            if (tMap.containsKey(charAtRight)) {
-                sMap.put(charAtRight, sMap.getOrDefault(charAtRight, 0) + 1);
+            if (tMap[charAtRight] > 0) {
+                sMap[charAtRight]++;
             }
 
             if (checkStrings(sMap, tMap)) {
-                while (left <s.length() && checkValidString(sMap, tMap, s.charAt(left)))
+                while (left < s.length() && checkValidString(sMap, tMap, s.charAt(left)))
                     left++;
                 String currString = s.substring(left, right + 1);
                 if (currString.length() < minSubstring.length())
                     minSubstring = currString;
 
                 if (left < s.length()) {
-                    int count = sMap.get(s.charAt(left));
-                    if (count == 1) {
-                        sMap.remove(s.charAt(left));
-                    } else {
-                        sMap.put(s.charAt(left), --count);
-                    }
+                    sMap[s.charAt(left)]--;
                     left++;
                 }
             }
@@ -48,34 +41,22 @@ public class MinimumWindowSubstring {
         return minSubstring.equals(s + "Test") ? "" : minSubstring;
     }
 
-    private static boolean checkValidString(Map<Character, Integer> sMap, Map<Character, Integer> tMap, char c) {
-        if (tMap.containsKey(c)) {
-            if (sMap.containsKey(c)) {
-                int count = sMap.get(c);
-                if (count == 1)
-                    return false;
-
-                sMap.put(c, --count);
-                if (checkStrings(sMap, tMap))
-                    return true;
-                else {
-                    sMap.put(c, ++count);
-                    return false;
-                }
+    private static boolean checkValidString(int[] sMap, int[] tMap, char c) {
+        if (tMap[c] > 0) {
+            sMap[c]--;
+            if (checkStrings(sMap, tMap))
+                return true;
+            else {
+                sMap[c]++;
+                return false;
             }
         }
         return true;
     }
 
-    private static boolean checkStrings(Map<Character, Integer> sMap, Map<Character, Integer> tMap) {
-        if (sMap.equals(tMap))
-            return true;
-
-        if (sMap.size() != tMap.size())
-            return false;
-
-        for (char c : tMap.keySet()) {
-            if (tMap.get(c) > sMap.get(c))
+    private static boolean checkStrings(int[] sMap, int[] tMap) {
+        for (int i = 0; i < 123; i++) {
+            if (sMap[i] < tMap[i])
                 return false;
         }
 
@@ -83,8 +64,8 @@ public class MinimumWindowSubstring {
     }
 
     public static void main(String[] args) {
-        String s = "abc";
-        String t = "cba";
+        String s = "ADOBECODEBANC";
+        String t = "ABC";
         System.out.println(minWindow(s, t));
     }
 }
