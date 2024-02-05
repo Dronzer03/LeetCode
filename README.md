@@ -183,3 +183,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 179. Minimum Window Substring - _**Hard**_
 180. Sort Colours - _**Medium**_
 181. Reorder List - _**Medium**_
+182. First Unique Character in String - _**Easy**_
