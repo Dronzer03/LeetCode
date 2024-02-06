@@ -187,3 +187,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 183. LRU Cache - _**Medium**_
 184. Random Node LL - _**Medium**_
 185. Circular Dequeue using LL - _**Medium**_
+186. Inorder Traversal - _**Easy**_
+187. Preorder Traversal - _**Easy**_
+188. Postorder Traversal - _**Easy**_
+189. Level Order Traversal - _**Medium**_
