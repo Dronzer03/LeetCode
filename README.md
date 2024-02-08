@@ -192,3 +192,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 188. Postorder Traversal - _**Easy**_
 189. Level Order Traversal - _**Medium**_
 190. Frequency Sort - _**Medium**_
+191. Perfect Squares - _**Medium**_
