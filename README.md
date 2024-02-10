@@ -197,3 +197,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 193. Palindromic Substrings - _**Medium**_
 194. Balanced Binary Tree - _**Easy**_
 195. Diameter of Tree - _**Easy**_
+196. Max Path Sum Tree - _**Hard**_
