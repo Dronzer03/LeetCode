@@ -194,3 +194,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 190. Frequency Sort - _**Medium**_
 191. Perfect Squares - _**Medium**_
 192. Max Depth of Binary Tree - _**Easy**_
+193. Palindromic Substrings - _**Medium**_
