@@ -198,3 +198,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 194. Balanced Binary Tree - _**Easy**_
 195. Diameter of Tree - _**Easy**_
 196. Max Path Sum Tree - _**Hard**_
+197. Same Tree - _**Easy**_
