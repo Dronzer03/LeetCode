@@ -199,4 +199,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 195. Diameter of Tree - _**Easy**_
 196. Max Path Sum Tree - _**Hard**_
 197. Same Tree - _**Easy**_
-198. Level Order Zig Zag - 
+198. Level Order Zig Zag - _**Medium**_
+199. Boundary Traversal - _**Hard**_
