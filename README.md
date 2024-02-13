@@ -205,3 +205,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 201. Top View of Binary Tree - _**Medium**_
 202. Bottom View of Binary Tree - _**Medium**_
 203. First Palindrome - _**Medium**_
+204. Right View - _**Medium**_
+205. Left View - _**Medium**_
