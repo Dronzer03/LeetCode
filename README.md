@@ -208,3 +208,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 204. Right View - _**Medium**_
 205. Left View - _**Medium**_
 206. Symmetric Trees - _**Easy**_
+207. Root to Leaf - _**Easy**_
