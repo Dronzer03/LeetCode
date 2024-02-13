@@ -207,3 +207,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 203. First Palindrome - _**Medium**_
 204. Right View - _**Medium**_
 205. Left View - _**Medium**_
+206. Symmetric Trees - _**Easy**_
