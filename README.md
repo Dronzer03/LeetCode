@@ -214,3 +214,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 210. Rearrange by Sign - _**Medium**_
 211. Polygon with Largest Perimeter - _**Medium**_
 212. Children Sum Property - _**Medium**_
+213. Maximum Width of Tree - _**Medium**_
+214. Nodes at Distance K - _**Medium**_
