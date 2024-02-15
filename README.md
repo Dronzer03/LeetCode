@@ -212,3 +212,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 208. Lowest Common Ancestor - _**Medium**_
 209. Lowest Common Ancestor BST - _**Medium**_
 210. Rearrange by Sign - _**Medium**_
+211. Polygon with Largest Perimeter - _**Medium**_
