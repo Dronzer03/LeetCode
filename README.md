@@ -219,3 +219,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 215. Time to Burn the Tree - _**Hard**_
 216. Count Nodes in Complete BT - _**Easy**_
 217. Least Unique Numbers in Array - _**Medium**_
+218. Construct Tree from Inorder and Preorder - _**Medium**_
+219. Construct Tree from Inorder and Postorder - _**Medium**_
