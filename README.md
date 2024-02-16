@@ -217,3 +217,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 213. Maximum Width of Tree - _**Medium**_
 214. Nodes at Distance K - _**Medium**_
 215. Time to Burn the Tree - _**Hard**_
+216. Count Nodes in Complete BT - _**Easy**_
+217. Least Unique Numbers in Array - _**Medium**_
