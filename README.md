@@ -224,3 +224,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 220. Furthest Building you can reach - _**Medium**_
 221. Serialize and Deserialize Tree - _**Hard**_
 222. Flatten Tree into LL - _**Medium**_
+223. Search in BST - _**Easy**_
