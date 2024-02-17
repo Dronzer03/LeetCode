@@ -223,3 +223,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 219. Construct Tree from Inorder and Postorder - _**Medium**_
 220. Furthest Building you can reach - _**Medium**_
 221. Serialize and Deserialize Tree - _**Hard**_
+222. Flatten Tree into LL - _**Medium**_
