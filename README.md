@@ -221,3 +221,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 217. Least Unique Numbers in Array - _**Medium**_
 218. Construct Tree from Inorder and Preorder - _**Medium**_
 219. Construct Tree from Inorder and Postorder - _**Medium**_
+220. Furthest Building you can reach - _**Medium**_
