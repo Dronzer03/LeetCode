@@ -1,5 +1,7 @@
 package Trees;
 
+// Floor in BST - Coding Ninjas
+// https://www.codingninjas.com/studio/problems/floor-from-bst_920457
 public class FloorInBST {
     public int floorInBST(TreeNode root, int x) {
         int floor = -1;

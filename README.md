@@ -227,3 +227,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 223. Search in BST - _**Easy**_
 224. Ceil in BST - _**Easy**_
 225. Floor in BST - _**Easy**_
+226. Insert Node in BST - _**Medium**_

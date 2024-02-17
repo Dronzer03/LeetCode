@@ -1,5 +1,7 @@
 package Trees;
 
+// Coding Ninjas
+// https://www.codingninjas.com/studio/problems/ceil-from-bst_920464
 public class CeilInBST {
     int ceil = Integer.MAX_VALUE;
     public int findCeil(TreeNode node, int x) {
