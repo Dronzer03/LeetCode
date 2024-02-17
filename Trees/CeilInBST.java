@@ -23,14 +23,14 @@ public class CeilInBST {
     }
 
     public int findCeilIterative(TreeNode root, int x) {
-        int ceilVal = Integer.MAX_VALUE;
+        int ceilVal = -1;
         while (root != null) {
             if (root.val == x) {
                 return root.val;
             }
 
             if (root.val > x) {
-                ceilVal = Math.min(ceilVal, root.val);
+                ceilVal = root.val;
                 root = root.left;
             } else {
                 root = root.right;

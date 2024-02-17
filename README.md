@@ -226,3 +226,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 222. Flatten Tree into LL - _**Medium**_
 223. Search in BST - _**Easy**_
 224. Ceil in BST - _**Easy**_
+225. Floor in BST - _**Easy**_
