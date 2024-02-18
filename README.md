@@ -232,3 +232,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 228. Kth Smallest Node in BST - _**Medium**_
 229. Check if Valid BST - _**Medium**_
 230. Construct BST from Preorder - _**Medium**_
+231. Inorder Successor - _**Medium**_
+232. BST Iterator - _**Medium**_
