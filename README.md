@@ -234,3 +234,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 230. Construct BST from Preorder - _**Medium**_
 231. Inorder Successor - _**Medium**_
 232. BST Iterator - _**Medium**_
+233. Two Sum BST - _**Easy**_ (In Actual, A Medium)
