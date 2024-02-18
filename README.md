@@ -230,3 +230,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 226. Insert Node in BST - _**Medium**_
 227. Delete Node in BST - _**Medium**_
 228. Kth Smallest Node in BST - _**Medium**_
+229. Check if Valid BST - _**Medium**_
