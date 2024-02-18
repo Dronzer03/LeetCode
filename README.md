@@ -231,3 +231,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 227. Delete Node in BST - _**Medium**_
 228. Kth Smallest Node in BST - _**Medium**_
 229. Check if Valid BST - _**Medium**_
+230. Construct BST from Preorder - _**Medium**_
