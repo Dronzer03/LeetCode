@@ -1,4 +1,4 @@
-package StringsAndArrays.HeapPQ;
+package HeapPQ;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
