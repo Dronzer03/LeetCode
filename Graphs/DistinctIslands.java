@@ -3,6 +3,8 @@ package Graphs;
 // Find number of Distinct Island which are connected 8-Directionally
 // GFG
 // https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1
+// LC - 200
+// https://leetcode.com/problems/number-of-islands
 public class DistinctIslands {
     public static int distinctIsland(char[][] arr) {
         int n = arr.length;
@@ -35,13 +37,29 @@ public class DistinctIslands {
         }
     }
 
+    private static void traverseGraphFourDirectional(char[][] arr, boolean[][] visited, int row, int col, int n, int m) {
+        visited[row][col] = true;
+
+        if (row - 1 >= 0 && arr[row - 1][col] == '1' && !visited[row - 1][col])
+            traverseGraph(arr, visited, row - 1, col, n, m);
+
+        if (row + 1 < n && arr[row + 1][col] == '1' && !visited[row + 1][col])
+            traverseGraph(arr, visited, row + 1, col, n, m);
+
+        if (col - 1 >= 0 && arr[row][col - 1] == '1' && !visited[row][col - 1])
+            traverseGraph(arr, visited, row, col - 1, n, m);
+
+        if (col + 1 < m && arr[row][col + 1] == '1' && !visited[row][col + 1])
+            traverseGraph(arr, visited, row, col + 1, n, m);
+    }
+
     public static void main(String[] args) {
         char[][] arr = {
-                {'1','1','0','0','0'},
-                {'1','1','0','0','0'},
-                {'0','0','0','0','0'},
-                {'0','0','0','1','1'},
-                {'0','0','0','1','1'}
+                {'1', '1', '0', '0', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '0', '0', '0'},
+                {'0', '0', '0', '1', '1'},
+                {'0', '0', '0', '1', '1'}
         };
         System.out.println(distinctIsland(arr));
     }
