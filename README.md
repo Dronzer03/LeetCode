@@ -236,3 +236,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 232. BST Iterator - _**Medium**_
 233. Two Sum BST - _**Easy**_ (In Actual, A Medium)
 234. Recover BST - _**Medium**_
+235. BFS Traversal Graph - _**Easy**_
