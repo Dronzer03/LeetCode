@@ -2,6 +2,8 @@ package Graphs;
 
 import java.util.ArrayList;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 public class DFS {
     public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
         // Code here
