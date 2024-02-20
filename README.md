@@ -238,3 +238,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 234. Recover BST - _**Medium**_
 235. BFS Traversal Graph - _**Easy**_
 236. DFS Traversal Graph - _**Easy**_
+237. Number of Provinces - _**Medium**_
