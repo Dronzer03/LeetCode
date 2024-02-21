@@ -248,3 +248,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 244. Surrounded Regions - _**Medium**_
 245. Number of Enclaves - _**Medium**_
 246. Distinct Islands - _**Medium**_
+247. Bipartite Graph - _**Medium**_
