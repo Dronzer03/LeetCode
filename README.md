@@ -252,3 +252,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 248. Detect Cycle in Directed Graph - _**Medium**_
 249. Eventually Safe States - _**Medium**_
 250. Topological Sort - _**Medium**_
+251. Topological Sort - Kahn's Algo - _**Medium**_
