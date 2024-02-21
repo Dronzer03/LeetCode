@@ -245,4 +245,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 241. Bitwise AND in Range - _**Medium**_
 242. Detect Cycle in Undirected Graph - _**Medium**_
 243. 01 Matrix - _**Medium**_
-244. Surrounded Regions
+244. Surrounded Regions - _**Medium**_
+245. Number of Enclaves - _**Medium**_
