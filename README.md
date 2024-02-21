@@ -250,3 +250,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 246. Distinct Islands - _**Medium**_
 247. Bipartite Graph - _**Medium**_
 248. Detect Cycle in Directed Graph - _**Medium**_
+249. Eventually Safe States - _**Medium**_
