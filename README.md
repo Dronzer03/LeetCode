@@ -243,3 +243,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 239. Flood Fill - _**Easy**_
 240. Rotting Oranges - _**Medium**_
 241. Bitwise AND in Range - _**Medium**_
+242. Detect Cycle in Undirected Graph - _**Medium**_
