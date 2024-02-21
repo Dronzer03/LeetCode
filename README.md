@@ -249,3 +249,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 245. Number of Enclaves - _**Medium**_
 246. Distinct Islands - _**Medium**_
 247. Bipartite Graph - _**Medium**_
+248. Detect Cycle in Directed Graph - _**Medium**_
