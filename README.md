@@ -242,3 +242,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 238. Distinct Islands Connected 8 Directionally - _**Medium**_
 239. Flood Fill - _**Easy**_
 240. Rotting Oranges - _**Medium**_
+241. Bitwise AND in Range - _**Medium**_
