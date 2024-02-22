@@ -254,3 +254,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 250. Topological Sort - _**Medium**_
 251. Topological Sort - Kahn's Algo - _**Medium**_
 252. Town Judge - _**Easy**_
+253. Course Schedule - _**Medium**_
+254. Course Schedule 2 - _**Medium**_
