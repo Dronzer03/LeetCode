@@ -8,15 +8,15 @@ import java.util.Stack;
 // GFG
 // https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1
 public class ShortestPathInDAG {
-    class PairClass {
-        int node;
-        int weight;
-        PairClass(int node, int weight) {
-            this.node = node;
-            this.weight = weight;
-        }
+    public static void main(String[] args) {
+        int[][] edges = {
+                {0, 1, 2},
+                {0, 2, 1}
+        };
+        System.out.println(Arrays.toString(new ShortestPathInDAG().shortestPath(4, 2, edges)));
     }
-    public int[] shortestPath(int N,int M, int[][] edges) {
+
+    public int[] shortestPath(int N, int M, int[][] edges) {
         boolean[] visited = new boolean[N];
         Stack<Integer> stack = new Stack<>();
         List<List<PairClass>> adj = new ArrayList<>();
@@ -35,7 +35,7 @@ public class ShortestPathInDAG {
         }
 
         int[] result = new int[N];
-        Arrays.fill(result, (int)(1e9));
+        Arrays.fill(result, (int) (1e9));
         result[0] = 0;
 
         while (!stack.isEmpty()) {
@@ -46,7 +46,7 @@ public class ShortestPathInDAG {
             }
         }
 
-        for (int i=0; i< result.length; i++)
+        for (int i = 0; i < result.length; i++)
             if (result[i] == 1e9)
                 result[i] = -1;
 
@@ -65,11 +65,13 @@ public class ShortestPathInDAG {
         stack.push(node);
     }
 
-    public static void main(String[] args) {
-        int[][] edges = {
-                {0,1,2},
-                {0,2,1}
-        };
-        System.out.println(Arrays.toString(new ShortestPathInDAG().shortestPath(4, 2, edges)));
+    class PairClass {
+        int node;
+        int weight;
+
+        PairClass(int node, int weight) {
+            this.node = node;
+            this.weight = weight;
+        }
     }
 }
