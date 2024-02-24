@@ -260,4 +260,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 256. Shortest Path in DAG - _**Medium**_
 257. Shortest Path in Undirected Graph - _**Medium**_
 258. Cheapest Flight with K stops - _**Medium**_
-259. Find People With Secret - _**Medium**_
+259. Find People With Secret - _**Hard**_

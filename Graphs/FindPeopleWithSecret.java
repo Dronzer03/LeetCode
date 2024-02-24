@@ -2,6 +2,8 @@ package Graphs;
 
 import java.util.*;
 
+// LC - 2092
+// https://leetcode.com/problems/find-all-people-with-secret
 public class FindPeopleWithSecret {
     public List<Integer> findAllPeople(int n, int[][] meetings, int firstPerson) {
         List<List<PairClass>> adj = new ArrayList<>();
