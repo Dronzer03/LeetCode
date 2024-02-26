@@ -272,3 +272,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 268. Floyd Warshall Algorithm - _**Medium**_
 269. City With Smallest Number of Neighbours - _**Medium**_
 270. Network Delay Time - _**Medium**_
+271. Minimum Spanning Tree - _**Medium**_
