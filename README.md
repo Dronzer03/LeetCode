@@ -264,3 +264,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 260. Word Ladder - _**Hard**_
 261. Word Ladder 2 - _**Hard**_
 262. Dijkstra Using PQ - _**Medium**_
+263. Shortest Path in Binary Maze - _**Medium**_
