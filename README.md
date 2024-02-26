@@ -266,3 +266,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 262. Dijkstra Using PQ - _**Medium**_
 263. Shortest Path in Binary Maze - _**Medium**_
 264. Path with Minimum Effort - _**Medium**_
+265. Minimum Multiplication to reach end - _**Medium**_
