@@ -270,3 +270,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 266. Number of Ways to reach Destination - _**Medium**_
 267. Bellman Ford Algorithm - _**Medium**_
 268. Floyd Warshall Algorithm - _**Medium**_
+269. City With Smallest Number of Neighbours - _**Medium**_
