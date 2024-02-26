@@ -267,3 +267,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 263. Shortest Path in Binary Maze - _**Medium**_
 264. Path with Minimum Effort - _**Medium**_
 265. Minimum Multiplication to reach end - _**Medium**_
+266. Number of Ways to reach Destination - _**Medium**_
