@@ -274,3 +274,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 270. Network Delay Time - _**Medium**_
 271. Minimum Spanning Tree - _**Medium**_
 272. Disjoint Set - Algorithm
+273. Kruskal Algorithm - _**Medium**_
