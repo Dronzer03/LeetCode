@@ -275,3 +275,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 271. Minimum Spanning Tree - _**Medium**_
 272. Disjoint Set - Algorithm
 273. Kruskal Algorithm - _**Medium**_
+274. Make Network Connected - _**Medium**_

@@ -19,7 +19,7 @@ public class KruskalAlgorithm {
 
             if (disjointSet.findParent(u) != disjointSet.findParent(v)) {
                 weight += wt;
-                disjointSet.unionBySize(edge[0], edge[1]);
+                disjointSet.unionBySize(u, v);
             }
         }
 
