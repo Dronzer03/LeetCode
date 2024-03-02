@@ -279,3 +279,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 275. Bottom Left Node in Tree - _**Medium**_
 276. Even Odd Tree - _**Medium**_
 277. Maximum Odd Binary Number - _**Easy**_
+278. Squares of Sorted Array - _**Easy**_
