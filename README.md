@@ -282,3 +282,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 278. Squares of Sorted Array - _**Easy**_
 279. Bag of Tokens - _**Medium**_
 280. Min Len of String after Deleting Similar Ends - _**Medium**_
+281. Max Frequency Elements - _**Easy**_
+282. Minimum Common Value - _**Easy**_
