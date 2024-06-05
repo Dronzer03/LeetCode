@@ -275,9 +275,10 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Arrays**
 
-|   | Problem                                               | Difficulty                                | Notes | LeetCode                                                |
-|---|-------------------------------------------------------|-------------------------------------------|-------|---------------------------------------------------------|
-| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
+|   | Problem                                                 | Difficulty                                | Notes | LeetCode                                                |
+|---|---------------------------------------------------------|-------------------------------------------|-------|---------------------------------------------------------|
+| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
+| 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/pascals-triangle)  |
 
 
 ### **Two Pointers**
