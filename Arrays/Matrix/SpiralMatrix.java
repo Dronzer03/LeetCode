@@ -1,4 +1,4 @@
-package StringsAndArrays.Matrix;
+package Arrays.Matrix;
 
 import java.util.ArrayList;
 import java.util.List;

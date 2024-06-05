@@ -273,6 +273,12 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 |---|----------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------|
 | 1 | [Product Except Self](Math/ProductExceptSelf.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/product-of-array-except-self) |
 
+### **Arrays**
+
+|   | Problem                                               | Difficulty                                | Notes | LeetCode                                                |
+|---|-------------------------------------------------------|-------------------------------------------|-------|---------------------------------------------------------|
+| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
+
 
 ### **Two Pointers**
 

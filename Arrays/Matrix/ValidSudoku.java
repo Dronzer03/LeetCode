@@ -1,4 +1,4 @@
-package StringsAndArrays.Matrix;
+package Arrays.Matrix;
 
 import java.util.HashSet;
 import java.util.Set;

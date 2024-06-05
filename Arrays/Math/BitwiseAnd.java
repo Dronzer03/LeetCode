@@ -1,4 +1,4 @@
-package StringsAndArrays.Math;
+package Arrays.Math;
 
 // LC - 201
 // https://leetcode.com/problems/bitwise-and-of-numbers-range

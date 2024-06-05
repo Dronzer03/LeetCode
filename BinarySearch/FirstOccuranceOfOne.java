@@ -1,4 +1,4 @@
-package StringsAndArrays.BinarySearch;
+package BinarySearch;
 
 public class FirstOccuranceOfOne {
     public int findOccurrance(int left, int mid, int right, int[] arr) {
