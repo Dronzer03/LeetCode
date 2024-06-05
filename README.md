@@ -2,34 +2,7 @@
 Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 # List of Problems Solved
-1. Merge Sorted Arrays - Simple Approach and Two Pointer Approach - _**Easy**_
-2. Remove Element - Two Pointer Approach - _**Easy**_
-3. Remove Duplicates - Two Pointer Approach - _**Easy**_
-4. Remove Duplicates with Max Occurance Twice - Two Pointer Approach - _**Medium**_
-5. Majority Element - HashTable - _**Easy**_
-6. Rotate Array - Reversal - _**Easy**_
-7. Intersection of Two Arrays - _**Easy**_
-8. Reverse Words - _**Medium**_
-9. ZigZag Conversion (Not a good problem but 2D Array exercise) - _**Medium**_
-10. Roman to Int - _**Easy**_
-11. Int to Roman - _**Medium**_
-12. Product except self - Prefix and Postfix - _**Medium**_
-13. Length of last word - _**Very Easy**_
-14. Longest substring without repeating characters - HashMap and Sliding Window - _**Medium**_
-15. Palindrome - Two Pointer - _**Easy**_
-16. Two Sum - Two Pointer - _**Easy**_
-17. Two Sum Sorted Array - Two Pointer - _**Medium**_
-18. Container with Most Water - Two Pointer - _**Medium**_
-19. 3Sum - Three Pointers - _**Medium**_
-20. Combinations - Recursion - _**Medium**_
-21. Combination Sum - Recursion - _**Medium**_
-22. Combination Sum II - Recursion - Bit Difficult - _**Medium**_
-23. Can Construct - HashTable - _**Easy**_
-24. Isomorphic Strings - Confusing but Easy - HashTable - _**Easy**_
-25. Word Pattern - HashTable - _**Easy**_
-26. Subsets (SubSquences.java) - Recursion - _**Medium**_
-27. Subsets II - Recursion - _**Medium**_
-28. Anagrams - HashTable - _**Easy**_
+
 29. Randomized Set - HashSet - _**Medium**_
 30. First Occurrence of 1 - Binary Search - _**Medium**_
 31. H-Index - Sorting - _**Medium**_
@@ -285,3 +258,69 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 281. Max Frequency Elements - _**Easy**_
 282. Minimum Common Value - _**Easy**_
 283. Minimum Arrows to Burst Balloons - _**Medium**_
+
+### **String**
+
+|   | Problem                                              | Difficulty                                | Notes | LeetCode                                                        |
+|---|------------------------------------------------------|-------------------------------------------|-------|-----------------------------------------------------------------|
+| 1 | [Reverse Words](Strings/ReverseWords.java)           | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/reverse-words-in-a-string) |
+| 2 | [ZigZag Conversion](Strings/ZigZagConversion.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/zigzag-conversion)         |
+| 3 | [Length of Last Word](Strings/LengthOfLastWord.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/length-of-last-word)       |
+
+### **Math**
+
+|   | Problem                                            | Difficulty                                | Notes | LeetCode                                                           |
+|---|----------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------|
+| 1 | [Product Except Self](Math/ProductExceptSelf.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/product-of-array-except-self) |
+
+
+### **Two Pointers**
+
+|    | Problem                                                                   | Difficulty                                | Notes                 | LeetCode                                                                     |
+|----|---------------------------------------------------------------------------|-------------------------------------------|-----------------------|------------------------------------------------------------------------------|
+| 1  | [Merge Sorted Arrays](TwoPointers/MergeSortedArrays.java)                 | <span style="color:green;">Easy</span>    | Start from Last       | [Link](https://leetcode.com/problems/merge-sorted-array)                     |
+| 2  | [Remove Element](TwoPointers/RemoveElement.java)                          | <span style="color:green;">Easy</span>    | Add if not same       | [Link](https://leetcode.com/problems/remove-element)                         |
+| 3  | [Remove Duplicates](TwoPointers/RemoveDuplicates.java)                    | <span style="color:green;">Easy</span>    | Compare with Previous | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array)    |
+| 4  | [Remove Duplicates 2](TwoPointers/RemoveDuplicatesMaxOccuranceTwice.java) | <span style="color:yellow;">Medium</span> | Keep Count            | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) |
+| 5  | [Rotate Arrays](TwoPointers/RotateArray.java)                             | <span style="color:green;">Easy</span>    | Reverse x 3           | [Link](https://leetcode.com/problems/rotate-array)                           |
+| 6  | [Palindrome](TwoPointers/Palindrome.java)                                 | <span style="color:green;">Easy</span>    |                       | [Link](https://leetcode.com/problems/valid-palindrome)                       |
+| 7  | [Two Sum](TwoPointers/TwoSum.java)                                        | <span style="color:green;">Easy</span>    |                       | [Link](https://leetcode.com/problems/two-sum)                                |
+| 8  | [Two Sum II - Sorted Array](TwoPointers/TwoSum.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)       |
+| 9  | [Container with Most Water](TwoPointers/ContainerWithMostWater.java)      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/container-with-most-water)              |
+| 10 | [3Sum](TwoPointers/ThreeSum.java)                                         | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/3sum)                                   |
+
+### **Sliding Window**
+
+|   | Problem                                                                                    | Difficulty                                | Notes | LeetCode                                                                             |
+|---|--------------------------------------------------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------------------------|
+| 1 | [Length of Longest Substring without Repeating Chars](SlidingWindow/LongestSubstring.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
+
+
+### **Hash Table**
+
+|   | Problem                                              | Difficulty                                | Notes          | LeetCode                                                     |
+|---|------------------------------------------------------|-------------------------------------------|----------------|--------------------------------------------------------------|
+| 1 | [Majority Element](HashTable/MajorityElement.java)   | <span style="color:green;">Easy</span>    | Moore's        | [Link](https://leetcode.com/problems/majority-element)       |
+| 2 | [Roman To Int](HashTable/RomanToInt.java)            | <span style="color:green;">Easy</span>    | Check Adjacent | [Link](https://leetcode.com/problems/roman-to-integer)       |
+| 3 | [Int To Roman](HashTable/IntToRoman.java)            | <span style="color:yellow;">Medium</span> | Go through Map | [Link](https://leetcode.com/problems/integer-to-roman)       |
+| 4 | [Ransom Note](HashTable/RansomNote.java)             | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/ransom-note)            |
+| 5 | [Isomorphic String](HashTable/IsIsomorphic.java)     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/isomorphic-strings)     |
+| 6 | [Word Pattern](HashTable/WordPattern.java)           | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/word-pattern)           |
+| 7 | [Valid Anagram](HashTable/isValidAnagram.java)       | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/valid-anagram)          |
+| 8 | [Common Characters](HashTable/CommonCharacters.java) | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/find-common-characters) |
+
+### **Hash Set**
+
+|   | Problem                                                            | Difficulty                             | Notes           | LeetCode                                                         |
+|---|--------------------------------------------------------------------|----------------------------------------|-----------------|------------------------------------------------------------------|
+| 1 | [Intersection of Two Arrays](HashSet/IntersectionOfTwoArrays.java) | <span style="color:green;">Easy</span> | Frequency Array | [Link](https://leetcode.com/problems/intersection-of-two-arrays) |
+
+### **Recursion**
+
+|   | Problem                                             | Difficulty                                | Notes                     | LeetCode                                                 |
+|---|-----------------------------------------------------|-------------------------------------------|---------------------------|----------------------------------------------------------|
+| 1 | [Combinations](Recursion/Combinations.java)         | <span style="color:yellow;">Medium</span> | Take - Not Take           | [Link](https://leetcode.com/problems/combinations)       |
+| 2 | [Combination Sum](Recursion/CombinationSum.java)    | <span style="color:yellow;">Medium</span> | Take - Not Take           | [Link](https://leetcode.com/problems/combination-sum)    |
+| 3 | [Combination Sum 2](Recursion/CombinationSum2.java) | <span style="color:yellow;">Medium</span> | Use Set / Modify Not take | [Link](https://leetcode.com/problems/combination-sum-ii) |
+| 4 | [Subsets](Recursion/SubSequences.java)              | <span style="color:yellow;">Medium</span> | Take - Not Take           | [Link](https://leetcode.com/problems/subsets)            |
+| 5 | [Subsets 2](Recursion/Subsets2.java)                | <span style="color:yellow;">Medium</span> | Visit Again               | [Link](https://leetcode.com/problems/subsets-ii)         |

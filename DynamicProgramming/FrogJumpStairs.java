@@ -38,7 +38,7 @@ public class FrogJumpStairs {
                     (dp[i - 1] + Math.abs(arr[i] - arr[i - 1]))
             );
         }
-        return dp[N-1];
+        return dp[N - 1];
     }
 
     public int minimumEnergyTabulationSpaceBetter(int arr[], int N) {

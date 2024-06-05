@@ -3,35 +3,35 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
+// LC - 39
+// https://leetcode.com/problems/combination-sum
 public class CombinationSum {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        return combinationSumTarget(candidates, 0, new ArrayList<>(), 0, target, new ArrayList<>());
-    }
-
-    private List<List<Integer>> combinationSumTarget(int[] candidates, int i, List<List<Integer>> result, int sum,
-            int target, List<Integer> currList) {
-        if (sum == target) {
-            result.add(new ArrayList<>(currList));
-            return result;
-        }
-        if (sum > target || i == candidates.length) {
-            return result;
-        }
-        currList.add(candidates[i]);
-        sum += candidates[i];
-
-        result = combinationSumTarget(candidates, i, result, sum, target, currList);
-
-        sum -= candidates[i];
-        currList.remove(Integer.valueOf(candidates[i]));
-
-        result = combinationSumTarget(candidates, i + 1, result, sum, target, currList);
-        return result;
-    }
-
     public static void main(String[] args) {
         CombinationSum combi = new CombinationSum();
-        int[] nums = { 2, 5, 2, 1, 2 };
+        int[] nums = {2, 5, 2, 1, 2};
         combi.combinationSum(nums, 4).stream().forEach(list -> System.out.println(list.toString()));
+    }
+
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        return findCombinations(candidates, target, 0, new ArrayList<>(), new ArrayList<>());
+    }
+
+    private List<List<Integer>> findCombinations(int[] candidates, int target, int index, List<List<Integer>> result, List<Integer> currList) {
+        if (index == candidates.length) {
+            if (target == 0) {
+                result.add(new ArrayList<>(currList));
+            }
+            return result;
+        }
+
+        if (target < 0)
+            return result;
+
+        currList.add(candidates[index]);
+        findCombinations(candidates, target - candidates[index], index, result, currList);
+        currList.remove(currList.size() - 1);
+        findCombinations(candidates, target, index + 1, result, currList);
+
+        return result;
     }
 }

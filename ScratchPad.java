@@ -82,6 +82,35 @@ public class ScratchPad {
         subSequence(i + 1, numList, nums);
     }
 
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        return findCombinations(candidates, target, 0, new ArrayList<>(), new ArrayList<>());
+    }
+
+    private List<List<Integer>> findCombinations(int[] candidates, int target, int index, List<List<Integer>> result, List<Integer> currList) {
+        if (index == candidates.length) {
+            if (target == 0) {
+                result.add(new ArrayList<>(currList));
+            }
+            return result;
+        }
+
+        if (target < 0)
+            return result;
+
+        currList.add(candidates[index]);
+        findCombinations(candidates, target - candidates[index], index + 1, result, currList);
+        currList.remove(currList.size() - 1);
+
+        int k = index + 1;
+        while (k < candidates.length && candidates[k] == candidates[index]) {
+            k++;
+        }
+        findCombinations(candidates, target, k, result, currList);
+
+        return result;
+    }
+
     public static void main(String[] args) {
         System.out.println(fact(4));
         int[] nums = { 1, 2, 3, 4 };

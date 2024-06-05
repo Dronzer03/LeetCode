@@ -1,12 +1,18 @@
 package Recursion;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
+// LC - 40
+// https://leetcode.com/problems/combination-sum-ii
 public class CombinationSum2 {
+    public static void main(String[] args) {
+        CombinationSum2 combi = new CombinationSum2();
+        int[] nums = {10, 1, 2, 7, 6, 1, 5};
+        // combi.combinationSum2BetterApproach(nums, 8).stream().forEach(list ->
+        // System.out.println(list.toString()));
+        combi.combinationSum2EvenBetterApproach(nums, 8).stream().forEach(list -> System.out.println(list.toString()));
+    }
+
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         Set<List<Integer>> result = findDistinctCombinations(candidates, target, new HashSet<>(), new ArrayList<>(), 0);
@@ -16,7 +22,7 @@ public class CombinationSum2 {
     }
 
     private Set<List<Integer>> findDistinctCombinations(int[] candidates, int target, Set<List<Integer>> result,
-            List<Integer> currList, int i) {
+                                                        List<Integer> currList, int i) {
         if (target == 0) {
             result.add(new ArrayList<>(currList));
             return result;
@@ -43,7 +49,7 @@ public class CombinationSum2 {
     }
 
     private List<List<Integer>> findDistinctCombinationsBetterApproach(int[] candidates, int target,
-            List<List<Integer>> result, List<Integer> currList, int i) {
+                                                                       List<List<Integer>> result, List<Integer> currList, int i) {
         if (target == 0) {
             result.add(new ArrayList<>(currList));
             return result;
@@ -72,7 +78,7 @@ public class CombinationSum2 {
     }
 
     private List<List<Integer>> findDistinctCombinationsEvenBetterApproach(int[] candidates, int target,
-            List<List<Integer>> result, List<Integer> currList, int i) {
+                                                                           List<List<Integer>> result, List<Integer> currList, int i) {
         if (target == 0) {
             result.add(new ArrayList<>(currList));
             return result;
@@ -90,13 +96,5 @@ public class CombinationSum2 {
             currList.remove(currList.size() - 1);
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        CombinationSum2 combi = new CombinationSum2();
-        int[] nums = { 10, 1, 2, 7, 6, 1, 5 };
-        // combi.combinationSum2BetterApproach(nums, 8).stream().forEach(list ->
-        // System.out.println(list.toString()));
-        combi.combinationSum2EvenBetterApproach(nums, 8).stream().forEach(list -> System.out.println(list.toString()));
     }
 }
