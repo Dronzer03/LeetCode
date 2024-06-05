@@ -295,6 +295,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 8  | [Two Sum II - Sorted Array](TwoPointers/TwoSum.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)       |
 | 9  | [Container with Most Water](TwoPointers/ContainerWithMostWater.java)      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/container-with-most-water)              |
 | 10 | [3Sum](TwoPointers/ThreeSum.java)                                         | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/3sum)                                   |
+| 10 | [Next Permutation](TwoPointers/NextPermutation.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/next-permutation)                       |
 
 ### **Sliding Window**
 
