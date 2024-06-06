@@ -154,7 +154,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 177. Construct LL from Matrix - _**Medium**_
 178. Partition Array for Max Sum - _**Medium**_
 179. Minimum Window Substring - _**Hard**_
-180. Sort Colours - _**Medium**_
+
 181. Reorder List - _**Medium**_
 182. First Unique Character in String - _**Easy**_
 183. LRU Cache - _**Medium**_
@@ -280,6 +280,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java)   | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
 | 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java) | <span style="color:green;">Easy</span>    |                    | [Link](https://leetcode.com/problems/pascals-triangle)  |
 | 3 | [Maximum SubArray Sum](Arrays/MaximumSubArraySum.java)  | <span style="color:yellow;">Medium</span> | Kadane's Algorithm | [Link](https://leetcode.com/problems/maximum-subarray)  |
+| 4 | [Rotate Matrix](Arrays/Matrix/RotateMatrix.java)        | <span style="color:yellow;">Medium</span> | Transpose          | [Link](https://leetcode.com/problems/rotate-image)      |
 
 
 ### **Two Pointers**
@@ -297,12 +298,14 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 9  | [Container with Most Water](TwoPointers/ContainerWithMostWater.java)      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/container-with-most-water)              |
 | 10 | [3Sum](TwoPointers/ThreeSum.java)                                         | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/3sum)                                   |
 | 11 | [Next Permutation](TwoPointers/NextPermutation.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/next-permutation)                       |
+| 12 | [Sort Colours](TwoPointers/SortColours.java)                              | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/sort-colors)                            |
 
 ### **Sliding Window**
 
 |   | Problem                                                                                    | Difficulty                                | Notes | LeetCode                                                                             |
 |---|--------------------------------------------------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------------------------|
 | 1 | [Length of Longest Substring without Repeating Chars](SlidingWindow/LongestSubstring.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
+| 2 | [Best Time to Buy and Sell Stock](SlidingWindow/BestTimeToBuySellStock.java)               | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                |
 
 
 ### **Hash Table**
