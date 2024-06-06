@@ -1,4 +1,4 @@
-package Arrays.Math;
+package Math;
 
 // LC - 997
 // https://leetcode.com/problems/find-the-town-judge

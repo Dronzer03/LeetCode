@@ -275,10 +275,11 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Arrays**
 
-|   | Problem                                                 | Difficulty                                | Notes | LeetCode                                                |
-|---|---------------------------------------------------------|-------------------------------------------|-------|---------------------------------------------------------|
-| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
-| 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/pascals-triangle)  |
+|   | Problem                                                 | Difficulty                                | Notes              | LeetCode                                                |
+|---|---------------------------------------------------------|-------------------------------------------|--------------------|---------------------------------------------------------|
+| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java)   | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
+| 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java) | <span style="color:green;">Easy</span>    |                    | [Link](https://leetcode.com/problems/pascals-triangle)  |
+| 3 | [Maximum SubArray Sum](Arrays/MaximumSubArraySum.java)  | <span style="color:yellow;">Medium</span> | Kadane's Algorithm | [Link](https://leetcode.com/problems/maximum-subarray)  |
 
 
 ### **Two Pointers**
@@ -295,7 +296,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 8  | [Two Sum II - Sorted Array](TwoPointers/TwoSum.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)       |
 | 9  | [Container with Most Water](TwoPointers/ContainerWithMostWater.java)      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/container-with-most-water)              |
 | 10 | [3Sum](TwoPointers/ThreeSum.java)                                         | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/3sum)                                   |
-| 10 | [Next Permutation](TwoPointers/NextPermutation.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/next-permutation)                       |
+| 11 | [Next Permutation](TwoPointers/NextPermutation.java)                      | <span style="color:yellow;">Medium</span> |                       | [Link](https://leetcode.com/problems/next-permutation)                       |
 
 ### **Sliding Window**
 
@@ -316,6 +317,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 6 | [Word Pattern](HashTable/WordPattern.java)           | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/word-pattern)           |
 | 7 | [Valid Anagram](HashTable/isValidAnagram.java)       | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/valid-anagram)          |
 | 8 | [Common Characters](HashTable/CommonCharacters.java) | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/find-common-characters) |
+| 9 | [Hand of Straights](HashTable/HandOfStraights.java)  | <span style="color:yellow;">Medium</span> |                | [Link](https://leetcode.com/problems/hand-of-straights)      |
 
 ### **Hash Set**
 
