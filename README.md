@@ -324,9 +324,10 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Hash Set**
 
-|   | Problem                                                            | Difficulty                             | Notes           | LeetCode                                                         |
-|---|--------------------------------------------------------------------|----------------------------------------|-----------------|------------------------------------------------------------------|
-| 1 | [Intersection of Two Arrays](HashSet/IntersectionOfTwoArrays.java) | <span style="color:green;">Easy</span> | Frequency Array | [Link](https://leetcode.com/problems/intersection-of-two-arrays) |
+|   | Problem                                                            | Difficulty                                | Notes           | LeetCode                                                         |
+|---|--------------------------------------------------------------------|-------------------------------------------|-----------------|------------------------------------------------------------------|
+| 1 | [Intersection of Two Arrays](HashSet/IntersectionOfTwoArrays.java) | <span style="color:green;">Easy</span>    | Frequency Array | [Link](https://leetcode.com/problems/intersection-of-two-arrays) |
+| 2 | [Replace Words](HashSet/ReplaceWords.java)                         | <span style="color:yellow;">Medium</span> | Trie            | [Link](https://leetcode.com/problems/replace-words)              |
 
 ### **Recursion**
 
