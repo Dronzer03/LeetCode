@@ -281,6 +281,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java) | <span style="color:green;">Easy</span>    |                    | [Link](https://leetcode.com/problems/pascals-triangle)  |
 | 3 | [Maximum SubArray Sum](Arrays/MaximumSubArraySum.java)  | <span style="color:yellow;">Medium</span> | Kadane's Algorithm | [Link](https://leetcode.com/problems/maximum-subarray)  |
 | 4 | [Rotate Matrix](Arrays/Matrix/RotateMatrix.java)        | <span style="color:yellow;">Medium</span> | Transpose          | [Link](https://leetcode.com/problems/rotate-image)      |
+| 5 | [Merge Intervals](Arrays/Sorting/MergeIntervals.java)   | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/merge-intervals)   |
 
 
 ### **Two Pointers**
