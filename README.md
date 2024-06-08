@@ -309,6 +309,11 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 1 | [Length of Longest Substring without Repeating Chars](SlidingWindow/LongestSubstring.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
 | 2 | [Best Time to Buy and Sell Stock](SlidingWindow/BestTimeToBuySellStock.java)               | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                |
 
+### **Binary Search**
+
+|   | Problem                                         | Difficulty                                | Notes | LeetCode                                                 |
+|---|-------------------------------------------------|-------------------------------------------|-------|----------------------------------------------------------|
+| 1 | [Search Matrix](BinarySearch/SearchMatrix.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/search-a-2d-matrix) |
 
 ### **Hash Table**
 
