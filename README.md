@@ -273,6 +273,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 |---|----------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------|
 | 1 | [Product Except Self](Math/ProductExceptSelf.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/product-of-array-except-self) |
 | 2 | [Check SubArray Sum](Math/CheckSubArraySum.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/continuous-subarray-sum)      |
+| 3 | [Pow(x,n](Math/PowerXtoN.java)                     | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/powx-n)                       |
 
 ### **Arrays**
 
