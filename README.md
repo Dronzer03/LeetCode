@@ -266,6 +266,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 1 | [Reverse Words](Strings/ReverseWords.java)           | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/reverse-words-in-a-string) |
 | 2 | [ZigZag Conversion](Strings/ZigZagConversion.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/zigzag-conversion)         |
 | 3 | [Length of Last Word](Strings/LengthOfLastWord.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/length-of-last-word)       |
+| 4 | [Clear Digits](Strings/ClearDigits.java)             | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/clear-digits)              |
 
 ### **Math**
 
@@ -277,13 +278,14 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Arrays**
 
-|   | Problem                                                 | Difficulty                                | Notes              | LeetCode                                                |
-|---|---------------------------------------------------------|-------------------------------------------|--------------------|---------------------------------------------------------|
-| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java)   | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/set-matrix-zeroes) |
-| 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java) | <span style="color:green;">Easy</span>    |                    | [Link](https://leetcode.com/problems/pascals-triangle)  |
-| 3 | [Maximum SubArray Sum](Arrays/MaximumSubArraySum.java)  | <span style="color:yellow;">Medium</span> | Kadane's Algorithm | [Link](https://leetcode.com/problems/maximum-subarray)  |
-| 4 | [Rotate Matrix](Arrays/Matrix/RotateMatrix.java)        | <span style="color:yellow;">Medium</span> | Transpose          | [Link](https://leetcode.com/problems/rotate-image)      |
-| 5 | [Merge Intervals](Arrays/Sorting/MergeIntervals.java)   | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/merge-intervals)   |
+|   | Problem                                                        | Difficulty                                | Notes              | LeetCode                                                                            |
+|---|----------------------------------------------------------------|-------------------------------------------|--------------------|-------------------------------------------------------------------------------------|
+| 1 | [Set Matrix Zeros](Arrays/Matrix/SetMatrixZeros.java)          | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/set-matrix-zeroes)                             |
+| 2 | [Pascal's Triangle](Arrays/Matrix/PascalsTriangle.java)        | <span style="color:green;">Easy</span>    |                    | [Link](https://leetcode.com/problems/pascals-triangle)                              |
+| 3 | [Maximum SubArray Sum](Arrays/MaximumSubArraySum.java)         | <span style="color:yellow;">Medium</span> | Kadane's Algorithm | [Link](https://leetcode.com/problems/maximum-subarray)                              |
+| 4 | [Rotate Matrix](Arrays/Matrix/RotateMatrix.java)               | <span style="color:yellow;">Medium</span> | Transpose          | [Link](https://leetcode.com/problems/rotate-image)                                  |
+| 5 | [Merge Intervals](Arrays/Sorting/MergeIntervals.java)          | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/merge-intervals)                               |
+| 6 | [First Player with K Wins](Arrays/Sorting/MergeIntervals.java) | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row) |
 
 
 ### **Two Pointers**
