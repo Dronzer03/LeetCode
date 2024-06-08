@@ -111,7 +111,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 134. Burst Balloons - _**Hard**_
 135. Combination Sum 4 - _**Medium**_
 136. Odd Even positioned LL - _**Medium**_
-137. Set Mismatch - _**Easy**_
+
 138. Reverse a DLL - _**Easy**_ (CodingNinjas)
 139. Add Two Numbers - _**Medium**_
 140. Max Len Concat String with Unique Characters - _**Medium**_
@@ -272,6 +272,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 |   | Problem                                            | Difficulty                                | Notes | LeetCode                                                           |
 |---|----------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------|
 | 1 | [Product Except Self](Math/ProductExceptSelf.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/product-of-array-except-self) |
+| 2 | [Check SubArray Sum](Math/CheckSubArraySum.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/continuous-subarray-sum)      |
 
 ### **Arrays**
 
@@ -329,6 +330,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 |---|--------------------------------------------------------------------|-------------------------------------------|-----------------|------------------------------------------------------------------|
 | 1 | [Intersection of Two Arrays](HashSet/IntersectionOfTwoArrays.java) | <span style="color:green;">Easy</span>    | Frequency Array | [Link](https://leetcode.com/problems/intersection-of-two-arrays) |
 | 2 | [Replace Words](HashSet/ReplaceWords.java)                         | <span style="color:yellow;">Medium</span> | Trie            | [Link](https://leetcode.com/problems/replace-words)              |
+| 3 | [Set Mismatch](HashSet/SetMismatch.java)                           | <span style="color:green;">Easy</span>    |                 | [Link](https://leetcode.com/problems/set-mismatch)               |
 
 ### **Recursion**
 
