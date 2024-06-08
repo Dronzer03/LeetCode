@@ -318,17 +318,18 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Hash Table**
 
-|   | Problem                                              | Difficulty                                | Notes          | LeetCode                                                     |
-|---|------------------------------------------------------|-------------------------------------------|----------------|--------------------------------------------------------------|
-| 1 | [Majority Element](HashTable/MajorityElement.java)   | <span style="color:green;">Easy</span>    | Moore's        | [Link](https://leetcode.com/problems/majority-element)       |
-| 2 | [Roman To Int](HashTable/RomanToInt.java)            | <span style="color:green;">Easy</span>    | Check Adjacent | [Link](https://leetcode.com/problems/roman-to-integer)       |
-| 3 | [Int To Roman](HashTable/IntToRoman.java)            | <span style="color:yellow;">Medium</span> | Go through Map | [Link](https://leetcode.com/problems/integer-to-roman)       |
-| 4 | [Ransom Note](HashTable/RansomNote.java)             | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/ransom-note)            |
-| 5 | [Isomorphic String](HashTable/IsIsomorphic.java)     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/isomorphic-strings)     |
-| 6 | [Word Pattern](HashTable/WordPattern.java)           | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/word-pattern)           |
-| 7 | [Valid Anagram](HashTable/isValidAnagram.java)       | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/valid-anagram)          |
-| 8 | [Common Characters](HashTable/CommonCharacters.java) | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/find-common-characters) |
-| 9 | [Hand of Straights](HashTable/HandOfStraights.java)  | <span style="color:yellow;">Medium</span> |                | [Link](https://leetcode.com/problems/hand-of-straights)      |
+|    | Problem                                              | Difficulty                                | Notes          | LeetCode                                                     |
+|----|------------------------------------------------------|-------------------------------------------|----------------|--------------------------------------------------------------|
+| 1  | [Majority Element](HashTable/MajorityElement.java)   | <span style="color:green;">Easy</span>    | Moore's        | [Link](https://leetcode.com/problems/majority-element)       |
+| 2  | [Majority Element 2](HashTable/MajorityElement.java) | <span style="color:yellow;">Medium</span> | Moore's        | [Link](https://leetcode.com/problems/majority-element-ii)    |
+| 3  | [Roman To Int](HashTable/RomanToInt.java)            | <span style="color:green;">Easy</span>    | Check Adjacent | [Link](https://leetcode.com/problems/roman-to-integer)       |
+| 4  | [Int To Roman](HashTable/IntToRoman.java)            | <span style="color:yellow;">Medium</span> | Go through Map | [Link](https://leetcode.com/problems/integer-to-roman)       |
+| 5  | [Ransom Note](HashTable/RansomNote.java)             | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/ransom-note)            |
+| 6  | [Isomorphic String](HashTable/IsIsomorphic.java)     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/isomorphic-strings)     |
+| 7  | [Word Pattern](HashTable/WordPattern.java)           | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/word-pattern)           |
+| 8  | [Valid Anagram](HashTable/isValidAnagram.java)       | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/valid-anagram)          |
+| 9  | [Common Characters](HashTable/CommonCharacters.java) | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/find-common-characters) |
+| 10 | [Hand of Straights](HashTable/HandOfStraights.java)  | <span style="color:yellow;">Medium</span> |                | [Link](https://leetcode.com/problems/hand-of-straights)      |
 
 ### **Hash Set**
 
