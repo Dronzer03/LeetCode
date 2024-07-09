@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// LC - 70
+// https://leetcode.com/problems/climbing-stairs
 public class ClimbingStairs {
     public static int climbStairs(int n) {
         if (n == 1)
@@ -16,38 +18,31 @@ public class ClimbingStairs {
     }
 
     // This is not an optimal solution
-    // Time limit exceeded on leetcode
-    public int climbStairsRecursive(int n) {
-        if (n <= 1)
-            return 1;
-
-        int single = climbStairsRecursive(n - 1);
-        int twice = climbStairsRecursive(n - 2);
-        return single + twice;
+    // Time limit exceeded on leetcode for recursive
+    // Memoization beats 100%
+    public static int climbStairsMemo(int n) {
+        Integer[] dp = new Integer[n];
+        return distinctWays(0, n, dp);
     }
 
-    // Not an optimal solution
-    // Time limit exceeded
-    public static int climbStairsForward(int index, int n, int[] dp) {
+    private static int distinctWays(int index, int n, Integer[] dp) {
         if (index == n)
             return 1;
+
         if (index > n)
             return 0;
 
-        if (dp[index] != -1)
+        if (dp[index] != null)
             return dp[index];
 
-        int oneStep = climbStairsForward(index + 1, n, dp);
-        int twoSteps = climbStairsForward(index + 2, n, dp);
+        int oneStep = distinctWays(index + 1, n, dp);
+        int twoStep = distinctWays(index + 2, n, dp);
 
-        return dp[index] = oneStep + twoSteps;
+        return dp[index] = oneStep + twoStep;
     }
 
     public static void main(String[] args) {
-        int[] dp = new int[45];
-        for (int i=0; i<45; i++)
-            dp[i] = -1;
-        System.out.println(climbStairsForward(0, 45, dp));
+        System.out.println(climbStairsMemo(45));
         System.out.println(climbStairs(45));
     }
 }

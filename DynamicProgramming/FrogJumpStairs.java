@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/geek-jump/1
 public class FrogJumpStairs {
 
     public int minimumEnergy(int arr[], int N) {

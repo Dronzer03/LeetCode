@@ -1,9 +1,11 @@
-package HashTable;
+package HashSet;
 
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
 
+// LC - 128
+// https://leetcode.com/problems/longest-consecutive-sequence
 public class LongestConsecutiveSequence {
     public static int longestConsecutive(int[] nums) {
         if (nums.length == 0 || nums.length== 1)
