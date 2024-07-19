@@ -20,12 +20,11 @@ public class MinPathSum {
         if (dp[i][j] != null)
             return dp[i][j];
 
-        dp[i][j] = grid[i][j] + Math.min(
+        return dp[i][j] = grid[i][j] + Math.min(
                 uniquePaths(i + 1, j, m, n, dp, grid),
                 uniquePaths(i, j + 1, m, n, dp, grid)
         );
 
-        return dp[i][j];
     }
 
     public static int minPathSumDp(int[][] grid) {

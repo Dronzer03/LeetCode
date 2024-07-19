@@ -53,10 +53,8 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 50. Assign Cookies - _**Easy**_
 51. Convert an Array to 2D Array - _**Medium**_
 52. Search Insert Position - _**Easy**_
-53. Ninja Training - _**Medium**_
 54. Permutations II - _**Medium**_
 55. Number of Laser Beams in Bank - _**Medium**_
-56. Unique paths II - DP - _**Medium**_
 57. Min Sum Path - DP - _**Medium**_
 58. Min No of Operations to make Array Empty - _**Medium**_
 59. Maximum Pairs in an Array - _**Easy**_
@@ -359,12 +357,23 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Dynamic Programming**
 
-|   | Problem                                                                   | Difficulty                                | Notes | LeetCode                                                       |
-|---|---------------------------------------------------------------------------|-------------------------------------------|-------|----------------------------------------------------------------|
-| 1 | [Climbing Stairs](DynamicProgramming/ClimbingStairs.java)                 | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/climbing-stairs)          |
-| 2 | [Min Cost Climbing Stairs](DynamicProgramming/MinCostClimbingStairs.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/min-cost-climbing-stairs) |
-| 3 | [Frog Jump Stairs](DynamicProgramming/FrogJumpStairs.java)                | <span style="color:green;">Easy</span>    |       | [Link](https://www.geeksforgeeks.org/problems/geek-jump/1)     |
-| 4 | [Frog With K Jumps](DynamicProgramming/FrogWithKJumps.java)               | <span style="color:yellow;">Medium</span> |       | [Link](https://www.geeksforgeeks.org/problems/minimal-cost/1)  |
-| 5 | [Unique Paths](DynamicProgramming/UniquePaths.java)                       | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/unique-path)              |
-| 6 | [House Robber](DynamicProgramming/UniquePaths.java)                       | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/house-robber)             |
-| 7 | [House Robber 2](DynamicProgramming/UniquePaths.java)                     | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/house-robber-ii)          |
+|    | Problem                                                                   | Difficulty                                | Notes | LeetCode                                                        |
+|----|---------------------------------------------------------------------------|-------------------------------------------|-------|-----------------------------------------------------------------|
+| 1  | [Climbing Stairs](DynamicProgramming/ClimbingStairs.java)                 | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/climbing-stairs)           |
+| 2  | [Min Cost Climbing Stairs](DynamicProgramming/MinCostClimbingStairs.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/min-cost-climbing-stairs)  |
+| 3  | [Frog Jump Stairs](DynamicProgramming/FrogJumpStairs.java)                | <span style="color:green;">Easy</span>    |       | [Link](https://www.geeksforgeeks.org/problems/geek-jump/1)      |
+| 4  | [Frog With K Jumps](DynamicProgramming/FrogWithKJumps.java)               | <span style="color:yellow;">Medium</span> |       | [Link](https://www.geeksforgeeks.org/problems/minimal-cost/1)   |
+| 5  | [House Robber](DynamicProgramming/UniquePaths.java)                       | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/house-robber)              |
+| 6  | [House Robber 2](DynamicProgramming/UniquePaths.java)                     | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/house-robber-ii)           |
+| 7  | [Ninja Training](DynamicProgramming/NinjaTraining.java)                   | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://www.geeksforgeeks.org/problems/geeks-training/1) |
+| 8  | [Unique Paths](DynamicProgramming/UniquePaths.java)                       | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/unique-paths)              |
+| 9  | [Unique Paths 2](DynamicProgramming/UniquePaths2.java)                    | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/unique-paths-ii)           |
+| 10 | [Minimum Path Sum](DynamicProgramming/MinPathSum.java)                    | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/minimum-path-sum)          |
+
+
+### **Trees**
+
+|   | Problem                                                       | Difficulty                                | Notes | LeetCode                                                                   |
+|---|---------------------------------------------------------------|-------------------------------------------|-------|----------------------------------------------------------------------------|
+| 1 | [Build Tree from Description](Trees/TreeFromDescription.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions) |
+

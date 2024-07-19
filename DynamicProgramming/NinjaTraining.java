@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/geeks-training/1
 public class NinjaTraining {
     public static int maximumPoints(int[][] points, int n) {
         Integer[][] dp = new Integer[n][3];
