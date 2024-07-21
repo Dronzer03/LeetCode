@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
 // https://www.codingninjas.com/studio/problems/subset-sum-equal-to-k_1550954
 public class SubsetSumK {
     public static boolean subsetSumToK(int n, int k, int arr[]){

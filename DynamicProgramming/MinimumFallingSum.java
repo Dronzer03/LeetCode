@@ -27,7 +27,36 @@ public class MinimumFallingSum {
     }
 
     public static void main(String[] args) {
-        int[][] matrix = {{2,1,3},{6,5,4},{7,8,9}};
+        int[][] matrix = {{2, 1, 3}, {6, 5, 4}, {7, 8, 9}};
         System.out.println(minFallingPathSum(matrix));
+    }
+
+    public int minFallingPathSumTabulated(int[][] matrix) {
+        int[][] dp = new int[matrix.length][matrix[0].length];
+        int min = Integer.MAX_VALUE;
+
+        for (int row = 0; row < matrix.length; row++) {
+            for (int col = 0; col < matrix[0].length; col++) {
+                if (row == 0) {
+                    dp[row][col] = matrix[row][col];
+
+                } else {
+                    int res = Integer.MAX_VALUE;
+                    if (col - 1 >= 0) {
+                        res = Math.min(res, dp[row - 1][col - 1]);
+                    }
+                    res = Math.min(res, dp[row - 1][col]);
+                    if (col + 1 < matrix[0].length) {
+                        res = Math.min(res, dp[row - 1][col + 1]);
+                    }
+                    dp[row][col] = res + matrix[row][col];
+                }
+
+                if (row == matrix.length - 1)
+                    min = Math.min(min, dp[row][col]);
+            }
+        }
+
+        return min;
     }
 }
