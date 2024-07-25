@@ -2,6 +2,8 @@ package DynamicProgramming;
 
 // Rod Cutting Problem - Coding Ninjas
 // https://www.codingninjas.com/studio/problems/rod-cutting-problem_800284
+// GFG
+// https://www.geeksforgeeks.org/problems/rod-cutting0840/1
 public class RodCutting {
     public static int cutRod(int price[], int n) {
         // Write your code here.
@@ -27,6 +29,25 @@ public class RodCutting {
         }
 
         return dp[index][n] = Math.max(take, notTake);
+    }
+
+    public int cutRodSimple(int price[], int n) {
+        //code here
+        Integer[][] dp = new Integer[n + 1][n + 1];
+        return findMaxPrice(price, n - 1, 1, dp);
+    }
+
+    private int findMaxPrice(int[] price, int n, int currLen, Integer[][] dp) {
+        if (n == 0)
+            return price[currLen - 1];
+
+        if (dp[n][currLen] != null)
+            return dp[n][currLen];
+
+        return dp[n][currLen] = Math.max(
+                price[currLen - 1] + findMaxPrice(price, n - 1, 1, dp),
+                findMaxPrice(price, n - 1, currLen + 1, dp)
+        );
     }
 
     public static int cutRodTabulated(int[] price, int n) {

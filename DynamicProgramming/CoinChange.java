@@ -2,6 +2,8 @@ package DynamicProgramming;
 
 import java.util.Arrays;
 
+// LC - 322
+// https://leetcode.com/problems/coin-change
 public class CoinChange {
     public static int coinChange(int[] coins, int amount) {
         Integer[][] dp = new Integer[amount+1][coins.length];

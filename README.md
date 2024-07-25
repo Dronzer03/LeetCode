@@ -63,7 +63,6 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 58. Range Sum BST - _**Easy**_
 59. Cherry Pickup 2 - _**Hard**_
 60. Leaf Similar Trees - _**Easy**_
-61. Subset Sum = K - _**Medium**_ (CodingNinjas)
 62. Partition Equal Subset Sum - _**Medium**_
 63. Maximum Diff Between Node and Ancestors - _**Medium**_
 64. Determine if Halves are Alike - _**Easy**_
@@ -272,6 +271,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 5 | [Merge Intervals](Arrays/Sorting/MergeIntervals.java)                                   | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/merge-intervals)                               |
 | 6 | [First Player with K Wins](Arrays/Sorting/MergeIntervals.java)                          | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row) |
 | 7 | [Find Valid Matrix with Given Row and Col Sum](Arrays/Matrix/MatrixGivenRowColSum.java) | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums)   |
+| 8 | [Sort Jumbled](Arrays/Sorting/SortJumbled.java)                                         | <span style="color:yellow;">Medium</span> |                    | [Link](https://leetcode.com/problems/sort-the-jumbled-numbers)                      |
 
 
 ### **Two Pointers**
@@ -307,18 +307,19 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Hash Table**
 
-|    | Problem                                              | Difficulty                                | Notes          | LeetCode                                                     |
-|----|------------------------------------------------------|-------------------------------------------|----------------|--------------------------------------------------------------|
-| 1  | [Majority Element](HashTable/MajorityElement.java)   | <span style="color:green;">Easy</span>    | Moore's        | [Link](https://leetcode.com/problems/majority-element)       |
-| 2  | [Majority Element 2](HashTable/MajorityElement.java) | <span style="color:yellow;">Medium</span> | Moore's        | [Link](https://leetcode.com/problems/majority-element-ii)    |
-| 3  | [Roman To Int](HashTable/RomanToInt.java)            | <span style="color:green;">Easy</span>    | Check Adjacent | [Link](https://leetcode.com/problems/roman-to-integer)       |
-| 4  | [Int To Roman](HashTable/IntToRoman.java)            | <span style="color:yellow;">Medium</span> | Go through Map | [Link](https://leetcode.com/problems/integer-to-roman)       |
-| 5  | [Ransom Note](HashTable/RansomNote.java)             | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/ransom-note)            |
-| 6  | [Isomorphic String](HashTable/IsIsomorphic.java)     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/isomorphic-strings)     |
-| 7  | [Word Pattern](HashTable/WordPattern.java)           | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/word-pattern)           |
-| 8  | [Valid Anagram](HashTable/isValidAnagram.java)       | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/valid-anagram)          |
-| 9  | [Common Characters](HashTable/CommonCharacters.java) | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/find-common-characters) |
-| 10 | [Hand of Straights](HashTable/HandOfStraights.java)  | <span style="color:yellow;">Medium</span> |                | [Link](https://leetcode.com/problems/hand-of-straights)      |
+|    | Problem                                                   | Difficulty                                | Notes          | LeetCode                                                     |
+|----|-----------------------------------------------------------|-------------------------------------------|----------------|--------------------------------------------------------------|
+| 1  | [Majority Element](HashTable/MajorityElement.java)        | <span style="color:green;">Easy</span>    | Moore's        | [Link](https://leetcode.com/problems/majority-element)       |
+| 2  | [Majority Element 2](HashTable/MajorityElement.java)      | <span style="color:yellow;">Medium</span> | Moore's        | [Link](https://leetcode.com/problems/majority-element-ii)    |
+| 3  | [Roman To Int](HashTable/RomanToInt.java)                 | <span style="color:green;">Easy</span>    | Check Adjacent | [Link](https://leetcode.com/problems/roman-to-integer)       |
+| 4  | [Int To Roman](HashTable/IntToRoman.java)                 | <span style="color:yellow;">Medium</span> | Go through Map | [Link](https://leetcode.com/problems/integer-to-roman)       |
+| 5  | [Ransom Note](HashTable/RansomNote.java)                  | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/ransom-note)            |
+| 6  | [Isomorphic String](HashTable/IsIsomorphic.java)          | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/isomorphic-strings)     |
+| 7  | [Word Pattern](HashTable/WordPattern.java)                | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/word-pattern)           |
+| 8  | [Valid Anagram](HashTable/isValidAnagram.java)            | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/valid-anagram)          |
+| 9  | [Common Characters](HashTable/CommonCharacters.java)      | <span style="color:green;">Easy</span>    | Frequency Map  | [Link](https://leetcode.com/problems/find-common-characters) |
+| 10 | [Hand of Straights](HashTable/HandOfStraights.java)       | <span style="color:yellow;">Medium</span> |                | [Link](https://leetcode.com/problems/hand-of-straights)      |
+| 11 | [Frequency Sort Integers](HashTable/HandOfStraights.java) | <span style="color:yellow;">Medium</span> |                | [Link](https://leetcode.com/problems/hand-of-straights)      |
 
 ### **Hash Set**
 
@@ -349,24 +350,32 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Dynamic Programming**
 
-|    | Problem                                                                   | Difficulty                                | Notes | LeetCode                                                                       |
-|----|---------------------------------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------------------|
-| 1  | [Climbing Stairs](DynamicProgramming/ClimbingStairs.java)                 | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/climbing-stairs)                          |
-| 2  | [Min Cost Climbing Stairs](DynamicProgramming/MinCostClimbingStairs.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/min-cost-climbing-stairs)                 |
-| 3  | [Frog Jump Stairs](DynamicProgramming/FrogJumpStairs.java)                | <span style="color:green;">Easy</span>    |       | [Link](https://www.geeksforgeeks.org/problems/geek-jump/1)                     |
-| 4  | [Frog With K Jumps](DynamicProgramming/FrogWithKJumps.java)               | <span style="color:yellow;">Medium</span> |       | [Link](https://www.geeksforgeeks.org/problems/minimal-cost/1)                  |
-| 5  | [Jump Game](DynamicProgramming/JumpGame.java)                             | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/jump-game)                                |
-| 6  | [Jump Game 2](DynamicProgramming/JumpGame2.java)                          | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/jump-game-ii)                             |
-| 7  | [House Robber](DynamicProgramming/UniquePaths.java)                       | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/house-robber)                             |
-| 8  | [House Robber 2](DynamicProgramming/UniquePaths.java)                     | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/house-robber-ii)                          |
-| 9  | [Ninja Training](DynamicProgramming/NinjaTraining.java)                   | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://www.geeksforgeeks.org/problems/geeks-training/1)                |
-| 10 | [Unique Paths](DynamicProgramming/UniquePaths.java)                       | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/unique-paths)                             |
-| 11 | [Unique Paths 2](DynamicProgramming/UniquePaths2.java)                    | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/unique-paths-ii)                          |
-| 12 | [Minimum Path Sum](DynamicProgramming/MinPathSum.java)                    | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/minimum-path-sum)                         |
-| 13 | [Minimum Path in Triangular Grid](DynamicProgramming/Triangle.java)       | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/triangle)                                 |
-| 14 | [Minimum Falling Path Sum](DynamicProgramming/MinimumFallingSum.java)     | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://leetcode.com/problems/minimum-falling-path-sum)                 |
-| 15 | [Cherry Pickup 2](DynamicProgramming/CherryPickup2.java)                  | <span style="color:red;">Hard</span>      | <br/> | [Link](https://leetcode.com/problems/cherry-pickup-ii)                         |
-| 16 | [Subset Sum](DynamicProgramming/SubsetSumK.java)                          | <span style="color:yellow;">Medium</span> | <br/> | [Link](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) |
+|    | Problem                                                                       | Difficulty                                | Notes                | LeetCode                                                                           |
+|----|-------------------------------------------------------------------------------|-------------------------------------------|----------------------|------------------------------------------------------------------------------------|
+| 1  | [Climbing Stairs](DynamicProgramming/ClimbingStairs.java)                     | <span style="color:green;">Easy</span>    |                      | [Link](https://leetcode.com/problems/climbing-stairs)                              |
+| 2  | [Min Cost Climbing Stairs](DynamicProgramming/MinCostClimbingStairs.java)     | <span style="color:green;">Easy</span>    |                      | [Link](https://leetcode.com/problems/min-cost-climbing-stairs)                     |
+| 3  | [Frog Jump Stairs](DynamicProgramming/FrogJumpStairs.java)                    | <span style="color:green;">Easy</span>    |                      | [Link](https://www.geeksforgeeks.org/problems/geek-jump/1)                         |
+| 4  | [Frog With K Jumps](DynamicProgramming/FrogWithKJumps.java)                   | <span style="color:yellow;">Medium</span> |                      | [Link](https://www.geeksforgeeks.org/problems/minimal-cost/1)                      |
+| 5  | [Jump Game](DynamicProgramming/JumpGame.java)                                 | <span style="color:yellow;">Medium</span> |                      | [Link](https://leetcode.com/problems/jump-game)                                    |
+| 6  | [Jump Game 2](DynamicProgramming/JumpGame2.java)                              | <span style="color:yellow;">Medium</span> |                      | [Link](https://leetcode.com/problems/jump-game-ii)                                 |
+| 7  | [House Robber](DynamicProgramming/UniquePaths.java)                           | <span style="color:yellow;">Medium</span> |                      | [Link](https://leetcode.com/problems/house-robber)                                 |
+| 8  | [House Robber 2](DynamicProgramming/UniquePaths.java)                         | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://leetcode.com/problems/house-robber-ii)                              |
+| 9  | [Ninja Training](DynamicProgramming/NinjaTraining.java)                       | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://www.geeksforgeeks.org/problems/geeks-training/1)                    |
+| 10 | [Unique Paths](DynamicProgramming/UniquePaths.java)                           | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://leetcode.com/problems/unique-paths)                                 |
+| 11 | [Unique Paths 2](DynamicProgramming/UniquePaths2.java)                        | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://leetcode.com/problems/unique-paths-ii)                              |
+| 12 | [Minimum Path Sum](DynamicProgramming/MinPathSum.java)                        | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://leetcode.com/problems/minimum-path-sum)                             |
+| 13 | [Minimum Path in Triangular Grid](DynamicProgramming/Triangle.java)           | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://leetcode.com/problems/triangle)                                     |
+| 14 | [Minimum Falling Path Sum](DynamicProgramming/MinimumFallingSum.java)         | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://leetcode.com/problems/minimum-falling-path-sum)                     |
+| 15 | [Cherry Pickup 2](DynamicProgramming/CherryPickup2.java)                      | <span style="color:red;">Hard</span>      | <br/>                | [Link](https://leetcode.com/problems/cherry-pickup-ii)                             |
+| 16 | [Subset Sum](DynamicProgramming/SubsetSumK.java)                              | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1)     |
+| 17 | [Unbounded Knapsack](DynamicProgramming/Knapsack.java)                        | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) |
+| 18 | [Rod Cutting](DynamicProgramming/RodCutting.java)                             | <span style="color:yellow;">Medium</span> | <br/>                | [Link](https://www.geeksforgeeks.org/problems/rod-cutting0840/1)                   |
+| 19 | [Partition Equal Subset Sum](DynamicProgramming/PartitionEqualSubsetSum.java) | <span style="color:yellow;">Medium</span> | Same as Subset Sun K | [Link](https://leetcode.com/problems/partition-equal-subset-sum)                   |
+| 20 | [Perfect Sum](DynamicProgramming/PerfectSum.java)                             | <span style="color:yellow;">Medium</span> |                      | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1)           |
+| 21 | [Partition with Given Diff](DynamicProgramming/PartitionWithGivenDiff.java)   | <span style="color:yellow;">Medium</span> |                      | [Link](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1)  |
+| 22 | [Coin Change](DynamicProgramming/CoinChange.java)                             | <span style="color:yellow;">Medium</span> |                      | [Link](https://leetcode.com/problems/coin-change)                                  |
+| 23 | [Coin Change 2](DynamicProgramming/CoinChange2.java)                          | <span style="color:yellow;">Medium</span> |                      | [Link](https://leetcode.com/problems/coin-change-ii)                               |
+| 24 | [Target Sum](DynamicProgramming/TargetSum.java)                               | <span style="color:yellow;">Medium</span> |                      | [Link](https://leetcode.com/problems/target-sum)                                   |
 
 
 ### **Trees**
@@ -376,5 +385,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 1 | [Build Tree from Description](Trees/TreeFromDescription.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions) |
 
 
-### **Total: 67**
-
+### **Total: 79**
