@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
 // Coding Ninjas
 // https://www.codingninjas.com/studio/problems/longest-common-substring_1235207
 public class LongestCommonSubstring {

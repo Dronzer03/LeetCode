@@ -1,28 +1,29 @@
 package DynamicProgramming;
 
+// LC - 115
+// https://leetcode.com/problems/distinct-subsequences
 public class DistinctSubSequences {
     public static int numDistinct(String s, String t) {
-        Integer[][] dp = new Integer[s.length()][t.length()+1];
-        return distinctOccurances(s, t, 0, 0, dp);
+        Integer[][] dp = new Integer[s.length()][t.length()];
+        return distinctCount(s, t, 0, 0, dp);
     }
 
-    private static int distinctOccurances(String s, String t, int index1, int index2, Integer[][] dp) {
-        if (index1 == s.length()) {
-            if (index2 == t.length())
-                return 1;
+    private static int distinctCount(String s, String t, int index1, int index2, Integer[][] dp) {
+        if (index2 == t.length())
+            return 1;
+
+        if (index1 == s.length())
             return 0;
-        }
 
         if (dp[index1][index2] != null)
             return dp[index1][index2];
 
         int match = 0;
-        if (index2 < t.length() && s.charAt(index1) == t.charAt(index2)) {
-            match = distinctOccurances(s, t, index1 + 1, index2 + 1, dp);
-        }
-        int skip = distinctOccurances(s, t, index1 + 1, index2, dp);
+        if (s.charAt(index1) == t.charAt(index2))
+            match += distinctCount(s, t, index1 + 1, index2 + 1, dp);
 
-        return dp[index1][index2] = match + skip;
+        match += distinctCount(s, t, index1 + 1, index2, dp);
+        return dp[index1][index2] = match;
     }
 
     public static int numDistinctTabulated(String s, String t) {

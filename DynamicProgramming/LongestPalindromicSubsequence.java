@@ -2,7 +2,7 @@ package DynamicProgramming;
 
 // LC - 516
 // https://leetcode.com/problems/longest-palindromic-subsequence
-public class LonestPalindromicSubsequence {
+public class LongestPalindromicSubsequence {
     public int longestPalindromeSubseq(String text1) {
         String text2 = new StringBuilder(text1).reverse().toString();
         int[][] dp = new int[text1.length() + 1][text2.length() + 1];
