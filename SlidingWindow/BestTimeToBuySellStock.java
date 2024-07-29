@@ -2,6 +2,8 @@ package SlidingWindow;
 
 // LC - 121
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+// LC - 122
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
 public class BestTimeToBuySellStock {
     public int maxProfit(int[] prices) {
         int left = 0;

@@ -27,209 +27,205 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 22. Permutation Sequence - Recursion - _**Hard**_
 23. Rat in a maze - Recursion - _**Hard**_
 24. Next Greater Element 1 - _**Medium**_
-25. Best Time to Buy Sell Stock I - Sliding Window - _**Easy**_
-26. Best Time to Buy Sell Stock II - _**Medium**_
-27. Max Sum Distinct SubArray - _**Medium**_
-28. Path Crossing - _**Easy**_
-29. Min Operation for Altering String - _**Easy**_
-30. Decoding Ways - DP - _**Medium**_
-31. Num of Dice Rolls to Target - DP - _**Medium**_
-32. Reverse Polish Notation - Stack - _**Medium**_
-33. Word Break - DP - _**Medium**_
-34. Min Time to make rope colourful - _**Medium**_
-35. Binary Search - _**Easy**_
-36. String Compression 2 - _**Hard**_
-37. Telephone Letter Combinations - _**Medium**_
-38. Palindrome Number - _**Easy**_
-39. Min Difficulty of Job Scheduling - _**Hard**_
-40. Word Search - _**Medium**_
-41. Redistribute Characters - _**Easy**_
-42. Largest Substring Between Equal Characters - _**Easy**_
-43. Assign Cookies - _**Easy**_
-44. Convert an Array to 2D Array - _**Medium**_
-45. Search Insert Position - _**Easy**_
-46. Permutations II - _**Medium**_
-47. Number of Laser Beams in Bank - _**Medium**_
-48. Min No of Operations to make Array Empty - _**Medium**_
-49. Maximum Pairs in an Array - _**Easy**_
-50. Max Sum of Pairs with equal sum of digits - _**Medium**_
-51. Maximum Sum Path Matrix variable starting point - _**Medium**_
-52. Longest Increasing Subsequence - _**Medium**_
-53. Bitwise OR Trailing Zeros - _**Easy**_
-54. Max Profit in Job Scheduling - _**Hard**_
-55. Arithmetic Slices - _**Hard**_
-56. Range Sum BST - _**Easy**_
-57. Leaf Similar Trees - _**Easy**_
-58. Maximum Diff Between Node and Ancestors - _**Medium**_
-59. Determine if Halves are Alike - _**Easy**_
-60. 0-1 Knapsack - _**Medium**_ (CodingNinjas)
-61. Min Steps to Make String Anagrams - _**Medium**_
-62. Rod Cutting Problem - _**Medium**_
-63. Close Strings - _**Medium**_
-64. Players with 0 or 1 Losses - _**Medium**_
-65. Convert String A to B - _**Medium**_ (Coding Ninjas)
-66. Minimum Moves to Convert String - _**Easy**_
-67. Permutations in String - _**Medium**_
-68. Maximum length of repeated SubArray - _**Medium**_
-69. Shortest Common SuperSequence - _**Hard**_
-70. Distinct SubSequences - _**Hard**_
-71. Edit Distance - _**Medium**_
-72. Moving Totals - _**Easy**_ (Interview Question)
-73. Unique Occurrences - _**Easy**_
-74. Best Time to Buy And Sell Stock - _**Hard**_
-75. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
-76. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
-77. Largest Divisible Subset - _**Medium**_
-78. Longest String Chain - _**Medium**_
-79. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
-80. Min cost to cut stick - _**Hard**_
-81. Burst Balloons - _**Hard**_
-82. Combination Sum 4 - _**Medium**_
-83. Odd Even positioned LL - _**Medium**_
-84. Reverse a DLL - _**Easy**_ (CodingNinjas)
-85. Add Two Numbers - _**Medium**_
-86. Max Len Concat String with Unique Characters - _**Medium**_
-87. Pseudo Palindromic Path in Tree - _**Medium**_
-88. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
-89. Remove Nth Node from End of LL - _**Medium**_
-90. Palindrome Linked List - _**Easy**_
-91. Out of Boundary Paths - _**Medium**_
-92. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
-93. Intersection of two LL - _**Easy**_
-94. Detect Cycle - _**Easy**_
-95. Detect Cycle 2 - _**Medium**_
-96. Delete Middle of LL - _**Medium**_
-97. Length of LL Cycle - _**Easy**_
-98. Remove All Occurrences of Key SLL - _**Easy**_
-99. Remove All Occurrences of Key DLL - _**Easy**_
-100. Delete Duplicates from Sorted LL - _**Easy**_
-101. Reverse Nodes in Group of K - _**Hard**_
-102. Rotate LL - _**Medium**_
-103. Merge Two Sorted LL - _**Easy**_
-104. Merge K Sorted LL - _**Hard**_
-105. Sort List - _**Medium**_
-106. Copy list with Random Node - _**Medium**_
-107. Design Browser History - _**Medium**_
-108. Swap Nodes in Pairs - _**Medium**_
-109. Partition List - _**Medium**_
-110. Reverse Linked List 2 - _**Medium**_
-111. Delete N nodes after M Nodes - _**Medium**_
-112. Delete Node without Head pointer - _**Medium**_
-113. Queue using LL (Design Circular Queue) - _**Medium**_
-114. Queue using Stack - _**Easy**_
-115. Stack using LL - _**Medium**_
-116. Split LL in Parts - _**Medium**_
-117. Daily Temperatures - _**Medium**_
-118. Swap Kth Node from Beginning with end - _**Medium**_
-119. Rotate DLL - _**Medium**_ (CodingNinjas)
-120. Divide Array into Arrays with Max Diff K - _**Medium**_
-121. Sequential Digits - _**Medium**_
-122. Construct LL from Matrix - _**Medium**_
-123. Partition Array for Max Sum - _**Medium**_
-124. Minimum Window Substring - _**Hard**_
-125. Reorder List - _**Medium**_
-126. First Unique Character in String - _**Easy**_
-127. LRU Cache - _**Medium**_
-128. Random Node LL - _**Medium**_
-129. Circular Dequeue using LL - _**Medium**_
-130. Inorder Traversal - _**Easy**_
-131. Preorder Traversal - _**Easy**_
-132. Postorder Traversal - _**Easy**_
-133. Level Order Traversal - _**Medium**_
-134. Frequency Sort - _**Medium**_
-135. Perfect Squares - _**Medium**_
-136. Max Depth of Binary Tree - _**Easy**_
-137. Palindromic Substrings - _**Medium**_
-138. Balanced Binary Tree - _**Easy**_
-139. Diameter of Tree - _**Easy**_
-140. Max Path Sum Tree - _**Hard**_
-141. Same Tree - _**Easy**_
-142. Level Order Zig Zag - _**Medium**_
-143. Boundary Traversal - _**Hard**_
-144. Vertical Order Traversal - _**Hard**_
-145. Top View of Binary Tree - _**Medium**_
-146. Bottom View of Binary Tree - _**Medium**_
-147. First Palindrome - _**Medium**_
-148. Right View - _**Medium**_
-149. Left View - _**Medium**_
-150. Symmetric Trees - _**Easy**_
-151. Root to Leaf - _**Easy**_
-152. Lowest Common Ancestor - _**Medium**_
-153. Lowest Common Ancestor BST - _**Medium**_
-154. Rearrange by Sign - _**Medium**_
-155. Polygon with Largest Perimeter - _**Medium**_
-156. Children Sum Property - _**Medium**_
-157. Maximum Width of Tree - _**Medium**_
-158. Nodes at Distance K - _**Medium**_
-159. Time to Burn the Tree - _**Hard**_
-160. Count Nodes in Complete BT - _**Easy**_
-161. Least Unique Numbers in Array - _**Medium**_
-162. Construct Tree from Inorder and Preorder - _**Medium**_
-163. Construct Tree from Inorder and Postorder - _**Medium**_
-164. Furthest Building you can reach - _**Medium**_
-165. Serialize and Deserialize Tree - _**Hard**_
-166. Flatten Tree into LL - _**Medium**_
-167. Search in BST - _**Easy**_
-168. Ceil in BST - _**Easy**_
-169. Floor in BST - _**Easy**_
-170. Insert Node in BST - _**Medium**_
-171. Delete Node in BST - _**Medium**_
-172. Kth Smallest Node in BST - _**Medium**_
-173. Check if Valid BST - _**Medium**_
-174. Construct BST from Preorder - _**Medium**_
-175. Inorder Successor - _**Medium**_
-176. BST Iterator - _**Medium**_
-177. Two Sum BST - _**Easy**_ (In Actual, A Medium)
-178. Recover BST - _**Medium**_
-179. BFS Traversal Graph - _**Easy**_
-180. DFS Traversal Graph - _**Easy**_
-181. Number of Provinces - _**Medium**_
-182. Number of Islands - _**Medium**_
-183. Flood Fill - _**Easy**_
-184. Rotting Oranges - _**Medium**_
-185. Bitwise AND in Range - _**Medium**_
-186. Detect Cycle in Undirected Graph - _**Medium**_
-187. 01 Matrix - _**Medium**_
-188. Surrounded Regions - _**Medium**_
-189. Number of Enclaves - _**Medium**_
-190. Distinct Islands - _**Medium**_
-191. Bipartite Graph - _**Medium**_
-192. Detect Cycle in Directed Graph - _**Medium**_
-193. Eventually Safe States - _**Medium**_
-194. Topological Sort - _**Medium**_
-195. Topological Sort - Kahn's Algo - _**Medium**_
-196. Town Judge - _**Easy**_
-197. Course Schedule - _**Medium**_
-198. Course Schedule 2 - _**Medium**_
-199. Alien Dictionary - _**Medium**_
-200. Shortest Path in DAG - _**Medium**_
-201. Shortest Path in Undirected Graph - _**Medium**_
-202. Cheapest Flight with K stops - _**Medium**_
-203. Find People With Secret - _**Hard**_
-204. Word Ladder - _**Hard**_
-205. Word Ladder 2 - _**Hard**_
-206. Dijkstra Using PQ - _**Medium**_
-207. Shortest Path in Binary Maze - _**Medium**_
-208. Path with Minimum Effort - _**Medium**_
-209. Minimum Multiplication to reach end - _**Medium**_
-210. Number of Ways to reach Destination - _**Medium**_
-211. Bellman Ford Algorithm - _**Medium**_
-212. Floyd Warshall Algorithm - _**Medium**_
-213. City With Smallest Number of Neighbours - _**Medium**_
-214. Network Delay Time - _**Medium**_
-215. Minimum Spanning Tree - _**Medium**_
-216. Disjoint Set - Algorithm
-217. Kruskal Algorithm - _**Medium**_
-218. Make Network Connected - _**Medium**_
-219. Bottom Left Node in Tree - _**Medium**_
-220. Even Odd Tree - _**Medium**_
-221. Maximum Odd Binary Number - _**Easy**_
-222. Squares of Sorted Array - _**Easy**_
-223. Bag of Tokens - _**Medium**_
-224. Min Len of String after Deleting Similar Ends - _**Medium**_
-225. Max Frequency Elements - _**Easy**_
-226. Minimum Common Value - _**Easy**_
-227. Minimum Arrows to Burst Balloons - _**Medium**_
+25. Max Sum Distinct SubArray - _**Medium**_
+26. Path Crossing - _**Easy**_
+27. Min Operation for Altering String - _**Easy**_
+28. Decoding Ways - DP - _**Medium**_
+29. Num of Dice Rolls to Target - DP - _**Medium**_
+30. Reverse Polish Notation - Stack - _**Medium**_
+31. Word Break - DP - _**Medium**_
+32. Min Time to make rope colourful - _**Medium**_
+33. Binary Search - _**Easy**_
+34. String Compression 2 - _**Hard**_
+35. Telephone Letter Combinations - _**Medium**_
+36. Palindrome Number - _**Easy**_
+37. Min Difficulty of Job Scheduling - _**Hard**_
+38. Word Search - _**Medium**_
+39. Redistribute Characters - _**Easy**_
+40. Largest Substring Between Equal Characters - _**Easy**_
+41. Assign Cookies - _**Easy**_
+42. Convert an Array to 2D Array - _**Medium**_
+43. Search Insert Position - _**Easy**_
+44. Permutations II - _**Medium**_
+45. Number of Laser Beams in Bank - _**Medium**_
+46. Min No of Operations to make Array Empty - _**Medium**_
+47. Maximum Pairs in an Array - _**Easy**_
+48. Max Sum of Pairs with equal sum of digits - _**Medium**_
+49. Maximum Sum Path Matrix variable starting point - _**Medium**_
+50. Longest Increasing Subsequence - _**Medium**_
+51. Bitwise OR Trailing Zeros - _**Easy**_
+52. Max Profit in Job Scheduling - _**Hard**_
+53. Arithmetic Slices - _**Hard**_
+54. Range Sum BST - _**Easy**_
+55. Leaf Similar Trees - _**Easy**_
+56. Maximum Diff Between Node and Ancestors - _**Medium**_
+57. Determine if Halves are Alike - _**Easy**_
+58. 0-1 Knapsack - _**Medium**_ (CodingNinjas)
+59. Min Steps to Make String Anagrams - _**Medium**_
+60. Rod Cutting Problem - _**Medium**_
+61. Close Strings - _**Medium**_
+62. Players with 0 or 1 Losses - _**Medium**_
+63. Convert String A to B - _**Medium**_ (Coding Ninjas)
+64. Minimum Moves to Convert String - _**Easy**_
+65. Permutations in String - _**Medium**_
+66. Maximum length of repeated SubArray - _**Medium**_
+67. Shortest Common SuperSequence - _**Hard**_
+68. Moving Totals - _**Easy**_ (Interview Question)
+69. Unique Occurrences - _**Easy**_
+70. Best Time to Buy And Sell Stock - _**Hard**_
+71. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
+72. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
+73. Largest Divisible Subset - _**Medium**_
+74. Longest String Chain - _**Medium**_
+75. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
+76. Min cost to cut stick - _**Hard**_
+77. Burst Balloons - _**Hard**_
+78. Combination Sum 4 - _**Medium**_
+79. Odd Even positioned LL - _**Medium**_
+80. Reverse a DLL - _**Easy**_ (CodingNinjas)
+81. Add Two Numbers - _**Medium**_
+82. Max Len Concat String with Unique Characters - _**Medium**_
+83. Pseudo Palindromic Path in Tree - _**Medium**_
+84. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
+85. Remove Nth Node from End of LL - _**Medium**_
+86. Palindrome Linked List - _**Easy**_
+87. Out of Boundary Paths - _**Medium**_
+88. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
+89. Intersection of two LL - _**Easy**_
+90. Detect Cycle - _**Easy**_
+91. Detect Cycle 2 - _**Medium**_
+92. Delete Middle of LL - _**Medium**_
+93. Length of LL Cycle - _**Easy**_
+94. Remove All Occurrences of Key SLL - _**Easy**_
+95. Remove All Occurrences of Key DLL - _**Easy**_
+96. Delete Duplicates from Sorted LL - _**Easy**_
+97. Reverse Nodes in Group of K - _**Hard**_
+98. Rotate LL - _**Medium**_
+99. Merge Two Sorted LL - _**Easy**_
+100. Merge K Sorted LL - _**Hard**_
+101. Sort List - _**Medium**_
+102. Copy list with Random Node - _**Medium**_
+103. Design Browser History - _**Medium**_
+104. Swap Nodes in Pairs - _**Medium**_
+105. Partition List - _**Medium**_
+106. Reverse Linked List 2 - _**Medium**_
+107. Delete N nodes after M Nodes - _**Medium**_
+108. Delete Node without Head pointer - _**Medium**_
+109. Queue using LL (Design Circular Queue) - _**Medium**_
+110. Queue using Stack - _**Easy**_
+111. Stack using LL - _**Medium**_
+112. Split LL in Parts - _**Medium**_
+113. Daily Temperatures - _**Medium**_
+114. Swap Kth Node from Beginning with end - _**Medium**_
+115. Rotate DLL - _**Medium**_ (CodingNinjas)
+116. Divide Array into Arrays with Max Diff K - _**Medium**_
+117. Sequential Digits - _**Medium**_
+118. Construct LL from Matrix - _**Medium**_
+119. Partition Array for Max Sum - _**Medium**_
+120. Minimum Window Substring - _**Hard**_
+121. Reorder List - _**Medium**_
+122. First Unique Character in String - _**Easy**_
+123. LRU Cache - _**Medium**_
+124. Random Node LL - _**Medium**_
+125. Circular Dequeue using LL - _**Medium**_
+126. Inorder Traversal - _**Easy**_
+127. Preorder Traversal - _**Easy**_
+128. Postorder Traversal - _**Easy**_
+129. Level Order Traversal - _**Medium**_
+130. Frequency Sort - _**Medium**_
+131. Perfect Squares - _**Medium**_
+132. Max Depth of Binary Tree - _**Easy**_
+133. Palindromic Substrings - _**Medium**_
+134. Balanced Binary Tree - _**Easy**_
+135. Diameter of Tree - _**Easy**_
+136. Max Path Sum Tree - _**Hard**_
+137. Same Tree - _**Easy**_
+138. Level Order Zig Zag - _**Medium**_
+139. Boundary Traversal - _**Hard**_
+140. Vertical Order Traversal - _**Hard**_
+141. Top View of Binary Tree - _**Medium**_
+142. Bottom View of Binary Tree - _**Medium**_
+143. First Palindrome - _**Medium**_
+144. Right View - _**Medium**_
+145. Left View - _**Medium**_
+146. Symmetric Trees - _**Easy**_
+147. Root to Leaf - _**Easy**_
+148. Lowest Common Ancestor - _**Medium**_
+149. Lowest Common Ancestor BST - _**Medium**_
+150. Rearrange by Sign - _**Medium**_
+151. Polygon with Largest Perimeter - _**Medium**_
+152. Children Sum Property - _**Medium**_
+153. Maximum Width of Tree - _**Medium**_
+154. Nodes at Distance K - _**Medium**_
+155. Time to Burn the Tree - _**Hard**_
+156. Count Nodes in Complete BT - _**Easy**_
+157. Least Unique Numbers in Array - _**Medium**_
+158. Construct Tree from Inorder and Preorder - _**Medium**_
+159. Construct Tree from Inorder and Postorder - _**Medium**_
+160. Furthest Building you can reach - _**Medium**_
+161. Serialize and Deserialize Tree - _**Hard**_
+162. Flatten Tree into LL - _**Medium**_
+163. Search in BST - _**Easy**_
+164. Ceil in BST - _**Easy**_
+165. Floor in BST - _**Easy**_
+166. Insert Node in BST - _**Medium**_
+167. Delete Node in BST - _**Medium**_
+168. Kth Smallest Node in BST - _**Medium**_
+169. Check if Valid BST - _**Medium**_
+170. Construct BST from Preorder - _**Medium**_
+171. Inorder Successor - _**Medium**_
+172. BST Iterator - _**Medium**_
+173. Two Sum BST - _**Easy**_ (In Actual, A Medium)
+174. Recover BST - _**Medium**_
+175. BFS Traversal Graph - _**Easy**_
+176. DFS Traversal Graph - _**Easy**_
+177. Number of Provinces - _**Medium**_
+178. Number of Islands - _**Medium**_
+179. Flood Fill - _**Easy**_
+180. Rotting Oranges - _**Medium**_
+181. Bitwise AND in Range - _**Medium**_
+182. Detect Cycle in Undirected Graph - _**Medium**_
+183. 01 Matrix - _**Medium**_
+184. Surrounded Regions - _**Medium**_
+185. Number of Enclaves - _**Medium**_
+186. Distinct Islands - _**Medium**_
+187. Bipartite Graph - _**Medium**_
+188. Detect Cycle in Directed Graph - _**Medium**_
+189. Eventually Safe States - _**Medium**_
+190. Topological Sort - _**Medium**_
+191. Topological Sort - Kahn's Algo - _**Medium**_
+192. Town Judge - _**Easy**_
+193. Course Schedule - _**Medium**_
+194. Course Schedule 2 - _**Medium**_
+195. Alien Dictionary - _**Medium**_
+196. Shortest Path in DAG - _**Medium**_
+197. Shortest Path in Undirected Graph - _**Medium**_
+198. Cheapest Flight with K stops - _**Medium**_
+199. Find People With Secret - _**Hard**_
+200. Word Ladder - _**Hard**_
+201. Word Ladder 2 - _**Hard**_
+202. Dijkstra Using PQ - _**Medium**_
+203. Shortest Path in Binary Maze - _**Medium**_
+204. Path with Minimum Effort - _**Medium**_
+205. Minimum Multiplication to reach end - _**Medium**_
+206. Number of Ways to reach Destination - _**Medium**_
+207. Bellman Ford Algorithm - _**Medium**_
+208. Floyd Warshall Algorithm - _**Medium**_
+209. City With Smallest Number of Neighbours - _**Medium**_
+210. Network Delay Time - _**Medium**_
+211. Minimum Spanning Tree - _**Medium**_
+212. Disjoint Set - Algorithm
+213. Kruskal Algorithm - _**Medium**_
+214. Make Network Connected - _**Medium**_
+215. Bottom Left Node in Tree - _**Medium**_
+216. Even Odd Tree - _**Medium**_
+217. Maximum Odd Binary Number - _**Easy**_
+218. Squares of Sorted Array - _**Easy**_
+219. Bag of Tokens - _**Medium**_
+220. Min Len of String after Deleting Similar Ends - _**Medium**_
+221. Max Frequency Elements - _**Easy**_
+222. Minimum Common Value - _**Easy**_
+223. Minimum Arrows to Burst Balloons - _**Medium**_
 
 ### **String**
 
@@ -286,6 +282,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 |---|--------------------------------------------------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------------------------|
 | 1 | [Length of Longest Substring without Repeating Chars](SlidingWindow/LongestSubstring.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
 | 2 | [Best Time to Buy and Sell Stock](SlidingWindow/BestTimeToBuySellStock.java)               | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)                |
+| 3 | [Best Time to Buy and Sell Stock 2](SlidingWindow/BestTimeToBuySellStock.java)             | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)             |
 
 ### **Binary Search**
 
@@ -373,6 +370,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 31 | [Maximum Length of Repeated Subarray](DynamicProgramming/MaximumLengthOfRepeatedSubArray.java)   | <span style="color:yellow;">Medium</span> |                            | [Link](https://leetcode.com/problems/maximum-length-of-repeated-subarray)                 |
 | 32 | [Distinct Subsequences](DynamicProgramming/DistinctSubSequences.java)                            | <span style="color:red;">Hard</span>      |                            | [Link](https://leetcode.com/problems/distinct-subsequences)                               |
 | 33 | [Edit Distance](DynamicProgramming/EditDistance.java)                                            | <span style="color:yellow;">Medium</span> |                            | [Link](https://leetcode.com/problems/edit-distance)                                       |
+| 34 | [Uncrossed Lines](DynamicProgramming/UncrossedLines.java)                                        | <span style="color:yellow;">Medium</span> |                            | [Link](https://leetcode.com/problems/uncrossed-lines)                                     |
 
 
 ### **Trees**
@@ -382,4 +380,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 1 | [Build Tree from Description](Trees/TreeFromDescription.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions) |
 
 
-### **Total: 88**
+### **Total: 90**
