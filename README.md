@@ -56,9 +56,9 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 51. Bitwise OR Trailing Zeros - _**Easy**_
 52. Max Profit in Job Scheduling - _**Hard**_
 53. Arithmetic Slices - _**Hard**_
-54. Range Sum BST - _**Easy**_
-55. Leaf Similar Trees - _**Easy**_
-56. Maximum Diff Between Node and Ancestors - _**Medium**_
+54. Range Sum BST - _**Easy**_ - Tree
+55. Leaf Similar Trees - _**Easy**_ - Tree
+56. Maximum Diff Between Node and Ancestors - _**Medium**_ - Tree
 57. Determine if Halves are Alike - _**Easy**_
 58. 0-1 Knapsack - _**Medium**_ (CodingNinjas)
 59. Min Steps to Make String Anagrams - _**Medium**_
@@ -134,98 +134,91 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 129. Level Order Traversal - _**Medium**_
 130. Frequency Sort - _**Medium**_
 131. Perfect Squares - _**Medium**_
-132. Max Depth of Binary Tree - _**Easy**_
-133. Palindromic Substrings - _**Medium**_
-134. Balanced Binary Tree - _**Easy**_
-135. Diameter of Tree - _**Easy**_
-136. Max Path Sum Tree - _**Hard**_
-137. Same Tree - _**Easy**_
-138. Level Order Zig Zag - _**Medium**_
-139. Boundary Traversal - _**Hard**_
-140. Vertical Order Traversal - _**Hard**_
-141. Top View of Binary Tree - _**Medium**_
-142. Bottom View of Binary Tree - _**Medium**_
-143. First Palindrome - _**Medium**_
-144. Right View - _**Medium**_
-145. Left View - _**Medium**_
-146. Symmetric Trees - _**Easy**_
-147. Root to Leaf - _**Easy**_
-148. Lowest Common Ancestor - _**Medium**_
-149. Lowest Common Ancestor BST - _**Medium**_
-150. Rearrange by Sign - _**Medium**_
-151. Polygon with Largest Perimeter - _**Medium**_
-152. Children Sum Property - _**Medium**_
-153. Maximum Width of Tree - _**Medium**_
-154. Nodes at Distance K - _**Medium**_
-155. Time to Burn the Tree - _**Hard**_
-156. Count Nodes in Complete BT - _**Easy**_
-157. Least Unique Numbers in Array - _**Medium**_
-158. Construct Tree from Inorder and Preorder - _**Medium**_
-159. Construct Tree from Inorder and Postorder - _**Medium**_
-160. Furthest Building you can reach - _**Medium**_
-161. Serialize and Deserialize Tree - _**Hard**_
-162. Flatten Tree into LL - _**Medium**_
-163. Search in BST - _**Easy**_
-164. Ceil in BST - _**Easy**_
-165. Floor in BST - _**Easy**_
-166. Insert Node in BST - _**Medium**_
-167. Delete Node in BST - _**Medium**_
-168. Kth Smallest Node in BST - _**Medium**_
-169. Check if Valid BST - _**Medium**_
-170. Construct BST from Preorder - _**Medium**_
-171. Inorder Successor - _**Medium**_
-172. BST Iterator - _**Medium**_
-173. Two Sum BST - _**Easy**_ (In Actual, A Medium)
-174. Recover BST - _**Medium**_
-175. BFS Traversal Graph - _**Easy**_
-176. DFS Traversal Graph - _**Easy**_
-177. Number of Provinces - _**Medium**_
-178. Number of Islands - _**Medium**_
-179. Flood Fill - _**Easy**_
-180. Rotting Oranges - _**Medium**_
-181. Bitwise AND in Range - _**Medium**_
-182. Detect Cycle in Undirected Graph - _**Medium**_
-183. 01 Matrix - _**Medium**_
-184. Surrounded Regions - _**Medium**_
-185. Number of Enclaves - _**Medium**_
-186. Distinct Islands - _**Medium**_
-187. Bipartite Graph - _**Medium**_
-188. Detect Cycle in Directed Graph - _**Medium**_
-189. Eventually Safe States - _**Medium**_
-190. Topological Sort - _**Medium**_
-191. Topological Sort - Kahn's Algo - _**Medium**_
-192. Town Judge - _**Easy**_
-193. Course Schedule - _**Medium**_
-194. Course Schedule 2 - _**Medium**_
-195. Alien Dictionary - _**Medium**_
-196. Shortest Path in DAG - _**Medium**_
-197. Shortest Path in Undirected Graph - _**Medium**_
-198. Cheapest Flight with K stops - _**Medium**_
-199. Find People With Secret - _**Hard**_
-200. Word Ladder - _**Hard**_
-201. Word Ladder 2 - _**Hard**_
-202. Dijkstra Using PQ - _**Medium**_
-203. Shortest Path in Binary Maze - _**Medium**_
-204. Path with Minimum Effort - _**Medium**_
-205. Minimum Multiplication to reach end - _**Medium**_
-206. Number of Ways to reach Destination - _**Medium**_
-207. Bellman Ford Algorithm - _**Medium**_
-208. Floyd Warshall Algorithm - _**Medium**_
-209. City With Smallest Number of Neighbours - _**Medium**_
-210. Network Delay Time - _**Medium**_
-211. Minimum Spanning Tree - _**Medium**_
-212. Disjoint Set - Algorithm
-213. Kruskal Algorithm - _**Medium**_
-214. Make Network Connected - _**Medium**_
-215. Bottom Left Node in Tree - _**Medium**_
-216. Even Odd Tree - _**Medium**_
-217. Maximum Odd Binary Number - _**Easy**_
-218. Squares of Sorted Array - _**Easy**_
-219. Bag of Tokens - _**Medium**_
-220. Min Len of String after Deleting Similar Ends - _**Medium**_
-221. Max Frequency Elements - _**Easy**_
-222. Minimum Common Value - _**Easy**_
-223. Minimum Arrows to Burst Balloons - _**Medium**_
+132. Palindromic Substrings - _**Medium**_
+133. Vertical Order Traversal - _**Hard**_
+134. Top View of Binary Tree - _**Medium**_
+135. Bottom View of Binary Tree - _**Medium**_
+136. First Palindrome - _**Medium**_
+137. Right View - _**Medium**_
+138. Left View - _**Medium**_
+139. Symmetric Trees - _**Easy**_
+140. Root to Leaf - _**Easy**_
+141. Lowest Common Ancestor - _**Medium**_
+142. Lowest Common Ancestor BST - _**Medium**_
+143. Rearrange by Sign - _**Medium**_
+144. Polygon with Largest Perimeter - _**Medium**_
+145. Children Sum Property - _**Medium**_
+146. Maximum Width of Tree - _**Medium**_
+147. Nodes at Distance K - _**Medium**_
+148. Time to Burn the Tree - _**Hard**_
+149. Count Nodes in Complete BT - _**Easy**_
+150. Least Unique Numbers in Array - _**Medium**_
+151. Construct Tree from Inorder and Preorder - _**Medium**_
+152. Construct Tree from Inorder and Postorder - _**Medium**_
+153. Furthest Building you can reach - _**Medium**_
+154. Serialize and Deserialize Tree - _**Hard**_
+155. Flatten Tree into LL - _**Medium**_
+156. Search in BST - _**Easy**_
+157. Ceil in BST - _**Easy**_
+158. Floor in BST - _**Easy**_
+159. Insert Node in BST - _**Medium**_
+160. Delete Node in BST - _**Medium**_
+161. Kth Smallest Node in BST - _**Medium**_
+162. Check if Valid BST - _**Medium**_
+163. Construct BST from Preorder - _**Medium**_
+164. Inorder Successor - _**Medium**_
+165. BST Iterator - _**Medium**_
+166. Two Sum BST - _**Easy**_ (In Actual, A Medium)
+167. Recover BST - _**Medium**_
+168. BFS Traversal Graph - _**Easy**_
+169. DFS Traversal Graph - _**Easy**_
+170. Number of Provinces - _**Medium**_
+171. Number of Islands - _**Medium**_
+172. Flood Fill - _**Easy**_
+173. Rotting Oranges - _**Medium**_
+174. Bitwise AND in Range - _**Medium**_
+175. Detect Cycle in Undirected Graph - _**Medium**_
+176. 01 Matrix - _**Medium**_
+177. Surrounded Regions - _**Medium**_
+178. Number of Enclaves - _**Medium**_
+179. Distinct Islands - _**Medium**_
+180. Bipartite Graph - _**Medium**_
+181. Detect Cycle in Directed Graph - _**Medium**_
+182. Eventually Safe States - _**Medium**_
+183. Topological Sort - _**Medium**_
+184. Topological Sort - Kahn's Algo - _**Medium**_
+185. Town Judge - _**Easy**_
+186. Course Schedule - _**Medium**_
+187. Course Schedule 2 - _**Medium**_
+188. Alien Dictionary - _**Medium**_
+189. Shortest Path in DAG - _**Medium**_
+190. Shortest Path in Undirected Graph - _**Medium**_
+191. Cheapest Flight with K stops - _**Medium**_
+192. Find People With Secret - _**Hard**_
+193. Word Ladder - _**Hard**_
+194. Word Ladder 2 - _**Hard**_
+195. Dijkstra Using PQ - _**Medium**_
+196. Shortest Path in Binary Maze - _**Medium**_
+197. Path with Minimum Effort - _**Medium**_
+198. Minimum Multiplication to reach end - _**Medium**_
+199. Number of Ways to reach Destination - _**Medium**_
+200. Bellman Ford Algorithm - _**Medium**_
+201. Floyd Warshall Algorithm - _**Medium**_
+202. City With Smallest Number of Neighbours - _**Medium**_
+203. Network Delay Time - _**Medium**_
+204. Minimum Spanning Tree - _**Medium**_
+205. Disjoint Set - Algorithm
+206. Kruskal Algorithm - _**Medium**_
+207. Make Network Connected - _**Medium**_
+208. Bottom Left Node in Tree - _**Medium**_
+209. Even Odd Tree - _**Medium**_
+210. Maximum Odd Binary Number - _**Easy**_
+211. Squares of Sorted Array - _**Easy**_
+212. Bag of Tokens - _**Medium**_
+213. Min Len of String after Deleting Similar Ends - _**Medium**_
+214. Max Frequency Elements - _**Easy**_
+215. Minimum Common Value - _**Easy**_
+216. Minimum Arrows to Burst Balloons - _**Medium**_
 
 ### **String**
 
@@ -375,9 +368,16 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Trees**
 
-|   | Problem                                                       | Difficulty                                | Notes | LeetCode                                                                   |
-|---|---------------------------------------------------------------|-------------------------------------------|-------|----------------------------------------------------------------------------|
-| 1 | [Build Tree from Description](Trees/TreeFromDescription.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions) |
+|     | Problem                                                       | Difficulty                                | Notes             | LeetCode                                                                       |
+|-----|---------------------------------------------------------------|-------------------------------------------|-------------------|--------------------------------------------------------------------------------|
+| 1   | [Max Depth of Binary Tree](Trees/HeightOfBinaryTree.java)     | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree)             |
+| 2   | [Balanced Binary Tree](Trees/CheckBalanced.java)              | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/balanced-binary-tree)                     |
+| 3   | [Diameter of Tree](Trees/DiameterOfTree.java)                 | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/diameter-of-binary-tree)                  |
+| 4   | [Max Path Sum Tree](Trees/MaxPathSumTree.java)                | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum)             |
+| 5   | [Same Tree](Trees/SameTree.java)                              | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/same-tree)                                |
+| 6   | [Zig Zag Traversal](Trees/LevelOrderZigZag.java)              | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) |
+| 7   | [Boundary Traversal](Trees/BoundaryTraversal.java)            | <span style="color:yellow;">Medium</span> | Left, Leaf, Right | [Link](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree)        |
+| n+1 | [Build Tree from Description](Trees/TreeFromDescription.java) | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions)     |
 
 
 ### **Total: 90**

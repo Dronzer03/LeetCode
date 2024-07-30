@@ -7,13 +7,6 @@ public class HeightOfBinaryTree {
         if (root == null)
             return 0;
 
-        return depth(root, 0);
-    }
-
-    private int depth(TreeNode root, int height) {
-        if (root == null)
-            return height;
-
-        return Math.max(depth(root.left, height+1), depth(root.right, height+1));
+        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 }
