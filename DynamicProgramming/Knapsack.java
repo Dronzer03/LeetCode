@@ -1,7 +1,7 @@
 package DynamicProgramming;
 
 // GFG
-// https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
+// https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
 // https://www.codingninjas.com/studio/problems/0-1-knapsack_920542
 public class Knapsack {
     static int knapsack(int[] weight, int[] value, int n, int maxWeight) {

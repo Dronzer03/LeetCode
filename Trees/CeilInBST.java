@@ -2,7 +2,27 @@ package Trees;
 
 // Coding Ninjas
 // https://www.codingninjas.com/studio/problems/ceil-from-bst_920464
+
+// GFG
+// https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
 public class CeilInBST {
+
+    int findCeilEfficient(TreeNode root, int key) {
+        if (root == null) return -1;
+        // Code here
+        if (key == root.val)
+            return key;
+
+        if (key < root.val) {
+            int ans = findCeilEfficient(root.left, key);
+            if (ans == -1 && root.val > key)
+                return root.val;
+            return ans;
+        } else {
+            return findCeilEfficient(root.right, key);
+        }
+    }
+
     int ceil = Integer.MAX_VALUE;
     public int findCeil(TreeNode node, int x) {
         traverse(node, x);

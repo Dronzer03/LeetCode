@@ -2,6 +2,7 @@ package HashSet;
 
 import java.util.*;
 
+// Random OA Question
 public class RandomizedSet {
 
     private Set<Integer> randomSet;

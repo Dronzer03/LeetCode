@@ -17,12 +17,12 @@ public class RightViewOfTree {
         return result;
     }
 
-    private void rightView(TreeNode root, Map<Integer, Integer> map, int x) {
+    private void rightView(TreeNode root, Map<Integer, Integer> map, int y) {
         if (root == null)
             return;
 
-        rightView(root.left, map, x + 1);
-        map.put(x, root.val);
-        rightView(root.right, map, x + 1);
+        rightView(root.left, map, y + 1);
+        map.put(y, root.val);
+        rightView(root.right, map, y + 1);
     }
 }

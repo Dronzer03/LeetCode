@@ -2,34 +2,43 @@ package Trees;
 
 import java.util.*;
 
+// LC - 662
+// https://leetcode.com/problems/maximum-width-of-binary-tree
 public class MaximumWidthOfTree {
     public int widthOfBinaryTree(TreeNode root) {
-        if(root == null) return 0;
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
+        if (root == null)
+            return 0;
+
+        Queue<TreeNode> queue = new LinkedList<>();
         root.val = 1;
-        int curW = 0;
-        int maxW = 0;
-        while(!q.isEmpty()){
-            int size = q.size();
+        queue.offer(root);
+        int maxWidth = 0;
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
             int start = 0;
             int end = 0;
-            for(int i = 0; i < size; i++){
-                TreeNode node = q.poll();
-                if(i == 0) start = node.val;
-                if(i == size - 1) end = node.val;
-                if(node.left != null){
-                    node.left.val = node.val * 2;
-                    q.offer(node.left);
+            for (int index = 0; index < size; index++) {
+                TreeNode current = queue.poll();
+                if (index == 0)
+                    start = current.val;
+
+                if (index == size - 1)
+                    end = current.val;
+
+                if (current.left != null) {
+                    current.left.val = current.val * 2;
+                    queue.offer(current.left);
                 }
-                if(node.right != null){
-                    node.right.val = node.val * 2 + 1;
-                    q.offer(node.right);
+
+                if (current.right != null) {
+                    current.right.val = current.val * 2 + 1;
+                    queue.offer(current.right);
                 }
             }
-            curW = end - start + 1;
-            maxW = Math.max(curW, maxW);
+            maxWidth = Math.max(maxWidth, end - start + 1);
         }
-        return maxW;
+
+        return maxWidth;
     }
 }

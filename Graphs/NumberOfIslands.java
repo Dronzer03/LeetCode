@@ -13,7 +13,7 @@ public class NumberOfIslands {
         int islands = 0;
         for (int row = 0; row < n; row++) {
             for (int col = 0; col < m; col++) {
-                if (arr[row][col] == '1' && !visited[row][col]) {
+                if (arr[row][col] == '1') {
                     islands++;
                     traverseGraph(arr, visited, row, col, n, m);
                 }

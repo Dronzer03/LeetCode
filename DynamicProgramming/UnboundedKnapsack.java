@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
 // https://www.codingninjas.com/studio/problems/unbounded-knapsack_1215029
 public class UnboundedKnapsack {
     public static int unboundedKnapsack(int n, int w, int[] profit, int[] weight) {

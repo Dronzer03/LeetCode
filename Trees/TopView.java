@@ -4,6 +4,9 @@ import java.util.*;
 
 // Coding Ninjas - LC Premium
 // https://www.codingninjas.com/studio/problems/top-view-of-binary-tree_799401
+
+// GFG
+// https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 public class TopView {
     static class TreePair {
         TreeNode node;
@@ -45,5 +48,35 @@ public class TopView {
         }
 
         return result;
+    }
+
+    static ArrayList<Integer> topViewDFS(TreeNode root) {
+        TreeMap<Integer, int[]> map = new TreeMap<>();
+        dfs(root, map, 0, 0);
+        ArrayList<Integer> res = new ArrayList<>();
+        for (Map.Entry<Integer, int[]> entry : map.entrySet()) {
+            res.add(entry.getValue()[1]);
+        }
+        return res;
+    }
+
+    static void dfs(TreeNode root, TreeMap<Integer, int[]> map, int x, int y) {
+        int[] curr;
+        if (map.containsKey(x)) {
+            curr = map.get(x);
+            if (y < curr[1]) {
+                curr[0] = root.val;
+                curr[1] = y;
+                map.put(x, curr);
+            }
+        } else {
+            curr = new int[2];
+            curr[0] = root.val;
+            curr[1] = y;
+            map.put(x, curr);
+        }
+
+        dfs(root.left, map, x - 1, y + 1);
+        dfs(root.right, map, x + 1, y + 1);
     }
 }

@@ -3,7 +3,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 # List of Problems Solved
 
-1. Randomized Set - HashSet - _**Medium**_
+1. Randomized Set - HashSet - _**Medium**_ //OA
 2. First Occurrence of 1 - Binary Search - _**Medium**_
 3. H-Index - Sorting - _**Medium**_
 4. Permutations - Recursion - _**Medium**_
@@ -60,165 +60,162 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 55. Leaf Similar Trees - _**Easy**_ - Tree
 56. Maximum Diff Between Node and Ancestors - _**Medium**_ - Tree
 57. Determine if Halves are Alike - _**Easy**_
-58. 0-1 Knapsack - _**Medium**_ (CodingNinjas)
-59. Min Steps to Make String Anagrams - _**Medium**_
-60. Rod Cutting Problem - _**Medium**_
-61. Close Strings - _**Medium**_
-62. Players with 0 or 1 Losses - _**Medium**_
-63. Convert String A to B - _**Medium**_ (Coding Ninjas)
-64. Minimum Moves to Convert String - _**Easy**_
-65. Permutations in String - _**Medium**_
-66. Maximum length of repeated SubArray - _**Medium**_
-67. Shortest Common SuperSequence - _**Hard**_
-68. Moving Totals - _**Easy**_ (Interview Question)
-69. Unique Occurrences - _**Easy**_
-70. Best Time to Buy And Sell Stock - _**Hard**_
-71. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
-72. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
-73. Largest Divisible Subset - _**Medium**_
-74. Longest String Chain - _**Medium**_
-75. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
-76. Min cost to cut stick - _**Hard**_
-77. Burst Balloons - _**Hard**_
-78. Combination Sum 4 - _**Medium**_
-79. Odd Even positioned LL - _**Medium**_
-80. Reverse a DLL - _**Easy**_ (CodingNinjas)
-81. Add Two Numbers - _**Medium**_
-82. Max Len Concat String with Unique Characters - _**Medium**_
-83. Pseudo Palindromic Path in Tree - _**Medium**_
-84. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
-85. Remove Nth Node from End of LL - _**Medium**_
-86. Palindrome Linked List - _**Easy**_
-87. Out of Boundary Paths - _**Medium**_
-88. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
-89. Intersection of two LL - _**Easy**_
-90. Detect Cycle - _**Easy**_
-91. Detect Cycle 2 - _**Medium**_
-92. Delete Middle of LL - _**Medium**_
-93. Length of LL Cycle - _**Easy**_
-94. Remove All Occurrences of Key SLL - _**Easy**_
-95. Remove All Occurrences of Key DLL - _**Easy**_
-96. Delete Duplicates from Sorted LL - _**Easy**_
-97. Reverse Nodes in Group of K - _**Hard**_
-98. Rotate LL - _**Medium**_
-99. Merge Two Sorted LL - _**Easy**_
-100. Merge K Sorted LL - _**Hard**_
-101. Sort List - _**Medium**_
-102. Copy list with Random Node - _**Medium**_
-103. Design Browser History - _**Medium**_
-104. Swap Nodes in Pairs - _**Medium**_
-105. Partition List - _**Medium**_
-106. Reverse Linked List 2 - _**Medium**_
-107. Delete N nodes after M Nodes - _**Medium**_
-108. Delete Node without Head pointer - _**Medium**_
-109. Queue using LL (Design Circular Queue) - _**Medium**_
-110. Queue using Stack - _**Easy**_
-111. Stack using LL - _**Medium**_
-112. Split LL in Parts - _**Medium**_
-113. Daily Temperatures - _**Medium**_
-114. Swap Kth Node from Beginning with end - _**Medium**_
-115. Rotate DLL - _**Medium**_ (CodingNinjas)
-116. Divide Array into Arrays with Max Diff K - _**Medium**_
-117. Sequential Digits - _**Medium**_
-118. Construct LL from Matrix - _**Medium**_
-119. Partition Array for Max Sum - _**Medium**_
-120. Minimum Window Substring - _**Hard**_
-121. Reorder List - _**Medium**_
-122. First Unique Character in String - _**Easy**_
-123. LRU Cache - _**Medium**_
-124. Random Node LL - _**Medium**_
-125. Circular Dequeue using LL - _**Medium**_
-126. Inorder Traversal - _**Easy**_
-127. Preorder Traversal - _**Easy**_
-128. Postorder Traversal - _**Easy**_
-129. Level Order Traversal - _**Medium**_
-130. Frequency Sort - _**Medium**_
-131. Perfect Squares - _**Medium**_
-132. Palindromic Substrings - _**Medium**_
-133. Vertical Order Traversal - _**Hard**_
-134. Top View of Binary Tree - _**Medium**_
-135. Bottom View of Binary Tree - _**Medium**_
-136. First Palindrome - _**Medium**_
-137. Right View - _**Medium**_
-138. Left View - _**Medium**_
-139. Symmetric Trees - _**Easy**_
-140. Root to Leaf - _**Easy**_
-141. Lowest Common Ancestor - _**Medium**_
-142. Lowest Common Ancestor BST - _**Medium**_
-143. Rearrange by Sign - _**Medium**_
-144. Polygon with Largest Perimeter - _**Medium**_
-145. Children Sum Property - _**Medium**_
-146. Maximum Width of Tree - _**Medium**_
-147. Nodes at Distance K - _**Medium**_
-148. Time to Burn the Tree - _**Hard**_
-149. Count Nodes in Complete BT - _**Easy**_
-150. Least Unique Numbers in Array - _**Medium**_
-151. Construct Tree from Inorder and Preorder - _**Medium**_
-152. Construct Tree from Inorder and Postorder - _**Medium**_
-153. Furthest Building you can reach - _**Medium**_
-154. Serialize and Deserialize Tree - _**Hard**_
-155. Flatten Tree into LL - _**Medium**_
-156. Search in BST - _**Easy**_
-157. Ceil in BST - _**Easy**_
-158. Floor in BST - _**Easy**_
-159. Insert Node in BST - _**Medium**_
-160. Delete Node in BST - _**Medium**_
-161. Kth Smallest Node in BST - _**Medium**_
-162. Check if Valid BST - _**Medium**_
-163. Construct BST from Preorder - _**Medium**_
-164. Inorder Successor - _**Medium**_
-165. BST Iterator - _**Medium**_
-166. Two Sum BST - _**Easy**_ (In Actual, A Medium)
-167. Recover BST - _**Medium**_
-168. BFS Traversal Graph - _**Easy**_
-169. DFS Traversal Graph - _**Easy**_
-170. Number of Provinces - _**Medium**_
-171. Number of Islands - _**Medium**_
-172. Flood Fill - _**Easy**_
-173. Rotting Oranges - _**Medium**_
-174. Bitwise AND in Range - _**Medium**_
-175. Detect Cycle in Undirected Graph - _**Medium**_
-176. 01 Matrix - _**Medium**_
-177. Surrounded Regions - _**Medium**_
-178. Number of Enclaves - _**Medium**_
-179. Distinct Islands - _**Medium**_
-180. Bipartite Graph - _**Medium**_
-181. Detect Cycle in Directed Graph - _**Medium**_
-182. Eventually Safe States - _**Medium**_
-183. Topological Sort - _**Medium**_
-184. Topological Sort - Kahn's Algo - _**Medium**_
-185. Town Judge - _**Easy**_
-186. Course Schedule - _**Medium**_
-187. Course Schedule 2 - _**Medium**_
-188. Alien Dictionary - _**Medium**_
-189. Shortest Path in DAG - _**Medium**_
-190. Shortest Path in Undirected Graph - _**Medium**_
-191. Cheapest Flight with K stops - _**Medium**_
-192. Find People With Secret - _**Hard**_
-193. Word Ladder - _**Hard**_
-194. Word Ladder 2 - _**Hard**_
-195. Dijkstra Using PQ - _**Medium**_
-196. Shortest Path in Binary Maze - _**Medium**_
-197. Path with Minimum Effort - _**Medium**_
-198. Minimum Multiplication to reach end - _**Medium**_
-199. Number of Ways to reach Destination - _**Medium**_
-200. Bellman Ford Algorithm - _**Medium**_
-201. Floyd Warshall Algorithm - _**Medium**_
-202. City With Smallest Number of Neighbours - _**Medium**_
-203. Network Delay Time - _**Medium**_
-204. Minimum Spanning Tree - _**Medium**_
-205. Disjoint Set - Algorithm
-206. Kruskal Algorithm - _**Medium**_
-207. Make Network Connected - _**Medium**_
-208. Bottom Left Node in Tree - _**Medium**_
-209. Even Odd Tree - _**Medium**_
-210. Maximum Odd Binary Number - _**Easy**_
-211. Squares of Sorted Array - _**Easy**_
-212. Bag of Tokens - _**Medium**_
-213. Min Len of String after Deleting Similar Ends - _**Medium**_
-214. Max Frequency Elements - _**Easy**_
-215. Minimum Common Value - _**Easy**_
-216. Minimum Arrows to Burst Balloons - _**Medium**_
+58. Min Steps to Make String Anagrams - _**Medium**_
+59. Rod Cutting Problem - _**Medium**_
+60. Close Strings - _**Medium**_
+61. Players with 0 or 1 Losses - _**Medium**_
+62. Convert String A to B - _**Medium**_ (Coding Ninjas)
+63. Minimum Moves to Convert String - _**Easy**_
+64. Permutations in String - _**Medium**_
+65. Maximum length of repeated SubArray - _**Medium**_
+66. Shortest Common SuperSequence - _**Hard**_
+67. Moving Totals - _**Easy**_ (Interview Question)
+68. Unique Occurrences - _**Easy**_
+69. Best Time to Buy And Sell Stock - _**Hard**_
+70. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
+71. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
+72. Largest Divisible Subset - _**Medium**_
+73. Longest String Chain - _**Medium**_
+74. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
+75. Min cost to cut stick - _**Hard**_
+76. Burst Balloons - _**Hard**_
+77. Combination Sum 4 - _**Medium**_
+78. Odd Even positioned LL - _**Medium**_
+79. Reverse a DLL - _**Easy**_ (CodingNinjas)
+80. Add Two Numbers - _**Medium**_
+81. Max Len Concat String with Unique Characters - _**Medium**_
+82. Pseudo Palindromic Path in Tree - _**Medium**_
+83. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
+84. Remove Nth Node from End of LL - _**Medium**_
+85. Palindrome Linked List - _**Easy**_
+86. Out of Boundary Paths - _**Medium**_
+87. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
+88. Intersection of two LL - _**Easy**_
+89. Detect Cycle - _**Easy**_
+90. Detect Cycle 2 - _**Medium**_
+91. Delete Middle of LL - _**Medium**_
+92. Length of LL Cycle - _**Easy**_
+93. Remove All Occurrences of Key SLL - _**Easy**_
+94. Remove All Occurrences of Key DLL - _**Easy**_
+95. Delete Duplicates from Sorted LL - _**Easy**_
+96. Reverse Nodes in Group of K - _**Hard**_
+97. Rotate LL - _**Medium**_
+98. Merge Two Sorted LL - _**Easy**_
+99. Merge K Sorted LL - _**Hard**_
+100. Sort List - _**Medium**_
+101. Copy list with Random Node - _**Medium**_
+102. Design Browser History - _**Medium**_
+103. Swap Nodes in Pairs - _**Medium**_
+104. Partition List - _**Medium**_
+105. Reverse Linked List 2 - _**Medium**_
+106. Delete N nodes after M Nodes - _**Medium**_
+107. Delete Node without Head pointer - _**Medium**_
+108. Queue using LL (Design Circular Queue) - _**Medium**_
+109. Queue using Stack - _**Easy**_
+110. Stack using LL - _**Medium**_
+111. Split LL in Parts - _**Medium**_
+112. Daily Temperatures - _**Medium**_
+113. Swap Kth Node from Beginning with end - _**Medium**_
+114. Rotate DLL - _**Medium**_ (CodingNinjas)
+115. Divide Array into Arrays with Max Diff K - _**Medium**_
+116. Sequential Digits - _**Medium**_
+117. Construct LL from Matrix - _**Medium**_
+118. Partition Array for Max Sum - _**Medium**_
+119. Minimum Window Substring - _**Hard**_
+120. Reorder List - _**Medium**_
+121. First Unique Character in String - _**Easy**_
+122. LRU Cache - _**Medium**_
+123. Random Node LL - _**Medium**_
+124. Circular Dequeue using LL - _**Medium**_
+125. Inorder Traversal - _**Easy**_
+126. Preorder Traversal - _**Easy**_
+127. Postorder Traversal - _**Easy**_
+128. Level Order Traversal - _**Medium**_
+129. Frequency Sort - _**Medium**_
+130. Perfect Squares - _**Medium**_
+131. Palindromic Substrings - _**Medium**_
+
+132. First Palindrome - _**Medium**_
+133. Right View - _**Medium**_
+134. Left View - _**Medium**_
+135. Symmetric Trees - _**Easy**_
+136. Root to Leaf - _**Easy**_
+137. Lowest Common Ancestor - _**Medium**_
+138. Lowest Common Ancestor BST - _**Medium**_
+139. Rearrange by Sign - _**Medium**_
+140. Polygon with Largest Perimeter - _**Medium**_
+141. Children Sum Property - _**Medium**_
+142. Maximum Width of Tree - _**Medium**_
+143. Nodes at Distance K - _**Medium**_
+144. Time to Burn the Tree - _**Hard**_
+145. Count Nodes in Complete BT - _**Easy**_
+146. Least Unique Numbers in Array - _**Medium**_
+147. Construct Tree from Inorder and Preorder - _**Medium**_
+148. Construct Tree from Inorder and Postorder - _**Medium**_
+149. Furthest Building you can reach - _**Medium**_
+150. Serialize and Deserialize Tree - _**Hard**_
+151. Flatten Tree into LL - _**Medium**_
+152. Search in BST - _**Easy**_
+153. Ceil in BST - _**Easy**_
+154. Floor in BST - _**Easy**_
+155. Insert Node in BST - _**Medium**_
+156. Delete Node in BST - _**Medium**_
+157. Kth Smallest Node in BST - _**Medium**_
+158. Check if Valid BST - _**Medium**_
+159. Construct BST from Preorder - _**Medium**_
+160. Inorder Successor - _**Medium**_
+161. BST Iterator - _**Medium**_
+162. Two Sum BST - _**Easy**_ (In Actual, A Medium)
+163. Recover BST - _**Medium**_
+164. BFS Traversal Graph - _**Easy**_
+165. DFS Traversal Graph - _**Easy**_
+166. Number of Provinces - _**Medium**_
+167. Number of Islands - _**Medium**_
+168. Flood Fill - _**Easy**_
+169. Rotting Oranges - _**Medium**_
+170. Bitwise AND in Range - _**Medium**_
+171. Detect Cycle in Undirected Graph - _**Medium**_
+172. 01 Matrix - _**Medium**_
+173. Surrounded Regions - _**Medium**_
+174. Number of Enclaves - _**Medium**_
+175. Distinct Islands - _**Medium**_
+176. Bipartite Graph - _**Medium**_
+177. Detect Cycle in Directed Graph - _**Medium**_
+178. Eventually Safe States - _**Medium**_
+179. Topological Sort - _**Medium**_
+180. Topological Sort - Kahn's Algo - _**Medium**_
+181. Town Judge - _**Easy**_
+182. Course Schedule - _**Medium**_
+183. Course Schedule 2 - _**Medium**_
+184. Alien Dictionary - _**Medium**_
+185. Shortest Path in DAG - _**Medium**_
+186. Shortest Path in Undirected Graph - _**Medium**_
+187. Cheapest Flight with K stops - _**Medium**_
+188. Find People With Secret - _**Hard**_
+189. Word Ladder - _**Hard**_
+190. Word Ladder 2 - _**Hard**_
+191. Dijkstra Using PQ - _**Medium**_
+192. Shortest Path in Binary Maze - _**Medium**_
+193. Path with Minimum Effort - _**Medium**_
+194. Minimum Multiplication to reach end - _**Medium**_
+195. Number of Ways to reach Destination - _**Medium**_
+196. Bellman Ford Algorithm - _**Medium**_
+197. Floyd Warshall Algorithm - _**Medium**_
+198. City With Smallest Number of Neighbours - _**Medium**_
+199. Network Delay Time - _**Medium**_
+200. Minimum Spanning Tree - _**Medium**_
+201. Disjoint Set - Algorithm
+202. Kruskal Algorithm - _**Medium**_
+203. Make Network Connected - _**Medium**_
+204. Bottom Left Node in Tree - _**Medium**_
+205. Even Odd Tree - _**Medium**_
+206. Maximum Odd Binary Number - _**Easy**_
+207. Squares of Sorted Array - _**Easy**_
+208. Bag of Tokens - _**Medium**_
+209. Min Len of String after Deleting Similar Ends - _**Medium**_
+210. Max Frequency Elements - _**Easy**_
+211. Minimum Common Value - _**Easy**_
+212. Minimum Arrows to Burst Balloons - _**Medium**_
 
 ### **String**
 
@@ -364,20 +361,42 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 32 | [Distinct Subsequences](DynamicProgramming/DistinctSubSequences.java)                            | <span style="color:red;">Hard</span>      |                            | [Link](https://leetcode.com/problems/distinct-subsequences)                               |
 | 33 | [Edit Distance](DynamicProgramming/EditDistance.java)                                            | <span style="color:yellow;">Medium</span> |                            | [Link](https://leetcode.com/problems/edit-distance)                                       |
 | 34 | [Uncrossed Lines](DynamicProgramming/UncrossedLines.java)                                        | <span style="color:yellow;">Medium</span> |                            | [Link](https://leetcode.com/problems/uncrossed-lines)                                     |
+| 35 | [0-1 Knapsack](DynamicProgramming/Knapsack.java)                                                 | <span style="color:yellow;">Medium</span> |                            | [Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)                 |
 
 
 ### **Trees**
 
-|     | Problem                                                       | Difficulty                                | Notes             | LeetCode                                                                       |
-|-----|---------------------------------------------------------------|-------------------------------------------|-------------------|--------------------------------------------------------------------------------|
-| 1   | [Max Depth of Binary Tree](Trees/HeightOfBinaryTree.java)     | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree)             |
-| 2   | [Balanced Binary Tree](Trees/CheckBalanced.java)              | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/balanced-binary-tree)                     |
-| 3   | [Diameter of Tree](Trees/DiameterOfTree.java)                 | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/diameter-of-binary-tree)                  |
-| 4   | [Max Path Sum Tree](Trees/MaxPathSumTree.java)                | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum)             |
-| 5   | [Same Tree](Trees/SameTree.java)                              | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/same-tree)                                |
-| 6   | [Zig Zag Traversal](Trees/LevelOrderZigZag.java)              | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) |
-| 7   | [Boundary Traversal](Trees/BoundaryTraversal.java)            | <span style="color:yellow;">Medium</span> | Left, Leaf, Right | [Link](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree)        |
-| n+1 | [Build Tree from Description](Trees/TreeFromDescription.java) | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions)     |
+|     | Problem                                                                                      | Difficulty                                | Notes             | LeetCode                                                                                          |
+|-----|----------------------------------------------------------------------------------------------|-------------------------------------------|-------------------|---------------------------------------------------------------------------------------------------|
+| 1   | [Max Depth of Binary Tree](Trees/HeightOfBinaryTree.java)                                    | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree)                                |
+| 2   | [Balanced Binary Tree](Trees/CheckBalanced.java)                                             | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/balanced-binary-tree)                                        |
+| 3   | [Diameter of Tree](Trees/DiameterOfTree.java)                                                | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/diameter-of-binary-tree)                                     |
+| 4   | [Max Path Sum Tree](Trees/MaxPathSumTree.java)                                               | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum)                                |
+| 5   | [Same Tree](Trees/SameTree.java)                                                             | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/same-tree)                                                   |
+| 6   | [Zig Zag Traversal](Trees/LevelOrderZigZag.java)                                             | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)                    |
+| 7   | [Boundary Traversal](Trees/BoundaryTraversal.java)                                           | <span style="color:yellow;">Medium</span> | Left, Leaf, Right | [Link](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree)                           |
+| 8   | [Vertical Order Traversal](Trees/VerticalOrderTraversal.java)                                | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)                   |
+| 9   | [Top View](Trees/TopView.java)                                                               | <span style="color:yellow;">Medium</span> |                   | [Link](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1)                          |
+| 10  | [Bottom View](Trees/BottomView.java)                                                         | <span style="color:yellow;">Medium</span> |                   | [Link](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)                       |
+| 11  | [Left View](Trees/LeftViewOfTree.java)                                                       | <span style="color:yellow;">Medium</span> |                   | [Link](https://www.codingninjas.com/studio/problems/left-view-of-binary-tree_625707)              |
+| 12  | [Right View](Trees/RightViewOfTree.java)                                                     | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/binary-tree-right-side-view)                                 |
+| 13  | [Symmetric Tree](Trees/SymmetricTrees.java)                                                  | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/symmetric-tree)                                              |
+| 14  | [Root to Leaf Paths](Trees/RootToLeaf.java)                                                  | <span style="color:yellow;">Medium</span> |                   | [Link](https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1)                               |
+| 15  | [Lowest Common Ancestors](Trees/LowestCommonAncestor.java)                                   | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)                     |
+| 16  | [Max Width of Tree](Trees/MaximumWidthOfTree.java)                                           | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/maximum-width-of-binary-tree)                                |
+| 17  | [Children Sum Property](Trees/ChildrenSumProperty.java)                                      | <span style="color:yellow;">Medium</span> |                   | [Link](https://www.geeksforgeeks.org/problems/children-sum-parent/1)                              |
+| 18  | [Nodes at Distance K](Trees/NodesAtDistanceK.java)                                           | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)                         |
+| 19  | [Minimum Time to Burn Tree](Trees/TimeToBurnTheTree.java)                                    | <span style="color:red;">Hard</span>      |                   | [Link](https://www.geeksforgeeks.org/problems/burning-tree/1)                                     |
+| 20  | [Count Nodes in Complete BT](Trees/CountNodesInCompleteBinaryTree.java)                      | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/count-complete-tree-nodes)                                   |
+| 21  | [Construct Tree from InOrder and PreOrder](Trees/ConstructTreeFromInorderAndPreorder.java)   | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)   |
+| 22  | [Construct Tree from InOrder and PostOrder](Trees/ConstructTreeFromInorderAndPostorder.java) | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversals) |
+| 23  | [Serialize And Deserialize BT](Trees/SerializeAndDeserialize.java)                           | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)                       |
+| 24  | [Flatten BT](Trees/FlattenTreeIntoLL.java)                                                   | <span style="color:red;">Hard</span>      |                   | [Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)                          |
+| 25  | [Search BST](Trees/SearchInBST.java)                                                         | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree)                              |
+| 26  | [Min Value BST](Trees/MinValueBST.java)                                                      | <span style="color:green;">Easy</span>    |                   | [Link](https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1)                           |
+| 27  | [Ceil in BST](Trees/CeilInBST.java)                                                          | <span style="color:green;">Easy</span>    |                   | [Link](https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1)                         |
+| 28  | [Floor in BST](Trees/FloorInBST.java)                                                        | <span style="color:green;">Easy</span>    |                   | [Link](https://www.geeksforgeeks.org/problems/floor-in-bst/1)                                     |
+| n+1 | [Build Tree from Description](Trees/TreeFromDescription.java)                                | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions)                        |
 
 
-### **Total: 90**
+### **Total: 119**
