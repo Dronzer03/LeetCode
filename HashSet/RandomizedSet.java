@@ -2,7 +2,8 @@ package HashSet;
 
 import java.util.*;
 
-// Random OA Question
+// LC - 380
+// https://leetcode.com/problems/insert-delete-getrandom-o1
 public class RandomizedSet {
 
     private Set<Integer> randomSet;
@@ -12,7 +13,7 @@ public class RandomizedSet {
     }
 
     public boolean insert(int val) {
-        return randomSet.remove(val);
+        return randomSet.add(val);
     }
 
     public boolean remove(int val) {

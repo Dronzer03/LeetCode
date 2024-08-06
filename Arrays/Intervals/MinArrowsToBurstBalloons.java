@@ -1,4 +1,4 @@
-package Arrays.Sorting;
+package Arrays.Intervals;
 
 import java.util.Arrays;
 

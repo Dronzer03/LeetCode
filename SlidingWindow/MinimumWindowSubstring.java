@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package SlidingWindow;
 
 // LC - 76
 // https://leetcode.com/problems/minimum-window-substring
@@ -65,9 +65,59 @@ public class MinimumWindowSubstring {
         return true;
     }
 
+    public String minWindowOptimal(String s, String t) {
+        if (t.isEmpty())
+            return "";
+
+        int left = 0;
+        int right = 0;
+        int needed = 0;
+
+        int[] required = new int[128];
+        int[] current = new int[128];
+        for (char c : t.toCharArray()) {
+            required[c]++;
+            if (required[c] == 1)
+                needed++;
+        }
+
+
+        int have = 0;
+        int minLen = s.length() + 1;
+        String result = "";
+
+        while (left < s.length() && right < s.length()) {
+            char c = s.charAt(right);
+            if (required[c] > 0) {
+                current[c]++;
+                if (current[c] == required[c]) {
+                    have++;
+                }
+            }
+            while (have == needed && left <= right) {
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    result = s.substring(left, right + 1);
+                }
+                char leftChar = s.charAt(left);
+                if (required[leftChar] > 0) {
+                    current[leftChar]--;
+                    if (current[leftChar] < required[leftChar]) {
+                        have--;
+                    }
+                }
+                left++;
+            }
+            right++;
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
-        String s = "ADOBECODEBANC";
-        String t = "ABC";
+        String s = "aa";
+        String t = "aa";
         System.out.println(minWindow(s, t));
+        System.out.println(new MinimumWindowSubstring().minWindowOptimal(s, t));
     }
 }

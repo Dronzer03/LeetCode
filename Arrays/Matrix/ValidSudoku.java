@@ -3,6 +3,8 @@ package Arrays.Matrix;
 import java.util.HashSet;
 import java.util.Set;
 
+// LC - 36
+// https://leetcode.com/problems/valid-sudoku
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         Set<Character> validRow;
