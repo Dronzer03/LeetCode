@@ -63,4 +63,68 @@ public class AddTwoNumbers {
         }
         return head;
     }
+
+    public ListNode addTwoNumbersBetter(ListNode l1, ListNode l2) {
+        ListNode head1 = l1;
+        ListNode head2 = l2;
+
+        int carry = 0;
+        ListNode temp = null;
+        while (l1 != null && l2 != null) {
+            int sum = l1.val + l2.val + carry;
+            l1.val = sum % 10;
+            l2.val = sum % 10;
+            if (sum > 9) {
+                carry = 1;
+            } else {
+                carry = 0;
+            }
+            temp = l1;
+            l1 = l1.next;
+            l2 = l2.next;
+        }
+
+        if (l1 == null && l2 == null) {
+            if (carry == 1) {
+                temp.next = new ListNode(1);
+            }
+            return head1;
+        }
+
+        if (l1 != null) {
+            while (l1 != null) {
+                int sum = carry + l1.val;
+                l1.val = sum % 10;
+                if (sum > 9)
+                    carry = 1;
+                else
+                    carry = 0;
+                temp = l1;
+                l1 = l1.next;
+            }
+            if (carry == 1) {
+                temp.next = new ListNode(1);
+            }
+            return head1;
+        }
+
+        if (l2 != null) {
+            while (l2 != null) {
+                int sum = carry + l2.val;
+                l2.val = sum % 10;
+                if (sum > 9)
+                    carry = 1;
+                else
+                    carry = 0;
+                temp = l2;
+                l2 = l2.next;
+            }
+            if (carry == 1) {
+                temp.next = new ListNode(1);
+            }
+            return head2;
+        }
+
+        return null;
+    }
 }
