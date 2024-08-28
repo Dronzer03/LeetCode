@@ -3,32 +3,35 @@ package Arrays.Intervals;
 import java.util.ArrayList;
 import java.util.List;
 
-// Note: Not sure how this is working - Let me know if anyone does
-// But keep different one for left, different for right and put new in middle
 // LC - 57
 // https://leetcode.com/problems/insert-interval
 public class InsertIntervals {
     public int[][] insert(int[][] intervals, int[] newInterval) {
-        List<int[]> list = new ArrayList<>();
+        List<int[]> result = new ArrayList<>();
 
-        for (int[] interval : intervals) {
-            if (interval[0] > newInterval[1]) {
-                list.add(interval);
-            } else if (interval[1] < newInterval[0]) {
-                list.add(interval);
-            } else {
-                newInterval[0] = Math.min(newInterval[0],interval[0]);
-                newInterval[1] = Math.max(newInterval[1],interval[1]);
-            }
+        int index = 0;
+
+        while (index < intervals.length && intervals[index][1] < newInterval[0]) {
+            result.add(intervals[index++]);
         }
 
-        list.add(newInterval);
-        return list.toArray(new int[list.size()][]);
+        while (index < intervals.length && intervals[index][0] <= newInterval[1]) {
+            newInterval[0] = Math.min(newInterval[0], intervals[index][0]);
+            newInterval[1] = Math.max(newInterval[1], intervals[index][1]);
+            index++;
+        }
+
+        result.add(newInterval);
+
+        while (index < intervals.length)
+            result.add(intervals[index++]);
+
+        return result.toArray(new int[result.size()][]);
     }
 
     public static void main(String[] args) {
-        int[][] intervals ={{1,3},{6,9}};
-        int[] toInsert = {2,5};
+        int[][] intervals ={{1,3},{6,7},{8,9}};
+        int[] toInsert = {5,9};
 
         System.out.println(new InsertIntervals().insert(intervals, toInsert));;
     }
