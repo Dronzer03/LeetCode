@@ -3,6 +3,8 @@ package Stack;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// LC - 225
+// https://leetcode.com/problems/implement-stack-using-queues
 public class StackUsingQueue {
 
     public Queue<Integer> queue;

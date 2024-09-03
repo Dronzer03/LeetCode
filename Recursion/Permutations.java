@@ -3,6 +3,8 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
+// LC - 46
+// https://leetcode.com/problems/permutations
 public class Permutations {
     public List<List<Integer>> findAllPermutations(int[] arr, boolean[] arrMap, List<List<Integer>> result,
             List<Integer> currList) {

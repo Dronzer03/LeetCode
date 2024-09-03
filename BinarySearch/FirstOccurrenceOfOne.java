@@ -1,6 +1,8 @@
 package BinarySearch;
 
-public class FirstOccuranceOfOne {
+// Interview Question
+// In Arrays of 0s and 1s, find first occurrence of One
+public class FirstOccurrenceOfOne {
     public int findOccurrance(int left, int mid, int right, int[] arr) {
         if (arr[left] == 1)
             return left;
@@ -19,7 +21,7 @@ public class FirstOccuranceOfOne {
 
     public static void main(String[] args) {
         int[] arr = { 1, 1, 1, 1, 1, 1 };
-        FirstOccuranceOfOne one = new FirstOccuranceOfOne();
+        FirstOccurrenceOfOne one = new FirstOccurrenceOfOne();
         System.out.println(one.findOccurrance(0, 3, 5, arr));
     }
 

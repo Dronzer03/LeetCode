@@ -1,8 +1,10 @@
-package HashTable;
+package HashSet;
 
 import java.util.HashSet;
 import java.util.Set;
 
+// LC - 1496
+// https://leetcode.com/problems/path-crossing
 public class PathCrossing {
     public static boolean isPathCrossing(String path) {
         Set<String> visitedPath = new HashSet<>();
