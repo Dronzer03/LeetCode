@@ -2,6 +2,8 @@ package BinarySearch;
 
 import java.util.Arrays;
 
+// LC - 977
+// https://leetcode.com/problems/squares-of-a-sorted-array
 public class SquaresOfSortedArray {
     public int[] sortedSquares(int[] nums) {
         int negativeIndex = binarySearch(nums, 0, nums.length - 1);

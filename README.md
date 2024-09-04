@@ -22,164 +22,156 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 17. Binary Search - _**Easy**_
 18. String Compression 2 - _**Hard**_
 19. Telephone Letter Combinations - _**Medium**_
-20. Palindrome Number - _**Easy**_
-21. Min Difficulty of Job Scheduling - _**Hard**_
-22. Word Search - _**Medium**_
-23. Assign Cookies - _**Easy**_
-24. Convert an Array to 2D Array - _**Medium**_
-25. Search Insert Position - _**Easy**_
-26. Permutations II - _**Medium**_
-27. Number of Laser Beams in Bank - _**Medium**_
-28. Min No of Operations to make Array Empty - _**Medium**_
-29. Maximum Pairs in an Array - _**Easy**_
-30. Max Sum of Pairs with equal sum of digits - _**Medium**_
-31. Maximum Sum Path Matrix variable starting point - _**Medium**_
-32. Longest Increasing Subsequence - _**Medium**_
-33. Bitwise OR Trailing Zeros - _**Easy**_
-34. Max Profit in Job Scheduling - _**Hard**_
-35. Arithmetic Slices - _**Hard**_
-36. Range Sum BST - _**Easy**_ - Tree
-37. Leaf Similar Trees - _**Easy**_ - Tree
-38. Maximum Diff Between Node and Ancestors - _**Medium**_ - Tree
-39. Determine if Halves are Alike - _**Easy**_
-40. Min Steps to Make String Anagrams - _**Medium**_
-41. Rod Cutting Problem - _**Medium**_
-42. Close Strings - _**Medium**_
-43. Players with 0 or 1 Losses - _**Medium**_
-44. Convert String A to B - _**Medium**_ (Coding Ninjas)
-45. Minimum Moves to Convert String - _**Easy**_
-46. Permutations in String - _**Medium**_
-47. Maximum length of repeated SubArray - _**Medium**_
-48. Shortest Common SuperSequence - _**Hard**_
-49. Moving Totals - _**Easy**_ (Interview Question)
-50. Unique Occurrences - _**Easy**_
-51. Best Time to Buy And Sell Stock - _**Hard**_
-52. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
-53. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
-54. Largest Divisible Subset - _**Medium**_
-55. Longest String Chain - _**Medium**_
-56. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
-57. Min cost to cut stick - _**Hard**_
-58. Burst Balloons - _**Hard**_
-59. Combination Sum 4 - _**Medium**_
-60. Odd Even positioned LL - _**Medium**_
-61. Reverse a DLL - _**Easy**_ (CodingNinjas)
-62. Add Two Numbers - _**Medium**_
-63. Max Len Concat String with Unique Characters - _**Medium**_
-64. Pseudo Palindromic Path in Tree - _**Medium**_
-65. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
-66. Remove Nth Node from End of LL - _**Medium**_
-67. Palindrome Linked List - _**Easy**_
-68. Out of Boundary Paths - _**Medium**_
-69. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
-70. Intersection of two LL - _**Easy**_
-71. Detect Cycle - _**Easy**_
-72. Detect Cycle 2 - _**Medium**_
-73. Delete Middle of LL - _**Medium**_
-74. Length of LL Cycle - _**Easy**_
-75. Remove All Occurrences of Key SLL - _**Easy**_
-76. Remove All Occurrences of Key DLL - _**Easy**_
-77. Rotate LL - _**Medium**_
-78. Sort List - _**Medium**_
-79. Copy list with Random Node - _**Medium**_
-80. Design Browser History - _**Medium**_
-81. Swap Nodes in Pairs - _**Medium**_
-82. Partition List - _**Medium**_
-83. Delete N nodes after M Nodes - _**Medium**_
-84. Delete Node without Head pointer - _**Medium**_
-85. Queue using LL (Design Circular Queue) - _**Medium**_
-86. Queue using Stack - _**Easy**_
-87. Stack using LL - _**Medium**_
-88. Split LL in Parts - _**Medium**_
-89. Daily Temperatures - _**Medium**_
-90. Swap Kth Node from Beginning with end - _**Medium**_
-91. Rotate DLL - _**Medium**_ (CodingNinjas)
-92. Divide Array into Arrays with Max Diff K - _**Medium**_
-93. Sequential Digits - _**Medium**_
-94. Construct LL from Matrix - _**Medium**_
-95. Partition Array for Max Sum - _**Medium**_
-96. Minimum Window Substring - _**Hard**_
-97. Reorder List - _**Medium**_
-98. First Unique Character in String - _**Easy**_
-99. Circular Dequeue using LL - _**Medium**_
-100. Frequency Sort - _**Medium**_
-101. Perfect Squares - _**Medium**_
-102. Palindromic Substrings - _**Medium**_
-103. First Palindrome - _**Medium**_
-104. Rearrange by Sign - _**Medium**_
-105. Polygon with Largest Perimeter - _**Medium**_
-106. Least Unique Numbers in Array - _**Medium**_
-107. Furthest Building you can reach - _**Medium**_
-108. BFS Traversal Graph - _**Easy**_
-109. DFS Traversal Graph - _**Easy**_
-110. Number of Provinces - _**Medium**_
-111. Number of Islands - _**Medium**_
-112. Flood Fill - _**Easy**_
-113. Rotting Oranges - _**Medium**_
-114. Bitwise AND in Range - _**Medium**_
-115. Detect Cycle in Undirected Graph - _**Medium**_
-116. 01 Matrix - _**Medium**_
-117. Surrounded Regions - _**Medium**_
-118. Number of Enclaves - _**Medium**_
-119. Distinct Islands - _**Medium**_
-120. Bipartite Graph - _**Medium**_
-121. Detect Cycle in Directed Graph - _**Medium**_
-122. Eventually Safe States - _**Medium**_
-123. Topological Sort - _**Medium**_
-124. Topological Sort - Kahn's Algo - _**Medium**_
-125. Town Judge - _**Easy**_
-126. Course Schedule - _**Medium**_
-127. Course Schedule 2 - _**Medium**_
-128. Alien Dictionary - _**Medium**_
-129. Shortest Path in DAG - _**Medium**_
-130. Shortest Path in Undirected Graph - _**Medium**_
-131. Cheapest Flight with K stops - _**Medium**_
-132. Find People With Secret - _**Hard**_
-133. Word Ladder - _**Hard**_
-134. Word Ladder 2 - _**Hard**_
-135. Dijkstra Using PQ - _**Medium**_
-136. Shortest Path in Binary Maze - _**Medium**_
-137. Path with Minimum Effort - _**Medium**_
-138. Minimum Multiplication to reach end - _**Medium**_
-139. Number of Ways to reach Destination - _**Medium**_
-140. Bellman Ford Algorithm - _**Medium**_
-141. Floyd Warshall Algorithm - _**Medium**_
-142. City With Smallest Number of Neighbours - _**Medium**_
-143. Network Delay Time - _**Medium**_
-144. Minimum Spanning Tree - _**Medium**_
-145. Disjoint Set - Algorithm
-146. Kruskal Algorithm - _**Medium**_
-147. Make Network Connected - _**Medium**_
-148. Bottom Left Node in Tree - _**Medium**_
-149. Even Odd Tree - _**Medium**_
-150. Maximum Odd Binary Number - _**Easy**_
-151. Squares of Sorted Array - _**Easy**_
-152. Bag of Tokens - _**Medium**_
-153. Min Len of String after Deleting Similar Ends - _**Medium**_
-154. Max Frequency Elements - _**Easy**_
-155. Minimum Common Value - _**Easy**_
-156. Minimum Arrows to Burst Balloons - _**Medium**_
+20. Min Difficulty of Job Scheduling - _**Hard**_
+21. Word Search - _**Medium**_
+22. Convert an Array to 2D Array - _**Medium**_
+23. Permutations II - _**Medium**_
+24. Number of Laser Beams in Bank - _**Medium**_
+25. Min No of Operations to make Array Empty - _**Medium**_
+26. Max Sum of Pairs with equal sum of digits - _**Medium**_
+27. Maximum Sum Path Matrix variable starting point - _**Medium**_
+28. Longest Increasing Subsequence - _**Medium**_
+29. Max Profit in Job Scheduling - _**Hard**_
+30. Arithmetic Slices - _**Hard**_
+31. Maximum Diff Between Node and Ancestors - _**Medium**_ - Tree
+32. Min Steps to Make String Anagrams - _**Medium**_
+33. Rod Cutting Problem - _**Medium**_
+34. Close Strings - _**Medium**_
+35. Players with 0 or 1 Losses - _**Medium**_
+36. Convert String A to B - _**Medium**_ (Coding Ninjas)
+37. Permutations in String - _**Medium**_
+38. Maximum length of repeated SubArray - _**Medium**_
+39. Shortest Common SuperSequence - _**Hard**_
+40. Moving Totals - _**Easy**_ (Interview Question)
+41. Unique Occurrences - _**Easy**_
+42. Best Time to Buy And Sell Stock - _**Hard**_
+43. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
+44. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
+45. Largest Divisible Subset - _**Medium**_
+46. Longest String Chain - _**Medium**_
+47. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
+48. Min cost to cut stick - _**Hard**_
+49. Burst Balloons - _**Hard**_
+50. Combination Sum 4 - _**Medium**_
+51. Odd Even positioned LL - _**Medium**_
+52. Reverse a DLL - _**Easy**_ (CodingNinjas)
+53. Add Two Numbers - _**Medium**_
+54. Max Len Concat String with Unique Characters - _**Medium**_
+55. Pseudo Palindromic Path in Tree - _**Medium**_
+56. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
+57. Remove Nth Node from End of LL - _**Medium**_
+58. Palindrome Linked List - _**Easy**_
+59. Out of Boundary Paths - _**Medium**_
+60. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
+61. Intersection of two LL - _**Easy**_
+62. Detect Cycle - _**Easy**_
+63. Detect Cycle 2 - _**Medium**_
+64. Delete Middle of LL - _**Medium**_
+65. Length of LL Cycle - _**Easy**_
+66. Remove All Occurrences of Key SLL - _**Easy**_
+67. Remove All Occurrences of Key DLL - _**Easy**_
+68. Rotate LL - _**Medium**_
+69. Sort List - _**Medium**_
+70. Copy list with Random Node - _**Medium**_
+71. Design Browser History - _**Medium**_
+72. Swap Nodes in Pairs - _**Medium**_
+73. Partition List - _**Medium**_
+74. Delete N nodes after M Nodes - _**Medium**_
+75. Delete Node without Head pointer - _**Medium**_
+76. Queue using LL (Design Circular Queue) - _**Medium**_
+77. Queue using Stack - _**Easy**_
+78. Stack using LL - _**Medium**_
+79. Split LL in Parts - _**Medium**_
+80. Daily Temperatures - _**Medium**_
+81. Swap Kth Node from Beginning with end - _**Medium**_
+82. Rotate DLL - _**Medium**_ (CodingNinjas)
+83. Divide Array into Arrays with Max Diff K - _**Medium**_
+84. Sequential Digits - _**Medium**_
+85. Construct LL from Matrix - _**Medium**_
+86. Partition Array for Max Sum - _**Medium**_
+87. Minimum Window Substring - _**Hard**_
+88. Reorder List - _**Medium**_
+89. First Unique Character in String - _**Easy**_
+90. Circular Dequeue using LL - _**Medium**_
+91. Frequency Sort - _**Medium**_
+92. Perfect Squares - _**Medium**_
+93. Palindromic Substrings - _**Medium**_
+94. First Palindrome - _**Medium**_
+95. Rearrange by Sign - _**Medium**_
+96. Polygon with Largest Perimeter - _**Medium**_
+97. Least Unique Numbers in Array - _**Medium**_
+98. Furthest Building you can reach - _**Medium**_
+99. BFS Traversal Graph - _**Easy**_
+100. DFS Traversal Graph - _**Easy**_
+101. Number of Provinces - _**Medium**_
+102. Number of Islands - _**Medium**_
+103. Flood Fill - _**Easy**_
+104. Rotting Oranges - _**Medium**_
+105. Bitwise AND in Range - _**Medium**_
+106. Detect Cycle in Undirected Graph - _**Medium**_
+107. 01 Matrix - _**Medium**_
+108. Surrounded Regions - _**Medium**_
+109. Number of Enclaves - _**Medium**_
+110. Distinct Islands - _**Medium**_
+111. Bipartite Graph - _**Medium**_
+112. Detect Cycle in Directed Graph - _**Medium**_
+113. Eventually Safe States - _**Medium**_
+114. Topological Sort - _**Medium**_
+115. Topological Sort - Kahn's Algo - _**Medium**_
+116. Town Judge - _**Easy**_
+117. Course Schedule - _**Medium**_
+118. Course Schedule 2 - _**Medium**_
+119. Alien Dictionary - _**Medium**_
+120. Shortest Path in DAG - _**Medium**_
+121. Shortest Path in Undirected Graph - _**Medium**_
+122. Cheapest Flight with K stops - _**Medium**_
+123. Find People With Secret - _**Hard**_
+124. Word Ladder - _**Hard**_
+125. Word Ladder 2 - _**Hard**_
+126. Dijkstra Using PQ - _**Medium**_
+127. Shortest Path in Binary Maze - _**Medium**_
+128. Path with Minimum Effort - _**Medium**_
+129. Minimum Multiplication to reach end - _**Medium**_
+130. Number of Ways to reach Destination - _**Medium**_
+131. Bellman Ford Algorithm - _**Medium**_
+132. Floyd Warshall Algorithm - _**Medium**_
+133. City With Smallest Number of Neighbours - _**Medium**_
+134. Network Delay Time - _**Medium**_
+135. Minimum Spanning Tree - _**Medium**_
+136. Disjoint Set - Algorithm
+137. Kruskal Algorithm - _**Medium**_
+138. Make Network Connected - _**Medium**_
+139. Bottom Left Node in Tree - _**Medium**_
+140. Even Odd Tree - _**Medium**_
+141. Bag of Tokens - _**Medium**_
+142. Min Len of String after Deleting Similar Ends - _**Medium**_
+143. Minimum Arrows to Burst Balloons - _**Medium**_
 
 ### **String**
 
-|   | Problem                                                                             | Difficulty                                | Notes     | LeetCode                                                                                |
-|---|-------------------------------------------------------------------------------------|-------------------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| 1 | [Reverse Words](Strings/ReverseWords.java)                                          | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/reverse-words-in-a-string)                         |
-| 2 | [ZigZag Conversion](Strings/ZigZagConversion.java)                                  | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/zigzag-conversion)                                 |
-| 3 | [Length of Last Word](Strings/LengthOfLastWord.java)                                | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/length-of-last-word)                               |
-| 4 | [Clear Digits](Strings/ClearDigits.java)                                            | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/clear-digits)                                      |
-| 5 | [Longest Common Prefix](Strings/LongestCommonPrefix.java)                           | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/longest-common-prefix)                             |
-| 6 | [GCD Of Strings](Strings/GCDOfStrings.java)                                         | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings)                |
-| 7 | [File System](Strings/FileSystem.java)                                              | <span style="color:yellow;">Medium</span> | Atlassian | [Link](https://leetcode.com/problems/design-file-system)                                |
-| 8 | [Min Operations For Alternating String](Strings/MinOperationAlternatingString.java) | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) |
+|    | Problem                                                                             | Difficulty                                | Notes     | LeetCode                                                                                |
+|----|-------------------------------------------------------------------------------------|-------------------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| 1  | [Reverse Words](Strings/ReverseWords.java)                                          | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/reverse-words-in-a-string)                         |
+| 2  | [ZigZag Conversion](Strings/ZigZagConversion.java)                                  | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/zigzag-conversion)                                 |
+| 3  | [Length of Last Word](Strings/LengthOfLastWord.java)                                | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/length-of-last-word)                               |
+| 4  | [Clear Digits](Strings/ClearDigits.java)                                            | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/clear-digits)                                      |
+| 5  | [Longest Common Prefix](Strings/LongestCommonPrefix.java)                           | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/longest-common-prefix)                             |
+| 6  | [GCD Of Strings](Strings/GCDOfStrings.java)                                         | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/greatest-common-divisor-of-strings)                |
+| 7  | [File System](Strings/FileSystem.java)                                              | <span style="color:yellow;">Medium</span> | Atlassian | [Link](https://leetcode.com/problems/design-file-system)                                |
+| 8  | [Min Operations For Alternating String](Strings/MinOperationAlternatingString.java) | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) |
+| 9  | [Maximum Odd Binary Number](Strings/MaximumOddBinaryNumber.java)                    | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/maximum-odd-binary-number)                         |
+| 10 | [String Halves are Alike](Strings/StringHalvesAlike.java)                           | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/determine-if-string-halves-are-alike)              |
+| 11 | [Minimum Moves to Convert String](Strings/MinMovesXO.java)                          | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/minimum-moves-to-convert-string)                   |
 
 ### **Math**
 
-|   | Problem                                            | Difficulty                                | Notes | LeetCode                                                           |
-|---|----------------------------------------------------|-------------------------------------------|-------|--------------------------------------------------------------------|
-| 1 | [Product Except Self](Math/ProductExceptSelf.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/product-of-array-except-self) |
-| 2 | [Check SubArray Sum](Math/CheckSubArraySum.java)   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/continuous-subarray-sum)      |
-| 3 | [Pow(x,n)](Math/PowerXtoN.java)                    | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/powx-n)                       |
+|   | Problem                                                       | Difficulty                                | Notes | LeetCode                                                                     |
+|---|---------------------------------------------------------------|-------------------------------------------|-------|------------------------------------------------------------------------------|
+| 1 | [Product Except Self](Math/ProductExceptSelf.java)            | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/product-of-array-except-self)           |
+| 2 | [Check SubArray Sum](Math/CheckSubArraySum.java)              | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/continuous-subarray-sum)                |
+| 3 | [Pow(x,n)](Math/PowerXtoN.java)                               | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/powx-n)                                 |
+| 4 | [Palindrome Number](Math/PalindromeNumber.java)               | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/palindrome-number)                      |
+| 5 | [Bitwise OR trailing zeros](Math/BitwiseORTrailingZeros.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros) |
 
 ### **Arrays**
 
@@ -226,6 +218,8 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 14 | [Trapping Rain Water](TwoPointers/TrappingRainWater.java)                      | <span style="color:red;">Hard</span>      |                       | [Link](https://leetcode.com/problems/trapping-rain-water)                    |
 | 15 | [Is Subsequence](TwoPointers/isSubSequence.java)                               | <span style="color:green;">Easy</span>    |                       | [Link](https://leetcode.com/problems/is-subsequence)                         |
 | 16 | [Shortest distance to Character](TwoPointers/ShortestDistanceToCharacter.java) | <span style="color:green;">Easy</span>    |                       | [Link](https://leetcode.com/problems/shortest-distance-to-a-character)       |
+| 17 | [Assign Cookies](TwoPointers/AssignCookies.java)                               | <span style="color:green;">Easy</span>    |                       | [Link](https://leetcode.com/problems/assign-cookies)                         |
+| 18 | [Minimum Common Value](TwoPointers/MinimumCommonValue.java)                    | <span style="color:green;">Easy</span>    |                       | [Link](https://leetcode.com/problems/minimum-common-value)                   |
 
 ### **Sliding Window**
 
@@ -246,6 +240,8 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 1 | [Search Matrix](BinarySearch/SearchMatrix.java)                                | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/search-a-2d-matrix)              |
 | 2 | [Search in Rotated Sorted Array](BinarySearch/SearchInRotatedSortedArray.java) | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
 | 3 | [First Occurrence of One](BinarySearch/FirstOccurrenceOfOne.java)              | <span style="color:yellow;">Medium</span> |       |                                                                       |
+| 4 | [Search Insert Position](BinarySearch/SearchIndexToInsert.java)                | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/search-insert-position)          |
+| 5 | [Squares of Sorted Array](BinarySearch/SquaresOfSortedArray.java)              | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/squares-of-a-sorted-array)       |
 
 ### **Hash Table**
 
@@ -275,17 +271,19 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 22 | [Online Election](HashTable/TopVotedCandidate.java)                                  | <span style="color:yellow;">Medium</span> | Atlassian      | [Link](https://leetcode.com/problems/online-election)                                   |
 | 23 | [Redistribute Characters](HashTable/RedistributeCharacters.java)                     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal) |
 | 24 | [Largest Substring B/W Equal Characters](HashTable/LongestSubstringBwSameChars.java) | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/largest-substring-between-two-equal-characters)    |
+| 25 | [Maximum Frequency Elements](HashTable/MaxFrequencyElements.java)                    | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/count-elements-with-maximum-frequency)             |
 
 ### **Hash Set**
 
-|   | Problem                                                                 | Difficulty                                | Notes           | LeetCode                                                           |
-|---|-------------------------------------------------------------------------|-------------------------------------------|-----------------|--------------------------------------------------------------------|
-| 1 | [Intersection of Two Arrays](HashSet/IntersectionOfTwoArrays.java)      | <span style="color:green;">Easy</span>    | Frequency Array | [Link](https://leetcode.com/problems/intersection-of-two-arrays)   |
-| 2 | [Replace Words](HashSet/ReplaceWords.java)                              | <span style="color:yellow;">Medium</span> | Trie            | [Link](https://leetcode.com/problems/replace-words)                |
-| 3 | [Set Mismatch](HashSet/SetMismatch.java)                                | <span style="color:green;">Easy</span>    |                 | [Link](https://leetcode.com/problems/set-mismatch)                 |
-| 4 | [Longest Consecutive Sequence](HashSet/LongestConsecutiveSequence.java) | <span style="color:yellow;">Medium</span> |                 | [Link](https://leetcode.com/problems/longest-consecutive-sequence) |
-| 5 | [Randomized Set](HashSet/RandomizedSet.java)                            | <span style="color:yellow;">Medium</span> |                 | [Link](https://leetcode.com/problems/insert-delete-getrandom-o1)   |
-| 6 | [Path Crossing](HashSet/PathCrossing.java)                              | <span style="color:green;">Easy</span>    |                 | [Link](https://leetcode.com/problems/path-crossing)                |
+|   | Problem                                                                 | Difficulty                                | Notes           | LeetCode                                                               |
+|---|-------------------------------------------------------------------------|-------------------------------------------|-----------------|------------------------------------------------------------------------|
+| 1 | [Intersection of Two Arrays](HashSet/IntersectionOfTwoArrays.java)      | <span style="color:green;">Easy</span>    | Frequency Array | [Link](https://leetcode.com/problems/intersection-of-two-arrays)       |
+| 2 | [Replace Words](HashSet/ReplaceWords.java)                              | <span style="color:yellow;">Medium</span> | Trie            | [Link](https://leetcode.com/problems/replace-words)                    |
+| 3 | [Set Mismatch](HashSet/SetMismatch.java)                                | <span style="color:green;">Easy</span>    |                 | [Link](https://leetcode.com/problems/set-mismatch)                     |
+| 4 | [Longest Consecutive Sequence](HashSet/LongestConsecutiveSequence.java) | <span style="color:yellow;">Medium</span> |                 | [Link](https://leetcode.com/problems/longest-consecutive-sequence)     |
+| 5 | [Randomized Set](HashSet/RandomizedSet.java)                            | <span style="color:yellow;">Medium</span> |                 | [Link](https://leetcode.com/problems/insert-delete-getrandom-o1)       |
+| 6 | [Path Crossing](HashSet/PathCrossing.java)                              | <span style="color:green;">Easy</span>    |                 | [Link](https://leetcode.com/problems/path-crossing)                    |
+| 7 | [Maximum Number of Pairs in Array](HashSet/MaxPairsInArray.java)        | <span style="color:green;">Easy</span>    |                 | [Link](https://leetcode.com/problems/maximum-number-of-pairs-in-array) |
 
 ### **Stack**
 
@@ -422,6 +420,8 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 44 | [Build Tree from Description](Trees/TreeFromDescription.java)                                | <span style="color:yellow;">Medium</span> |                   | [Link](https://leetcode.com/problems/create-binary-tree-from-descriptions)                        |
 | 45 | [Find Leaves of Tree](Trees/FindLeavesOfTree.java)                                           | <span style="color:yellow;">Medium</span> | Atlassian         | [Link](https://leetcode.com/problems/find-leaves-of-binary-tree)                                  |
 | 46 | [Max Average Subtree](Trees/MaxAverageSubtree.java)                                          | <span style="color:yellow;">Medium</span> | Atlassian         | [Link](https://leetcode.com/problems/maximum-average-subtree)                                     |
+| 47 | [Range Sum BST](Trees/RangeSumBST.java)                                                      | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/range-sum-of-bst)                                            |
+| 48 | [Leaf Similar Trees](Trees/LeafSimilarTrees.java)                                            | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/leaf-similar-trees)                                          |
 
 
-### **Total: 194**
+### **Total: 208**
