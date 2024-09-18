@@ -4,7 +4,6 @@ package LinkedList;
 // https://www.codingninjas.com/studio/problems/add-one-to-a-number-represented-as-linked-list_920557
 public class AddOne {
     public static Node addNode(Node head) {
-        // Write your code here.
         Node newHead = reverseLL(head);
         int carry = 0;
         Node temp = newHead;

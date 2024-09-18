@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.Set;
 
 public class MovingTotal {
-    /**
-     * Adds/appends list of integers at the end of internal list.
-     */
-    Set<Integer> movingTotalSet = new HashSet<>();
     List<Integer> integerList = new ArrayList<>();
     int index = 0;
     int total = 0;
+    Set<Integer> movingTotalSet = new HashSet<>();
 
+    /**
+     * Adds/appends list of integers at the end of internal list.
+     */
     public void append(int[] list) {
 
         for (int i=0 ; i < list.length; i++) {

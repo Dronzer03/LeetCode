@@ -43,109 +43,97 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 38. Maximum length of repeated SubArray - _**Medium**_
 39. Shortest Common SuperSequence - _**Hard**_
 40. Moving Totals - _**Easy**_ (Interview Question)
-41. Unique Occurrences - _**Easy**_
-42. Best Time to Buy And Sell Stock - _**Hard**_
-43. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
-44. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
-45. Largest Divisible Subset - _**Medium**_
-46. Longest String Chain - _**Medium**_
-47. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
-48. Min cost to cut stick - _**Hard**_
-49. Burst Balloons - _**Hard**_
-50. Combination Sum 4 - _**Medium**_
-51. Odd Even positioned LL - _**Medium**_
-52. Reverse a DLL - _**Easy**_ (CodingNinjas)
-53. Add Two Numbers - _**Medium**_
-54. Max Len Concat String with Unique Characters - _**Medium**_
-55. Pseudo Palindromic Path in Tree - _**Medium**_
-56. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
-57. Remove Nth Node from End of LL - _**Medium**_
-58. Palindrome Linked List - _**Easy**_
-59. Out of Boundary Paths - _**Medium**_
-60. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
-61. Intersection of two LL - _**Easy**_
-62. Detect Cycle - _**Easy**_
-63. Detect Cycle 2 - _**Medium**_
-64. Delete Middle of LL - _**Medium**_
-65. Length of LL Cycle - _**Easy**_
-66. Remove All Occurrences of Key SLL - _**Easy**_
-67. Remove All Occurrences of Key DLL - _**Easy**_
-68. Rotate LL - _**Medium**_
-69. Sort List - _**Medium**_
-70. Copy list with Random Node - _**Medium**_
-71. Design Browser History - _**Medium**_
-72. Swap Nodes in Pairs - _**Medium**_
-73. Partition List - _**Medium**_
-74. Delete N nodes after M Nodes - _**Medium**_
-75. Delete Node without Head pointer - _**Medium**_
-76. Queue using LL (Design Circular Queue) - _**Medium**_
-77. Queue using Stack - _**Easy**_
-78. Stack using LL - _**Medium**_
-79. Split LL in Parts - _**Medium**_
-80. Daily Temperatures - _**Medium**_
-81. Swap Kth Node from Beginning with end - _**Medium**_
-82. Rotate DLL - _**Medium**_ (CodingNinjas)
-83. Divide Array into Arrays with Max Diff K - _**Medium**_
-84. Sequential Digits - _**Medium**_
-85. Construct LL from Matrix - _**Medium**_
-86. Partition Array for Max Sum - _**Medium**_
-87. Minimum Window Substring - _**Hard**_
-88. Reorder List - _**Medium**_
-89. First Unique Character in String - _**Easy**_
-90. Circular Dequeue using LL - _**Medium**_
-91. Frequency Sort - _**Medium**_
-92. Perfect Squares - _**Medium**_
-93. Palindromic Substrings - _**Medium**_
-94. First Palindrome - _**Medium**_
-95. Rearrange by Sign - _**Medium**_
-96. Polygon with Largest Perimeter - _**Medium**_
-97. Least Unique Numbers in Array - _**Medium**_
-98. Furthest Building you can reach - _**Medium**_
-99. BFS Traversal Graph - _**Easy**_
-100. DFS Traversal Graph - _**Easy**_
-101. Number of Provinces - _**Medium**_
-102. Number of Islands - _**Medium**_
-103. Flood Fill - _**Easy**_
-104. Rotting Oranges - _**Medium**_
-105. Bitwise AND in Range - _**Medium**_
-106. Detect Cycle in Undirected Graph - _**Medium**_
-107. 01 Matrix - _**Medium**_
-108. Surrounded Regions - _**Medium**_
-109. Number of Enclaves - _**Medium**_
-110. Distinct Islands - _**Medium**_
-111. Bipartite Graph - _**Medium**_
-112. Detect Cycle in Directed Graph - _**Medium**_
-113. Eventually Safe States - _**Medium**_
-114. Topological Sort - _**Medium**_
-115. Topological Sort - Kahn's Algo - _**Medium**_
-116. Town Judge - _**Easy**_
-117. Course Schedule - _**Medium**_
-118. Course Schedule 2 - _**Medium**_
-119. Alien Dictionary - _**Medium**_
-120. Shortest Path in DAG - _**Medium**_
-121. Shortest Path in Undirected Graph - _**Medium**_
-122. Cheapest Flight with K stops - _**Medium**_
-123. Find People With Secret - _**Hard**_
-124. Word Ladder - _**Hard**_
-125. Word Ladder 2 - _**Hard**_
-126. Dijkstra Using PQ - _**Medium**_
-127. Shortest Path in Binary Maze - _**Medium**_
-128. Path with Minimum Effort - _**Medium**_
-129. Minimum Multiplication to reach end - _**Medium**_
-130. Number of Ways to reach Destination - _**Medium**_
-131. Bellman Ford Algorithm - _**Medium**_
-132. Floyd Warshall Algorithm - _**Medium**_
-133. City With Smallest Number of Neighbours - _**Medium**_
-134. Network Delay Time - _**Medium**_
-135. Minimum Spanning Tree - _**Medium**_
-136. Disjoint Set - Algorithm
-137. Kruskal Algorithm - _**Medium**_
-138. Make Network Connected - _**Medium**_
-139. Bottom Left Node in Tree - _**Medium**_
-140. Even Odd Tree - _**Medium**_
-141. Bag of Tokens - _**Medium**_
-142. Min Len of String after Deleting Similar Ends - _**Medium**_
-143. Minimum Arrows to Burst Balloons - _**Medium**_
+41. Best Time to Buy And Sell Stock - _**Hard**_
+42. Best Time to Buy And Sell Stock with Cooldown - _**Medium**_
+43. Best Time to Buy And Sell Stock with TxnFee - _**Medium**_
+44. Largest Divisible Subset - _**Medium**_
+45. Longest String Chain - _**Medium**_
+46. Longest Bitonic Subsequence - _**Medium**_ (CodingNinjas)
+47. Min cost to cut stick - _**Hard**_
+48. Burst Balloons - _**Hard**_
+49. Combination Sum 4 - _**Medium**_
+50. Odd Even positioned LL - _**Medium**_
+51. Reverse a DLL - _**Easy**_ (CodingNinjas)
+52. Add Two Numbers - _**Medium**_
+53. Max Len Concat String with Unique Characters - _**Medium**_
+54. Pseudo Palindromic Path in Tree - _**Medium**_
+55. Sort LL of 0,1,2 - _**Easy**_ (CodingNinjas)
+56. Remove Nth Node from End of LL - _**Medium**_
+57. Out of Boundary Paths - _**Medium**_
+58. Add one LL - _**Easy**_ (CodingNinjas) (LC Premium)
+59. Rotate LL - _**Medium**_
+60. Sort List - _**Medium**_
+61. Design Browser History - _**Medium**_
+62. Swap Nodes in Pairs - _**Medium**_
+63. Partition List - _**Medium**_
+64. Delete N nodes after M Nodes - _**Medium**_
+65. Delete Node without Head pointer - _**Medium**_
+66. Queue using LL (Design Circular Queue) - _**Medium**_
+67. Queue using Stack - _**Easy**_
+68. Split LL in Parts - _**Medium**_
+69. Daily Temperatures - _**Medium**_
+70. Swap Kth Node from Beginning with end - _**Medium**_
+71. Rotate DLL - _**Medium**_ (CodingNinjas)
+72. Divide Array into Arrays with Max Diff K - _**Medium**_
+73. Sequential Digits - _**Medium**_
+74. Construct LL from Matrix - _**Medium**_
+75. Partition Array for Max Sum - _**Medium**_
+76. Minimum Window Substring - _**Hard**_
+77. Reorder List - _**Medium**_
+78. First Unique Character in String - _**Easy**_
+79. Circular Dequeue using LL - _**Medium**_
+80. Frequency Sort - _**Medium**_
+81. Perfect Squares - _**Medium**_
+82. Palindromic Substrings - _**Medium**_
+83. First Palindrome - _**Medium**_
+84. Rearrange by Sign - _**Medium**_
+85. Polygon with Largest Perimeter - _**Medium**_
+86. Least Unique Numbers in Array - _**Medium**_
+87. Furthest Building you can reach - _**Medium**_
+88. BFS Traversal Graph - _**Easy**_
+89. DFS Traversal Graph - _**Easy**_
+90. Number of Provinces - _**Medium**_
+91. Number of Islands - _**Medium**_
+92. Flood Fill - _**Easy**_
+93. Rotting Oranges - _**Medium**_
+94. Bitwise AND in Range - _**Medium**_
+95. Detect Cycle in Undirected Graph - _**Medium**_
+96. 01 Matrix - _**Medium**_
+97. Surrounded Regions - _**Medium**_
+98. Number of Enclaves - _**Medium**_
+99. Distinct Islands - _**Medium**_
+100. Bipartite Graph - _**Medium**_
+101. Detect Cycle in Directed Graph - _**Medium**_
+102. Eventually Safe States - _**Medium**_
+103. Topological Sort - _**Medium**_
+104. Topological Sort - Kahn's Algo - _**Medium**_
+105. Course Schedule - _**Medium**_
+106. Course Schedule 2 - _**Medium**_
+107. Alien Dictionary - _**Medium**_
+108. Shortest Path in DAG - _**Medium**_
+109. Shortest Path in Undirected Graph - _**Medium**_
+110. Cheapest Flight with K stops - _**Medium**_
+111. Find People With Secret - _**Hard**_
+112. Word Ladder - _**Hard**_
+113. Word Ladder 2 - _**Hard**_
+114. Dijkstra Using PQ - _**Medium**_
+115. Shortest Path in Binary Maze - _**Medium**_
+116. Path with Minimum Effort - _**Medium**_
+117. Minimum Multiplication to reach end - _**Medium**_
+118. Number of Ways to reach Destination - _**Medium**_
+119. Bellman Ford Algorithm - _**Medium**_
+120. Floyd Warshall Algorithm - _**Medium**_
+121. City With Smallest Number of Neighbours - _**Medium**_
+122. Network Delay Time - _**Medium**_
+123. Minimum Spanning Tree - _**Medium**_
+124. Disjoint Set - Algorithm
+125. Kruskal Algorithm - _**Medium**_
+126. Make Network Connected - _**Medium**_
+127. Bottom Left Node in Tree - _**Medium**_
+128. Even Odd Tree - _**Medium**_
+129. Bag of Tokens - _**Medium**_
+130. Min Len of String after Deleting Similar Ends - _**Medium**_
+131. Minimum Arrows to Burst Balloons - _**Medium**_
 
 ### **String**
 
@@ -172,6 +160,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 3 | [Pow(x,n)](Math/PowerXtoN.java)                               | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/powx-n)                                 |
 | 4 | [Palindrome Number](Math/PalindromeNumber.java)               | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/palindrome-number)                      |
 | 5 | [Bitwise OR trailing zeros](Math/BitwiseORTrailingZeros.java) | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros) |
+| 6 | [Town Judge](Math/TownJudge.java)                             | <span style="color:green;">Easy</span>    |       | [Link](https://leetcode.com/problems/find-the-town-judge)                    |
 
 ### **Arrays**
 
@@ -272,6 +261,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 23 | [Redistribute Characters](HashTable/RedistributeCharacters.java)                     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal) |
 | 24 | [Largest Substring B/W Equal Characters](HashTable/LongestSubstringBwSameChars.java) | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/largest-substring-between-two-equal-characters)    |
 | 25 | [Maximum Frequency Elements](HashTable/MaxFrequencyElements.java)                    | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/count-elements-with-maximum-frequency)             |
+| 26 | [Unique Number of Occurrences](HashTable/UniqueOccurrences.java)                     | <span style="color:green;">Easy</span>    |                | [Link](https://leetcode.com/problems/unique-number-of-occurrences)                      |
 
 ### **Hash Set**
 
@@ -299,21 +289,27 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 ### **Linked List**
 
-|    | Problem                                                                    | Difficulty                                | Notes     | LeetCode                                                                    |
-|----|----------------------------------------------------------------------------|-------------------------------------------|-----------|-----------------------------------------------------------------------------|
-| 1  | [Reverse LL](LinkedList/ReverseDLL.java)                                   | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/reverse-linked-list)                   |
-| 2  | [Middle of LL](LinkedList/MiddleOfLL.java)                                 | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/middle-of-the-linked-list)             |
-| 3  | [Merge two Sorted LL](LinkedList/MergeSortedLL.java)                       | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/merge-two-sorted-lists)                |
-| 4  | [Linked List Cycle](LinkedList/DetectCycle.java)                           | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/linked-list-cycle)                     |
-| 5  | [Add Two Numbers](LinkedList/AddTwoNumbers.java)                           | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/add-two-numbers)                       |
-| 6  | [Merge Two Sorted Lists](LinkedList/MergeSortedLL.java)                    | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/merge-two-sorted-lists)                |
-| 7  | [Copy List With Random Pointer](LinkedList/CopyListWithRandomPointer.java) | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/copy-list-with-random-pointer)         |
-| 8  | [Reverse Linked List 2](LinkedList/ReverseLinkedList2.java)                | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/reverse-linked-list-ii)                |
-| 9  | [Reverse Nodes in K Group](LinkedList/ReverseNodesInKGroup.java)           | <span style="color:red;">Hard</span>      |           | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group)              |
-| 10 | [Remove nth Node from end](LinkedList/RemoveNthNodeFromEnd.java)           | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list)      |
-| 11 | [Delete Duplicates](LinkedList/DeleteDuplicates.java)                      | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list)    |
-| 12 | [Delete Duplicates 2](LinkedList/DeleteDuplicates2.java)                   | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) |
-| 13 | [All One](LinkedList/AllOne.java)                                          | <span style="color:red;">Hard</span>      | Atlassian | [Link](https://leetcode.com/problems/all-oone-data-structure)               |
+|    | Problem                                                                    | Difficulty                                | Notes     | LeetCode                                                                                                                   |
+|----|----------------------------------------------------------------------------|-------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------|
+| 1  | [Reverse LL](LinkedList/ReverseDLL.java)                                   | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/reverse-linked-list)                                                                  |
+| 2  | [Middle of LL](LinkedList/MiddleOfLL.java)                                 | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/middle-of-the-linked-list)                                                            |
+| 3  | [Linked List Cycle](LinkedList/DetectCycle.java)                           | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/linked-list-cycle)                                                                    |
+| 4  | [Add Two Numbers](LinkedList/AddTwoNumbers.java)                           | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/add-two-numbers)                                                                      |
+| 5  | [Merge Two Sorted Lists](LinkedList/MergeSortedLL.java)                    | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/merge-two-sorted-lists)                                                               |
+| 6  | [Copy List With Random Pointer](LinkedList/CopyListWithRandomPointer.java) | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/copy-list-with-random-pointer)                                                        |
+| 7  | [Reverse Linked List 2](LinkedList/ReverseLinkedList2.java)                | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/reverse-linked-list-ii)                                                               |
+| 8  | [Reverse Nodes in K Group](LinkedList/ReverseNodesInKGroup.java)           | <span style="color:red;">Hard</span>      |           | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group)                                                             |
+| 9  | [Remove nth Node from end](LinkedList/RemoveNthNodeFromEnd.java)           | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list)                                                     |
+| 10 | [Delete Duplicates](LinkedList/DeleteDuplicates.java)                      | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list)                                                   |
+| 11 | [Delete Duplicates 2](LinkedList/DeleteDuplicates2.java)                   | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)                                                |
+| 12 | [All One](LinkedList/AllOne.java)                                          | <span style="color:red;">Hard</span>      | Atlassian | [Link](https://leetcode.com/problems/all-oone-data-structure)                                                              |
+| 13 | [Palindrome LL](LinkedList/Palindrome.java)                                | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/palindrome-linked-list)                                                               |
+| 14 | [LL Intersection](LinkedList/IntersectionPointOfLL.java)                   | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists)                                                     |
+| 15 | [Detect Cycle 2](LinkedList/DetectCycle2.java)                             | <span style="color:yellow;">Medium</span> |           | [Link](https://leetcode.com/problems/linked-list-cycle-ii)                                                                 |
+| 16 | [Length of LL Cycle](LinkedList/LengthOfLLCycle.java)                      | <span style="color:yellow;">Medium</span> |           | [Link](https://www.codingninjas.com/studio/problems/find-length-of-loop_8160455)                                           |
+| 17 | [Remove Elements](LinkedList/RemoveAllOccurrencesOfKey.java)               | <span style="color:green;">Easy</span>    |           | [Link](https://leetcode.com/problems/remove-linked-list-elements)                                                          |
+| 18 | [Remove Elements DLL](LinkedList/RemoveAllOccurrencesOfKeyDLL.java)        | <span style="color:green;">Easy</span>    |           | [Link](https://www.codingninjas.com/studio/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list_8160461) |
+| 19 | [Stack using LL](LinkedList/StackUsingLL.java)                             | <span style="color:green;">Easy</span>    |           | [Link](https://www.codingninjas.com/studio/problems/implement-stack-with-linked-list_630475)                               |
 
 ### **Recursion**
 
@@ -424,4 +420,4 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 48 | [Leaf Similar Trees](Trees/LeafSimilarTrees.java)                                            | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/leaf-similar-trees)                                          |
 
 
-### **Total: 208**
+### **Total: 214**
