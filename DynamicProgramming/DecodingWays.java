@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+// LC - 91
+// https://leetcode.com/problems/decode-ways
 public class DecodingWays {
     public int numDecodings(String s) {
         if (s.isEmpty() || s.charAt(0) == '0')

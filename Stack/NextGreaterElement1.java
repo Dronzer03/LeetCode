@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+// LC - 496
+// https://leetcode.com/problems/next-greater-element-i
 public class NextGreaterElement1 {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> greaterMap = new HashMap<>();

@@ -1,5 +1,9 @@
 package TwoPointers;
 
+import java.util.Arrays;
+
+// LC - 917
+// https://leetcode.com/problems/reverse-only-letters
 public class ReverseWithoutAffectingSpecialChar {
     public static String reverse(String str)
     {
@@ -24,6 +28,34 @@ public class ReverseWithoutAffectingSpecialChar {
             right--;
         }
         return new String(strArray);
+    }
+
+    public String reverseOnlyLetters(String s) {
+        int left = 0;
+        int right = s.length() - 1;
+
+        char[] res = new char[s.length()];
+
+        while (left <= right) {
+            if (!Character.isLetter(s.charAt(left))) {
+                res[left] = s.charAt(left);
+                left++;
+                continue;
+            }
+
+            if (!Character.isLetter(s.charAt(right))) {
+                res[right] = s.charAt(right);
+                right--;
+                continue;
+            }
+
+            res[left] = s.charAt(right);
+            res[right] = s.charAt(left);
+            left++;
+            right--;
+        }
+
+        return Arrays.toString(res);
     }
 
     public static void main(String[] args) {

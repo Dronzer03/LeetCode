@@ -3,7 +3,11 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.Collections;
 
+// GFG
+// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 public class RatInAMaze {
+    // Use StringBuilder instead of String
+    // findAllPaths and findValidOptions can be combined
     public static ArrayList<String> findPath(int[][] m, int n) {
         // Your code here
         ArrayList<String> result = findAllPaths(m, n, new ArrayList<>(), 0, 0, "");

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+// LC - 51
+// https://leetcode.com/problems/n-queens
 public class NQueens {
     public int nQueens(boolean[][] board, int column, int count) {
         if (column == board.length) {

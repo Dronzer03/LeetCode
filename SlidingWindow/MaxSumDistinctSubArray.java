@@ -4,24 +4,26 @@ import java.util.*;
 
 // LC - 2461
 // https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/
-public class MaxSumSubarraySum {
+public class MaxSumDistinctSubArray {
     public static long maximumSubarraySum(int[] nums, int k) {
+        Map<Integer, Integer> countMap = new HashMap<>();
         long maxSum = 0;
-        Map<Integer, Integer> numbers = new HashMap<>();
         long sum = 0;
-        for (int i=0; i<nums.length; i++) {
-            sum += nums[i];
-            numbers.put(nums[i], numbers.getOrDefault(nums[i], 0) + 1);
-            if (i >= k-1) {
-                if (numbers.size() == k) {
+
+        for (int index = 0; index < nums.length; index++) {
+            countMap.put(nums[index], countMap.getOrDefault(nums[index], 0) + 1);
+            sum += nums[index];
+
+            if (index >= k - 1) {
+                if (countMap.size() == k)
                     maxSum = Math.max(sum, maxSum);
-                }
-                sum -= nums[i-k+1];
-                numbers.put(nums[i-k+1], numbers.get(nums[i-k+1])-1);
-                if (numbers.get(nums[i-k+1]) == 0)
-                    numbers.remove(nums[i-k+1]);
+                sum -= nums[index - k + 1];
+                countMap.put(nums[index - k + 1], countMap.get(nums[index - k + 1]) - 1);
+                if (countMap.get(nums[index - k + 1]) == 0)
+                    countMap.remove(nums[index - k + 1]);
             }
         }
+
         return maxSum;
     }
 

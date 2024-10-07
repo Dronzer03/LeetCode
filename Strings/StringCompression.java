@@ -1,6 +1,9 @@
 package Strings;
 
+// LC - 443
+// https://leetcode.com/problems/string-compression
 public class StringCompression {
+
     public static int compress(char[] chars) {
         if (chars.length == 0 || chars.length == 1)
             return chars.length;
@@ -32,6 +35,27 @@ public class StringCompression {
                 chars[index++] = countArr[j++];
         }
         return index;
+    }
+
+    public int compressBetter(char[] chars) {
+        int index = 0;
+        int resultIndex = 0;
+
+        while (index < chars.length) {
+            char currentCharacter = chars[index];
+            int count = 0;
+            while (index < chars.length && chars[index] == currentCharacter) {
+                count++;
+                index++;
+            }
+            chars[resultIndex++] = currentCharacter;
+            if (count != 1) {
+                for (char ch : Integer.toString(count).toCharArray())
+                    chars[resultIndex++] = ch;
+            }
+        }
+
+        return resultIndex;
     }
 
     public static void main(String[] args) {

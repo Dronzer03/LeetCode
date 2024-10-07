@@ -1,6 +1,5 @@
 package Strings;
 
-
 // LC - 1578
 // https://leetcode.com/problems/minimum-time-to-make-rope-colorful
 public class MinCostBalloons {
@@ -45,5 +44,17 @@ public class MinCostBalloons {
         int[] neededTime = {3, 5, 10, 7, 5, 3, 5, 5, 4, 8, 1};
         System.out.println(minCost(colors, neededTime));
         System.out.println(minCostOtherWay(colors, neededTime));
+    }
+
+    public int minCostOptimal(String s, int[] cost) {
+        int n = s.length();
+        int result = 0;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) == s.charAt(i - 1)) {
+                result = result + Math.min(cost[i], cost[i - 1]);
+                cost[i] = Math.max(cost[i], cost[i - 1]);
+            }
+        }
+        return result;
     }
 }
