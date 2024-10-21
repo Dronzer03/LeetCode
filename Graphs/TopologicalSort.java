@@ -8,29 +8,33 @@ import java.util.Stack;
 // GFG
 // https://www.geeksforgeeks.org/problems/topological-sort/1
 public class TopologicalSort {
-    public static int[] topoSort(int v, ArrayList<ArrayList<Integer>> adj) {
-        boolean[] visited = new boolean[v];
+    static ArrayList<Integer> topologicalSort(ArrayList<ArrayList<Integer>> adj) {
+        // Your code here
+        boolean[] visited = new boolean[adj.size()];
         Stack<Integer> stack = new Stack<>();
 
-        for (int index = 0; index < v; index++) {
-            if (!visited[index])
-                traverseDfs(adj, index, stack, visited);
+        for (int index = 0; index < adj.size(); index++) {
+            if (!visited[index]) {
+                dfsGraph(index, adj, stack, visited);
+            }
         }
 
-        int[] result = new int[v];
-        int i = 0;
-        while (!stack.isEmpty())
-            result[i++] = stack.pop();
+        ArrayList<Integer> result = new ArrayList<>();
+        while (!stack.empty()) {
+            result.add(stack.pop());
+        }
         return result;
     }
 
-    private static void traverseDfs(ArrayList<ArrayList<Integer>> adj, int index, Stack<Integer> result, boolean[] visited) {
+    private static void dfsGraph(int index, ArrayList<ArrayList<Integer>> adj, Stack<Integer> stack, boolean[] visited) {
         visited[index] = true;
 
         for (int node : adj.get(index)) {
-            if (!visited[node])
-                traverseDfs(adj, node, result, visited);
+            if (!visited[node]) {
+                dfsGraph(node, adj, stack, visited);
+            }
         }
-        result.push(index);
+
+        stack.push(index);
     }
 }

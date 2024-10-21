@@ -18,9 +18,7 @@ public class BFS {
         while (!queue.isEmpty()) {
             int node = queue.poll();
             result.add(node);
-            Iterator<Integer> itr = adj.get(node).listIterator();
-            while (itr.hasNext()) {
-                int n = itr.next();
+            for (int n : adj.get(node)) {
                 if (!visited[n]) {
                     queue.offer(n);
                     visited[n] = true;

@@ -5,23 +5,23 @@ import java.util.ArrayList;
 // GFG
 // https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 public class DFS {
-    public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
+    public ArrayList<Integer> dfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
         // Code here
+        boolean[] visited = new boolean[adj.size()];
+        visited[0] = true;
         ArrayList<Integer> result = new ArrayList<>();
-        boolean[] visited = new boolean[V];
-        traverseDfs(adj, 0, result, visited);
+        dfsGraph(0, result, visited, adj);
         return result;
     }
 
-    private void traverseDfs(ArrayList<ArrayList<Integer>> adj, int index, ArrayList<Integer> result, boolean[] visited) {
-        if (visited[index])
-            return;
-
-        visited[index] = true;
+    private void dfsGraph(int index, ArrayList<Integer> result, boolean[] visited, ArrayList<ArrayList<Integer>> adj) {
         result.add(index);
-        ArrayList<Integer> currList = adj.get(index);
-        for (int i=0; i<currList.size(); i++) {
-            traverseDfs(adj, currList.get(i), result, visited);
+        ArrayList<Integer> curr = adj.get(index);
+        for (int n : curr) {
+            if (!visited[n]) {
+                visited[n] = true;
+                dfsGraph(n, result, visited, adj);
+            }
         }
     }
 }

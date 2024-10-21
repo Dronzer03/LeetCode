@@ -5,6 +5,8 @@ import java.util.List;
 
 // LC - 802
 // https://leetcode.com/problems/find-eventual-safe-states
+// Anyone who is part of cycle is not a safe node
+// Anyone who has a path to cycle is not a safe node
 public class EventualSafeNodes {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         boolean[] visited = new boolean[graph.length];

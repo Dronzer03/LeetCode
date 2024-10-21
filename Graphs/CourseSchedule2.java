@@ -6,42 +6,42 @@ import java.util.*;
 // https://leetcode.com/problems/course-schedule-ii
 public class CourseSchedule2 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < numCourses; i++)
+        List<List<Integer>> adj = new ArrayList<>();
+
+        for (int index=0; index<numCourses; index++)
             adj.add(new ArrayList<>());
 
-        for (int[] edge : prerequisites) {
-            adj.get(edge[0]).add(edge[1]);
-        }
+        int[] indegree = new int[numCourses];
 
-        int indegree[] = new int[numCourses];
-        for (int i = 0; i < numCourses; i++) {
-            for (int it : adj.get(i)) {
-                indegree[it]++;
-            }
+        for (int[] edge : prerequisites) {
+            adj.get(edge[1]).add(edge[0]);
+            indegree[edge[0]]++;
         }
 
         Queue<Integer> queue = new LinkedList<>();
-        for (int i=0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
-                queue.offer(i);
+        for (int index = 0; index < numCourses; index++) {
+            if (indegree[index] == 0) {
+                queue.offer(index);
             }
         }
 
         int[] result = new int[numCourses];
-        int i = 0;
+        int index = 0;
         while (!queue.isEmpty()) {
             int node = queue.poll();
-            for (int index : adj.get(node)) {
-                indegree[index]--;
-                if (indegree[index] == 0) {
-                    queue.offer(index);
+            List<Integer> current = adj.get(node);
+            result[index++] = node;
+            for (int n : current) {
+                indegree[n]--;
+                if (indegree[n] == 0) {
+                    queue.offer(n);
                 }
             }
-            result[i++] = node;
         }
 
-        return i == numCourses ? result : new int[0];
+        if (index == numCourses)
+            return result;
+        return new int[0];
     }
 
     public static void main(String[] args) {

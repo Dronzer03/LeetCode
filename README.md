@@ -74,33 +74,16 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 69. Polygon with Largest Perimeter - _**Medium**_
 70. Least Unique Numbers in Array - _**Medium**_
 71. Furthest Building you can reach - _**Medium**_
-72. BFS Traversal Graph - _**Easy**_
-73. DFS Traversal Graph - _**Easy**_
-74. Number of Provinces - _**Medium**_
-75. Number of Islands - _**Medium**_
-76. Flood Fill - _**Easy**_
-77. Rotting Oranges - _**Medium**_
 78. Bitwise AND in Range - _**Medium**_
-79. Detect Cycle in Undirected Graph - _**Medium**_
-80. 01 Matrix - _**Medium**_
-81. Surrounded Regions - _**Medium**_
-82. Number of Enclaves - _**Medium**_
-83. Distinct Islands - _**Medium**_
-84. Bipartite Graph - _**Medium**_
-85. Detect Cycle in Directed Graph - _**Medium**_
-86. Eventually Safe States - _**Medium**_
-87. Topological Sort - _**Medium**_
-88. Topological Sort - Kahn's Algo - _**Medium**_
-89. Course Schedule - _**Medium**_
-90. Course Schedule 2 - _**Medium**_
-91. Alien Dictionary - _**Medium**_
-92. Shortest Path in DAG - _**Medium**_
-93. Shortest Path in Undirected Graph - _**Medium**_
-94. Cheapest Flight with K stops - _**Medium**_
+
+
+
+
+
+
 95. Find People With Secret - _**Hard**_
-96. Word Ladder - _**Hard**_
-97. Word Ladder 2 - _**Hard**_
-98. Dijkstra Using PQ - _**Medium**_
+
+
 99. Shortest Path in Binary Maze - _**Medium**_
 100. Path with Minimum Effort - _**Medium**_
 101. Minimum Multiplication to reach end - _**Medium**_
@@ -416,6 +399,37 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 46 | [Max Average Subtree](Trees/MaxAverageSubtree.java)                                          | <span style="color:yellow;">Medium</span> | Atlassian         | [Link](https://leetcode.com/problems/maximum-average-subtree)                                     |
 | 47 | [Range Sum BST](Trees/RangeSumBST.java)                                                      | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/range-sum-of-bst)                                            |
 | 48 | [Leaf Similar Trees](Trees/LeafSimilarTrees.java)                                            | <span style="color:green;">Easy</span>    |                   | [Link](https://leetcode.com/problems/leaf-similar-trees)                                          |
+
+### **Graphs**
+
+|    | Problem                                                                        | Difficulty                                | Notes                     | LeetCode                                                                                                |
+|----|--------------------------------------------------------------------------------|-------------------------------------------|---------------------------|---------------------------------------------------------------------------------------------------------|
+| 1  | [BFS](Graphs/BFS.java)                                                         | <span style="color:green;">Easy</span>    |                           | [Link](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)                                 |
+| 2  | [DFS](Graphs/DFS.java)                                                         | <span style="color:green;">Easy</span>    |                           | [Link](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)                      |
+| 3  | [Number of Provinces](Graphs/NumberOfProvinces.java)                           | <span style="color:yellow;">Medium</span> |                           | [Link](https://leetcode.com/problems/number-of-provinces)                                               |
+| 4  | [Number of Islands](Graphs/NumberOfIslands.java)                               | <span style="color:yellow;">Medium</span> |                           | [Link](https://leetcode.com/problems/number-of-islands)                                                 |
+| 5  | [Flood Fill](Graphs/FloodFill.java)                                            | <span style="color:green;">Easy</span>    |                           | [Link](https://leetcode.com/problems/flood-fill)                                                        |
+| 6  | [Rotten Oranges](Graphs/RottenOranges.java)                                    | <span style="color:yellow;">Medium</span> |                           | [Link](https://leetcode.com/problems/rotting-oranges)                                                   |
+| 7  | [Detect Cycle in Undirected Graph](Graphs/DetectCycleUndirectedGraph.java)     | <span style="color:yellow;">Medium</span> | BFS                       | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)                    |
+| 8  | [Detect Cycle in Directed Graph](Graphs/DetectCycleDirectedGraph.java)         | <span style="color:yellow;">Medium</span> | DFS                       | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)                       |
+| 9  | [01 Matrix](Graphs/Matrix01.java)                                              | <span style="color:yellow;">Medium</span> | BFS                       | [Link](https://leetcode.com/problems/01-matrix)                                                         |
+| 10 | [Surrounded Regions](Graphs/SurroundedRegions.java)                            | <span style="color:yellow;">Medium</span> | DFS                       | [Link](https://leetcode.com/problems/surrounded-regions)                                                |
+| 11 | [Number of Enclaves](Graphs/NumberOfEnclaves.java)                             | <span style="color:yellow;">Medium</span> | DFS                       | [Link](https://leetcode.com/problems/number-of-enclaves)                                                |
+| 12 | [Word Ladder](Graphs/WordLadder.java)                                          | <span style="color:red;">Hard</span>      | BFS                       | [Link](https://leetcode.com/problems/word-ladder)                                                       |
+| 13 | [Word Ladder 2](Graphs/WordLadder2.java)                                       | <span style="color:red;">Hard</span>      | DFS                       | [Link](https://leetcode.com/problems/word-ladder-ii)                                                    |
+| 14 | [Distinct Islands](Graphs/WordLadder2.java)                                    | <span style="color:red;">Hard</span>      | DFS                       | [Link](https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1)                             |
+| 15 | [Bipartite Graph](Graphs/BipartiteGraph.java)                                  | <span style="color:yellow;">Medium</span> | DFS                       | [Link](https://leetcode.com/problems/is-graph-bipartite)                                                |
+| 16 | [Eventual Safe States](Graphs/EventualSafeNodes.java)                          | <span style="color:yellow;">Medium</span> | DFS - DAG Cycle Detection | [Link](https://leetcode.com/problems/find-eventual-safe-states)                                         |
+| 17 | [Topological Sort](Graphs/TopologicalSort.java)                                | <span style="color:yellow;">Medium</span> | DFS                       | [Link](https://www.geeksforgeeks.org/problems/topological-sort/1)                                       |
+| 18 | [Course Schedule](Graphs/CourseSchedule.java)                                  | <span style="color:yellow;">Medium</span> | BFS - Kahn's              | [Link](https://leetcode.com/problems/course-schedule)                                                   |
+| 19 | [Course Schedule 2](Graphs/CourseSchedule2.java)                               | <span style="color:yellow;">Medium</span> | BFS - Kahn's              | [Link](https://leetcode.com/problems/course-schedule-ii)                                                |
+| 20 | [Alien Dictionary](Graphs/AlienDictionary.java)                                | <span style="color:yellow;">Medium</span> | BFS - Kahn's              | [Link](https://www.geeksforgeeks.org/problems/alien-dictionary/1)                                       |
+| 21 | [Shortest Path in DAG](Graphs/ShortestPathInDAG.java)                          | <span style="color:yellow;">Medium</span> | DFS                       | [Link](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1)                      |
+| 22 | [Shortest Path in Undirected Graph](Graphs/ShortestPathInUndirectedGraph.java) | <span style="color:yellow;">Medium</span> | Plain BFS                 | [Link](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) |
+| 23 | [Cheapest Flight with K Stops](Graphs/CheapestFlightWithKStops.java)           | <span style="color:yellow;">Medium</span> | BFS                       | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops)                                   |
+| 24 | [Dijkstra's Algorithm](Graphs/DijkstraUsingPQ.java)                            | <span style="color:yellow;">Medium</span> | BFS                       | [Link](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1)           |
+| 25 | [Bus Routes](Graphs/BusRoutes.java)                                            | <span style="color:red;">Hard</span>      | Crazy BFS                 | [Link](https://leetcode.com/problems/bus-routes)                                                        |
+
 
 
 ### **Total: 224**

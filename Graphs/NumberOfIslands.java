@@ -6,51 +6,33 @@ package Graphs;
 // LC - 200
 // https://leetcode.com/problems/number-of-islands
 public class NumberOfIslands {
-    public static int distinctIsland(char[][] arr) {
-        int n = arr.length;
-        int m = arr[0].length;
-        boolean[][] visited = new boolean[n][m];
+    public int numIslands(char[][] grid) {
         int islands = 0;
-        for (int row = 0; row < n; row++) {
-            for (int col = 0; col < m; col++) {
-                if (arr[row][col] == '1') {
+
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++) {
+                if (grid[row][col] == '1') {
                     islands++;
-                    traverseGraph(arr, visited, row, col, n, m);
+                    dfsGraph(row, col, grid);
                 }
             }
         }
+
         return islands;
     }
 
-    private static void traverseGraph(char[][] arr, boolean[][] visited, int row, int col, int n, int m) {
-        visited[row][col] = true;
+    private void dfsGraph(int row, int col, char[][] grid) {
+        if (row < 0 || col < 0 || row == grid.length || col == grid[0].length)
+            return;
 
-        for (int newRow = -1; newRow <= 1; newRow++) {
-            for (int newCol = -1; newCol <= 1; newCol++) {
-                int i = row + newRow;
-                int j = col + newCol;
-                if (i >= 0 && i < n && j >= 0 && j < m
-                        && arr[i][j] == '1' && !visited[i][j]) {
-                    traverseGraph(arr, visited, i, j, n, m);
-                }
-            }
-        }
-    }
+        if (grid[row][col] == '0')
+            return;
 
-    private static void traverseGraphFourDirectional(char[][] arr, boolean[][] visited, int row, int col, int n, int m) {
-        visited[row][col] = true;
-
-        if (row - 1 >= 0 && arr[row - 1][col] == '1' && !visited[row - 1][col])
-            traverseGraph(arr, visited, row - 1, col, n, m);
-
-        if (row + 1 < n && arr[row + 1][col] == '1' && !visited[row + 1][col])
-            traverseGraph(arr, visited, row + 1, col, n, m);
-
-        if (col - 1 >= 0 && arr[row][col - 1] == '1' && !visited[row][col - 1])
-            traverseGraph(arr, visited, row, col - 1, n, m);
-
-        if (col + 1 < m && arr[row][col + 1] == '1' && !visited[row][col + 1])
-            traverseGraph(arr, visited, row, col + 1, n, m);
+        grid[row][col] = '0';
+        dfsGraph(row + 1, col, grid);
+        dfsGraph(row, col + 1, grid);
+        dfsGraph(row - 1, col, grid);
+        dfsGraph(row, col - 1, grid);
     }
 
     public static void main(String[] args) {
@@ -61,6 +43,6 @@ public class NumberOfIslands {
                 {'0', '0', '0', '1', '1'},
                 {'0', '0', '0', '1', '1'}
         };
-        System.out.println(distinctIsland(arr));
+        System.out.println(new NumberOfIslands().numIslands(arr));
     }
 }

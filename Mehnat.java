@@ -10,13 +10,52 @@ public class Mehnat {
         int[] test = {1,4,4};
 //        System.out.println(new Mehnat().minSubArrayLen(10, test));
 //        System.out.println(new Mehnat().calculate("9989796959493929108878685848382811776757473727136656463626145545352515443424163323137221001020304050"));
-
+        String[] input = {"dhhid","dahi","cedg","fg","gdah","i","gbdei","hbgf","e","ddde"};
     }
 
-    public int countSeniors(String[] details) {
-        return Math.toIntExact(Arrays.stream(details).map(s -> s.substring(11, 13))
-                .mapToInt(s -> Integer.parseInt(s))
-                .filter(age -> age > 60).count());
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        List<List<Pair>> adj = new ArrayList<>();
+        for (int index = 0; index < n; index++)
+            adj.add(new ArrayList<>());
+
+        for (int[] flight : flights) {
+            adj.get(flight[0]).add(new Pair(flight[1], flight[2]));
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+        int[] dist = new int[n];
+        Arrays.fill(dist, (int)1e9);
+        dist[src] = 0;
+        queue.offer(src);
+        int stops = 0;
+
+        while (!queue.isEmpty() && stops <= k) {
+            int size = queue.size();
+            for (int index = 0; index < size; index++) {
+                int node = queue.poll();
+                int d = dist[node];
+
+                for (Pair p : adj.get(node)) {
+                    if (dist[p.node] <= d + p.weight)
+                        continue;
+
+                    dist[p.node] = d + p.weight;
+                    queue.offer(p.node);
+                }
+            }
+            stops++;
+        }
+
+        return dist[dst] == (int) 1e9 ? -1 : dist[dst];
+    }
+
+    class Pair {
+        int node;
+        int weight;
+        Pair (int node, int weight) {
+            this.node = node;
+            this.weight = weight;
+        }
     }
 
     public void test() {

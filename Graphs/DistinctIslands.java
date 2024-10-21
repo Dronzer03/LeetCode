@@ -42,6 +42,44 @@ public class DistinctIslands {
             dfs(arr, visited, visitedList, row, col + 1, baseRow, baseCol);
     }
 
+    int countDistinctIslandsOtherWay(int[][] grid) {
+        // Your Code here
+        Set<String> islands = new HashSet<>();
+
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++) {
+                if (grid[row][col] == 1) {
+                    StringBuilder sb = new StringBuilder();
+                    dfsGraph(row, col, row, col, sb, grid);
+                    islands.add(sb.toString());
+                }
+            }
+        }
+
+        return islands.size();
+    }
+
+    private void dfsGraph(int row, int col, int sourceRow, int sourceCol, StringBuilder sb, int[][] grid) {
+        sb.append(String.valueOf(row - sourceRow));
+        sb.append(String.valueOf(col - sourceCol));
+        sb.append("#");
+
+        grid[row][col] = 0;
+
+        if (row + 1 < grid.length && grid[row + 1][col] == 1) {
+            dfsGraph(row + 1, col, sourceRow, sourceCol, sb, grid);
+        }
+        if (row - 1 >= 0 && grid[row - 1][col] == 1) {
+            dfsGraph(row - 1, col, sourceRow, sourceCol, sb, grid);
+        }
+        if (col + 1 < grid[0].length && grid[row][col + 1] == 1) {
+            dfsGraph(row, col + 1, sourceRow, sourceCol, sb, grid);
+        }
+        if (col - 1 >= 0 && grid[row][col - 1] == 1) {
+            dfsGraph(row, col - 1, sourceRow, sourceCol, sb, grid);
+        }
+    }
+
     public static void main(String[] args) {
         int[][] grid = {
                 {1,1,0,0,0},
