@@ -74,33 +74,25 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 69. Polygon with Largest Perimeter - _**Medium**_
 70. Least Unique Numbers in Array - _**Medium**_
 71. Furthest Building you can reach - _**Medium**_
-78. Bitwise AND in Range - _**Medium**_
-
-
-
-
-
-
-95. Find People With Secret - _**Hard**_
-
-
-99. Shortest Path in Binary Maze - _**Medium**_
-100. Path with Minimum Effort - _**Medium**_
-101. Minimum Multiplication to reach end - _**Medium**_
-102. Number of Ways to reach Destination - _**Medium**_
-103. Bellman Ford Algorithm - _**Medium**_
-104. Floyd Warshall Algorithm - _**Medium**_
-105. City With Smallest Number of Neighbours - _**Medium**_
-106. Network Delay Time - _**Medium**_
-107. Minimum Spanning Tree - _**Medium**_
-108. Disjoint Set - Algorithm
-109. Kruskal Algorithm - _**Medium**_
-110. Make Network Connected - _**Medium**_
-111. Bottom Left Node in Tree - _**Medium**_
-112. Even Odd Tree - _**Medium**_
-113. Bag of Tokens - _**Medium**_
-114. Min Len of String after Deleting Similar Ends - _**Medium**_
-115. Minimum Arrows to Burst Balloons - _**Medium**_
+72. Bitwise AND in Range - _**Medium**_
+73. Find People With Secret - _**Hard**_
+74. Shortest Path in Binary Maze - _**Medium**_
+75. Path with Minimum Effort - _**Medium**_
+76. Minimum Multiplication to reach end - _**Medium**_
+77. Number of Ways to reach Destination - _**Medium**_
+78. Bellman Ford Algorithm - _**Medium**_
+79. Floyd Warshall Algorithm - _**Medium**_
+80. City With Smallest Number of Neighbours - _**Medium**_
+81. Network Delay Time - _**Medium**_
+82. Minimum Spanning Tree - _**Medium**_
+83. Disjoint Set - Algorithm
+84. Kruskal Algorithm - _**Medium**_
+85. Make Network Connected - _**Medium**_
+86. Bottom Left Node in Tree - _**Medium**_
+87. Even Odd Tree - _**Medium**_
+88. Bag of Tokens - _**Medium**_
+89. Min Len of String after Deleting Similar Ends - _**Medium**_
+90. Minimum Arrows to Burst Balloons - _**Medium**_
 
 ### **String**
 
@@ -191,7 +183,7 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 | 5 | [Min Size SubArray Sum](SlidingWindow/MinSizeSubArraySum.java)                           | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/minimum-size-subarray-sum)                       |
 | 6 | [Substring with Concatenation of All Words](SlidingWindow/SubstringWithConcatWords.java) | <span style="color:red;">Hard</span>      |       | [Link](https://leetcode.com/problems/substring-with-concatenation-of-all-words)       |
 | 7 | [Min Window Substring](SlidingWindow/MinimumWindowSubstring.java)                        | <span style="color:red;">Hard</span>      |       | [Link](https://leetcode.com/problems/substring-with-concatenation-of-all-words)       |
-| 7 | [Max Sum Distinct SubArray](SlidingWindow/MaxSumDistinctSubArray.java)                   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) |
+| 8 | [Max Sum Distinct SubArray](SlidingWindow/MaxSumDistinctSubArray.java)                   | <span style="color:yellow;">Medium</span> |       | [Link](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) |
 
 ### **Binary Search**
 
@@ -432,4 +424,5 @@ Adding Personal Solutions of LeetCode Problems useful Interview Preparations
 
 
 
-### **Total: 224**
+### **Total: 255**
+TODO: 90
