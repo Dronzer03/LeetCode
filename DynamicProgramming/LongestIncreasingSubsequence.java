@@ -1,5 +1,8 @@
 package DynamicProgramming;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LongestIncreasingSubsequence {
     public static int lengthOfLIS(int[] nums) {
         Integer[][] dp = new Integer[nums.length][nums.length+1];
@@ -21,6 +24,17 @@ public class LongestIncreasingSubsequence {
         int notTake = longestSequence(nums, index + 1, lastIndex, dp);
 
         return dp[index][lastIndex+1] = Math.max(take, notTake);
+    }
+
+    public int longestIncreasingSubsequenceDiffK(int[] arr, int k) {
+        Map<Integer, Integer> dp = new HashMap<>();
+
+        int max = 0;
+        for (int n : arr) {
+            dp.put(n, dp.getOrDefault(n - k, 0) + 1);
+            max = Math.max(max, dp.get(n));
+        }
+        return max;
     }
 
     public static void main(String[] args) {
